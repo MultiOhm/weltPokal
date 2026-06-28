@@ -1,0 +1,211 @@
+.page-title{
+
+    text-align:center;
+
+    margin:60px 0;
+
+}
+
+.page-title h1{
+
+    font-size:54px;
+
+    margin-bottom:10px;
+
+}
+
+.page-title p{
+
+    color:var(--grey);
+
+}
+
+.filter-box{
+
+    background:var(--card);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    margin-bottom:50px;
+
+    border:1px solid var(--line);
+
+}
+
+.filter-box h2{
+
+    margin-top:20px;
+
+    margin-bottom:15px;
+
+}
+
+#country-filter{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+}
+
+.flag-btn{
+
+    width:46px;
+
+    height:46px;
+
+    border:none;
+
+    background:#303030;
+
+    border-radius:12px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.flag-btn img{
+
+    width:28px;
+
+    height:auto;
+
+}
+
+#year-filter,
+#type-filter{
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+}
+
+.year-btn,
+.type-btn{
+
+    background:#303030;
+
+    border:none;
+
+    color:white;
+
+    padding:10px 20px;
+
+    border-radius:999px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.flag-btn:hover,
+.year-btn:hover,
+.type-btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.active{
+
+    background:var(--green);
+
+}
+
+#result-count{
+
+    margin-bottom:25px;
+
+    color:var(--grey);
+
+}
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,320px);
+
+    justify-content:center;
+
+    gap:35px;
+
+}
+
+.kit-card{
+
+    background:var(--card);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.25s;
+
+    border:1px solid var(--line);
+
+}
+
+.kit-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:var(--green);
+
+}
+
+.kit-render{
+
+    width:100%;
+
+    display:block;
+
+}
+
+.kit-info{
+
+    padding:20px;
+
+}
+
+.country{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:bold;
+
+}
+
+.country img{
+
+    width:28px;
+
+}
+
+.meta{
+
+    color:var(--grey);
+
+    margin-top:10px;
+
+}

@@ -1,123 +1,63 @@
 <!DOCTYPE html>
+
 <html lang="de">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Trikotgalerie</title>
 
-    <link rel="stylesheet" href="assets/css/main.css">
-<<<<<<< HEAD
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta charset="UTF-8">
 
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-=======
->>>>>>> 65565e700c3b19582e9441f57b28dad572588775
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>weltPokal</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/gallery.css">
+
 </head>
 
-<body class="index is-preload">
+<body>
 
-<!-- Header -->
-				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">weltPokal <span>2027</span></a></h1>
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html">Startseite</a></li>
-							<li class="submenu">
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="kits.html">Austragungsorte</a></li>
-									<li><a href="right-sidebar.html">Gruppen und Tabellen</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li class="submenu">
-										<a href="#">Historie</a>
-										<ul>
-											<li><a href="#">2015 - England</a></li>
-											<li><a href="#">2018 - Marokko</a></li>
-											<li><a href="#">2019 - Australien</a></li>
-											<li><a href="#">2020 - Kanada</a></li>
-											<li><a href="#">2022 - Portugal</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
-						</ul>
-					</nav>
-				</header>
-
-			<!-- Banner -->
-				<section id="banner">
-
-					<!--
-						".inner" is set up as an inline-block so it automatically expands
-						in both directions to fit whatever's inside it. This means it won't
-						automatically wrap lines, so be sure to use line breaks where
-						appropriate (<br />).
-					-->
-					<div class="inner">
-
-						<header>
-							<h2>Trikothistorie</h2>
-						</header>
-					</div>
-
-				</section>
+<div id="header"></div>
 
 <main>
 
-<section class="filters">
+<section class="page-title">
+
+    <h1>Trikotgalerie</h1>
+
+    <p>
+        Alle Trikots des weltPokal seit 2015.
+    </p>
+
+</section>
+
+<section class="filter-box">
 
     <h2>Länder</h2>
 
     <div id="country-filter">
 
-        <button class="flag-btn active" data-country="all">
-            🌍
+        <button class="flag-btn active" data-country="all">🌍</button>
+
+        <button class="flag-btn" data-country="jp">
+            <img src="flags/jp.png">
         </button>
 
         <button class="flag-btn" data-country="mx">
-            <img src="flags/mx.png">   MEX
-        </button>
-
-        <button class="flag-btn" data-country="jp">
-            <img src="flags/jp.png">   JPN
+            <img src="flags/mx.png">
         </button>
 
         <button class="flag-btn" data-country="uy">
-            <img src="flags/uy.png">   URU
-        </button>
-
-        <button class="flag-btn" data-country="ma">
-            <img src="flags/ma.png">   MAR
-        </button>
-
-         <button class="flag-btn" data-country="hr">
-            <img src="flags/hr.png">   CRO
-        </button>
-
-        <button class="flag-btn" data-country="ch">
-            <img src="flags/ch.png">   SUI
-        </button>
-
-        <button class="flag-btn" data-country="at">
-            <img src="flags/at.png">   AUT
-        </button>
-
-        <button class="flag-btn" data-country="be">
-            <img src="flags/be.png">   BEL
+            <img src="flags/uy.png">
         </button>
 
     </div>
-
 
     <h2>Turniere</h2>
 
     <div id="year-filter">
 
         <button class="year-btn active" data-year="all">Alle</button>
+
         <button class="year-btn" data-year="2015">2015</button>
         <button class="year-btn" data-year="2018">2018</button>
         <button class="year-btn" data-year="2019">2019</button>
@@ -128,12 +68,12 @@
 
     </div>
 
-
-    <h2>Trikots</h2>
+    <h2>Trikottyp</h2>
 
     <div id="type-filter">
 
         <button class="type-btn active" data-type="all">Alle</button>
+
         <button class="type-btn" data-type="home">Home</button>
         <button class="type-btn" data-type="away">Away</button>
         <button class="type-btn" data-type="keeper">Keeper</button>
@@ -141,125 +81,49 @@
     </div>
 
 </section>
-</br>
-<div class="gallery">
 
-    <!-- Karte 1 -->
-   <div class="kit-card" data-country="mx" data-year="2025" data-type="home">
-		
-        <img src="renders/mexh.png">
+<p id="result-count"></p>
 
-        <div class="kit-info">
+<section class="gallery">
 
-            <img class="flag" src="flags/mx.png">
+<div class="kit-card"
 
-            <h2>Mexiko</h2>
+data-country="jp"
 
-            <p>Home • Kolumbien 2025</p>
+data-year="2027"
 
-        </div>
+data-type="away">
 
-    </div>
+<img class="kit-render"
 
-    <!-- Karte 2 -->
-   <div class="kit-card" data-country="jp" data-year="2022" data-type="away">
+src="renders/jpna.png">
 
-        <img src="renders/jpna.png">
+<div class="kit-info">
 
-        <div class="kit-info">
+<div class="country">
 
-            <img class="flag" src="flags/jp.png">
+<img src="flags/jp.png">
 
-            <h2>Japan</h2>
-
-            <p>Away • Portugal 2022</p>
-
-        </div>
-
-    </div>
-
-    <!-- Karte 2 -->
-   <div class="kit-card" data-country="ar" data-year="2022" data-type="home">
-
-        <img src="renders/argh.png">
-
-        <div class="kit-info">
-
-            <img class="flag" src="flags/ar.png">
-
-            <h2>Argentinien</h2>
-
-            <p>Home • Portugal 2022</p>
-
-        </div>
-
-    </div>
-
-    <!-- Karte 2 -->
-   <div class="kit-card" data-country="ma" data-year="2018" data-type="away">
-
-        <img src="renders/mara.png">
-
-        <div class="kit-info">
-
-            <img class="flag" src="flags/ma.png">
-
-            <h2>Marokko</h2>
-
-            <p>Away • Marokko 2018</p>
-
-        </div>
-
-    </div>
-
-    <!-- Karte 2 -->
-    <div class="kit-card">
-
-        <img src="renders/jpnh.png">
-
-        <div class="kit-info">
-
-            <img class="flag" src="flags/jp.png">
-
-            <h2>Japan</h2>
-
-            <p>Away • Nigeria 2027</p>
-
-        </div>
-
-    </div>
-
-    <!-- Karte 2 -->
-    <div class="kit-card">
-
-        <img src="renders/jpnh.png">
-
-        <div class="kit-info">
-
-            <img class="flag" src="flags/jp.png">
-
-            <h2>Japan</h2>
-
-            <p>Away • Nigeria 2027</p>
-
-        </div>
-
-    </div>
+Japan
 
 </div>
 
+<div class="meta">
+
+Away • Nigeria 2027
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
 </main>
+<script src="js/loadHeader.js"></script>
+<script src="js/gallery.js"></script>
 
-
-<script src="loadHeader.js"></script>
-<script src="assets\js\gallery.js"></script>
-<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 </body>
+
 </html>
