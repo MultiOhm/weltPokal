@@ -31,6 +31,7 @@ with open(input_file, newline="", encoding="utf-8") as csvfile:
 
         card = f"""
 <div class="kit-card"
+     style="--accent:#bc002d;"
      data-country="{country}"
      data-year="{year}"
      data-type="{kit_type}">

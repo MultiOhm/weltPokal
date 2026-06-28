@@ -149,3 +149,13 @@ document.addEventListener("DOMContentLoaded", () => {
     filterCards();
 
 });
+
+fetch("tools/kitcards.html")
+    .then(response => response.text())
+    .then(html => {
+
+        document.getElementById("gallery").innerHTML = html;
+
+        filterCards();
+
+    });
