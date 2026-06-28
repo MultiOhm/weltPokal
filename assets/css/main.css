@@ -29,6 +29,103 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:40px;
+
+    padding:50px;
+
+}
+
+.kit-card{
+
+    background:#202020;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.kit-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+
+}
+
+.kit-card img{
+
+    width:100%;
+
+    display:block;
+
+    transition:.3s;
+
+}
+
+.kit-info{
+
+    padding:25px;
+
+    text-align:center;
+
+}
+
+.flag{
+
+    width:40px !important;
+
+    margin-bottom:10px;
+
+}
+
+.kit-info h2{
+
+    margin:10px 0;
+
+    font-size:30px;
+
+}
+
+.kit-info p{
+
+    color:#999;
+
+}
+
+.kit-card::after{
+
+    content:"";
+
+    display:block;
+
+    height:5px;
+
+    width:0%;
+
+    background:#00a651;
+
+    transition:.3s;
+
+}
+
+.kit-card:hover::after{
+
+    width:100%;
+
+}
+
+
 body {
 	line-height: 1;
 }
