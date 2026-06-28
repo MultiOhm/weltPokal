@@ -222,3 +222,15 @@
     color:var(--accent);
 
 }
+
+.kit-card::before{
+
+    content:"";
+
+    display:block;
+
+    height:6px;
+
+    background:var(--accent);
+
+}
