@@ -212,3 +212,13 @@
     margin-top:10px;
 
 }
+
+.country{
+    transition:.25s;
+}
+
+.kit-card:hover .country{
+
+    color:var(--accent);
+
+}
