@@ -213,16 +213,6 @@
 
 }
 
-.country{
-    transition:.25s;
-}
-
-.kit-card:hover .country{
-
-    color:var(--accent);
-
-}
-
 .kit-card::before{
 
     content:"";
