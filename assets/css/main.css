@@ -33,11 +33,11 @@ footer, header, hgroup, menu, nav, section {
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    grid-template-columns:repeat(auto-fill,320px);
 
     gap:40px;
 
-    padding:50px;
+    justify-content:center;
 
 }
 
@@ -53,7 +53,12 @@ footer, header, hgroup, menu, nav, section {
 
     cursor:pointer;
 
+    width:320px;
+
+    height:520px;
+
 }
+
 
 .kit-card:hover{
 
@@ -125,6 +130,93 @@ footer, header, hgroup, menu, nav, section {
 
 }
 
+.filters{
+
+    padding:40px 60px;
+
+}
+
+.filters h2{
+
+    margin-top:35px;
+
+    margin-bottom:12px;
+
+}
+
+#country-filter {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#country-filter .flag-btn {
+    width: 48px;
+    max-width: 48px;
+}
+
+
+.flag-btn{
+    padding:10px 20px;
+
+    border-radius:999px;
+
+    border:none;
+
+    background:#333;
+
+    color:white;
+
+    cursor:pointer;
+}
+
+.flag-btn img{
+
+    width:28px;
+    height:20px;
+
+}
+
+
+
+.flag-btn.active{
+
+    outline:3px solid #00a651;
+
+}
+
+#year-filter{
+
+    display:flex;
+
+    gap:12px;
+
+    flex-wrap:wrap;
+
+}
+
+.year-btn{
+
+    padding:10px 20px;
+
+    border-radius:999px;
+
+    border:none;
+
+    background:#333;
+
+    color:white;
+
+    cursor:pointer;
+
+}
+
+.year-btn.active{
+
+    background:#00a651;
+
+}
 
 body {
 	line-height: 1;
@@ -2158,36 +2250,6 @@ input, select, textarea {
 				height: 1em;
 				line-height: 1.5em;
 				width: 1em;
-			}
-
-/* Buttons */
-
-	ul.buttons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.buttons:last-child {
-			margin-bottom: 0;
-		}
-
-		ul.buttons li {
-			display: inline-block;
-			padding: 0 0 0 1.5em;
-		}
-
-			ul.buttons li:first-child {
-				padding: 0;
-			}
-
-		ul.buttons.stacked li {
-			display: block;
-			padding: 1.5em 0 0 0;
-		}
-
-			ul.buttons.stacked li:first-child {
-				padding: 0;
 			}
 
 /* Table */
