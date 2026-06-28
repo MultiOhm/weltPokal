@@ -156,6 +156,8 @@ fetch("tools/kitcards.html")
 
         document.getElementById("gallery").innerHTML = html;
 
+        console.log(document.querySelector(".kit-card").outerHTML);
+
         filterCards();
 
     });
