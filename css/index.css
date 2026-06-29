@@ -1,0 +1,202 @@
+.matches-section{
+
+    margin:80px auto;
+
+}
+
+.section-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.matches-wrapper{
+
+    overflow:hidden;
+
+
+    padding-top:12px;
+
+    margin-top:-12px;
+
+}
+
+.matches-track{
+
+    display:flex;
+
+    gap:30px;
+
+    transition:.4s;
+
+}
+
+.match-card{
+
+    min-width:350px;
+
+    background:var(--card);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    border:1px solid var(--line);
+
+    transition:.25s;
+
+}
+
+.match-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:var(--green);
+
+}
+
+.match-status{
+
+    display:inline-block;
+
+    background:#2f8f46;
+
+    color:white;
+
+    padding:6px 14px;
+
+    border-radius:999px;
+
+    font-size:13px;
+
+    margin-bottom:25px;
+
+}
+
+.teams{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.team{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.team img{
+
+    width:70px;
+
+}
+
+.score{
+
+    font-size:38px;
+
+    font-weight:bold;
+
+}
+
+.stadium{
+
+    margin-top:30px;
+
+    text-align:center;
+
+    color:#9b9b9b;
+
+}
+
+.slider-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.slider-buttons button{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    border:none;
+
+    background:#2f2f2f;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.slider-buttons button:hover{
+
+    background:var(--green);
+
+}
+
+.slider-dots{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+    margin-top:30px;
+
+}
+
+.dot{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    background:#555;
+
+}
+
+.dot.active{
+
+    background:var(--green);
+
+}
+
+.slider-buttons button:disabled{
+
+    background:#444;
+
+    color:#888;
+
+    cursor:default;
+
+    opacity:0.5;
+
+}
