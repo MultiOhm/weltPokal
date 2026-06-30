@@ -8,9 +8,9 @@
 
     <title>weltPokal 2022 | Gruppe A</title>
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/groups.css">
-    <link rel="stylesheet" href="/css/index.css"
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/groups.css">
+    <link rel="stylesheet" href="../../css/index.css"
 
 
 </head>
@@ -29,9 +29,9 @@
 
     <div class="group-teams">
 
-        🇵🇹 Portugal
-        🇩🇿 Algerien
-        🇺🇾 Uruguay
+        🇵🇹 Portugal - 
+        🇩🇿 Algerien - 
+        🇺🇾 Uruguay - 
         🇳🇱 Niederlande
 
     </div>
@@ -45,7 +45,7 @@
 
         <h3>Spiele</h3>
 
-        <div id="groupMatches">
+        <div class="group-matches" id="groupMatches">
 
             <!-- per JS laden -->
 
@@ -82,7 +82,7 @@
             <tr>
 
                 <td>1</td>
-                <td>🇵🇹 Portugal</td>
+                <td style="text-align: left;">🇵🇹 Portugal</td>
                 <td>3</td>
                 <td>2</td>
                 <td>1</td>
@@ -95,7 +95,7 @@
             <tr>
 
                 <td>2</td>
-                <td>🇺🇾 Uruguay</td>
+                <td style="text-align: left;">🇺🇾 Uruguay</td>
                 <td>3</td>
                 <td>1</td>
                 <td>2</td>
@@ -108,7 +108,7 @@
             <tr>
 
                 <td>3</td>
-                <td>🇳🇱 Niederlande</td>
+                <td style="text-align: left;">🇳🇱 Niederlande</td>
                 <td>3</td>
                 <td>1</td>
                 <td>1</td>
@@ -121,7 +121,7 @@
             <tr>
 
                 <td>4</td>
-                <td>🇩🇿 Algerien</td>
+                <td style="text-align: left;">🇩🇿 Algerien</td>
                 <td>3</td>
                 <td>0</td>
                 <td>0</td>
@@ -138,41 +138,60 @@
     </div>
 
 </section>
+<div id="match-popup" class="popup">
 
-<section class="group-stats">
+    <div class="popup-box">
 
-    <h3>Statistik</h3>
+        <button class="close-popup">
+            ×
+        </button>
 
-    <div class="stats-grid">
 
-        <div>
+        <div class="popup-teams">
+            <div class="popup-flag-home">
+                <img src="../../flags/pt.png">
+            </div>
+            <div id="popup-home">
+                Portugal
+            </div>
 
-            <strong>Bester Torschütze</strong><br>
-            Cristiano Ronaldo (4)
+
+            <div id="popup-score">
+                1:0
+            </div>
+
+
+            <div id="popup-away">
+                Algerien
+            </div>
+            <div class="popup-flag-home">
+                <img src="../../flags/dz.png">
+            </div>
 
         </div>
 
-        <div>
 
-            <strong>Zuschauer</strong><br>
-            287.000
+        <div class="popup-scorers">
 
-        </div>
-
-        <div>
-
-            <strong>Austragungsorte</strong><br>
-            Lissabon · Porto
+            <!-- später Torschützen -->
 
         </div>
+
+
+        <div id="popup-stadium">
+            Stadion
+        </div>
+
 
     </div>
 
-</section>
+</div>
 
 </main>
 <script src="../../js/config.js"></script>
 <script src="../../js/loadHeader.js"></script>
+
+
 <script src="../../js/group-a.js"></script>
 
 </body>

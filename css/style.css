@@ -62,6 +62,10 @@ padding:0 60px;
 
 border-bottom:1px solid var(--line);
 
+flex-direction:column;
+
+width:100%;
+
 }
 
 .logo{
@@ -99,6 +103,100 @@ transition:.2s;
 nav a:hover{
 
 color:white;
+
+}
+
+.tournament-nav{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    width:100%;
+
+    margin-top:20px;
+
+}
+
+.tournament-item{
+
+    position:relative;
+
+    flex:1;
+
+    text-align:center;
+
+}
+
+
+.tournament-item button{
+
+    font-family: 'MadimiOne';
+    
+    width:90%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#222;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+.dropdown{
+
+    display:none;
+
+    position:absolute;
+
+    top:100%;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:#151515;
+
+    min-width:160px;
+
+    border-radius:10px;
+
+    padding:10px;
+
+    z-index:1000;
+
+}
+
+.tournament-item:hover .dropdown{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.dropdown a{
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:10px;
+
+}
+
+
+.dropdown a:hover{
+
+    background:#333;
 
 }
 

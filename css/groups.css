@@ -40,7 +40,7 @@
 
     display:grid;
 
-    grid-template-columns:1.4fr 1fr;
+    grid-template-columns:1fr 1fr;
 
     gap:50px;
 
@@ -55,6 +55,25 @@
 
 }
 
+.group-matches .match-card .team {
+    flex-direction:row;
+}
+
+.group-matches .match-card .team:last-child{
+    flex-direction: row-reverse;
+}
+
+.group-matches .match-card .team img{
+    height: 12px;
+    width: auto;
+}
+
+.group-matches .match-card {
+    margin-bottom: 20px;
+}
+.group-matches .match-card .stadium{
+    display: none;
+}
 .standings{
 
     width:100%;
@@ -85,7 +104,6 @@
 
 .standings tr:hover{
 
-    background:#f5f5f5;
 
 }
 
@@ -119,3 +137,103 @@
 
 }
 
+#match-popup{
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,0.75);
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+}
+
+
+.popup-box{
+
+    position:relative;
+
+    background:#161616;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    min-width:450px;
+    min-height: 450px;
+
+}
+
+
+.popup-teams{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+
+
+    align-items:center;
+
+    font-size:24px;
+
+}
+.popup-teams .popup-flag-home img{
+    height: 24px;
+    width: auto;
+}
+.popup-teams .popup-flag-away,
+.popup-teams .popup-flag-home{
+    text-align: center;
+}
+.popup-teams .popup-flag-away img{
+    height: 24px;
+    width: auto;
+}
+
+#popup-score{
+
+    font-size:36px;
+
+    font-weight:bold;
+
+}
+
+
+.close{
+
+    float:right;
+
+    cursor:pointer;
+
+}
+
+.close-popup{
+
+    position:absolute;
+
+    top:15px;
+
+    right:20px;
+
+    width:35px;
+
+    height:35px;
+
+    border:none;
+
+    background:none;
+
+    color:white;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
