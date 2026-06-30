@@ -6,4 +6,6 @@ fetch(CONFIG.BASE + "components/header.html")
 
 document.getElementById("header").innerHTML=data;
 
+document.querySelector('[data-link="group-a"]').href =
+        CONFIG.BASE + "2022/groups/a.html";
 });
