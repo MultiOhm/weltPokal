@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/groups.css">
-    <link rel="stylesheet" href="../../css/index.css"
+    <link rel="stylesheet" href="../../css/index.css">
 
 
 </head>
@@ -23,9 +23,9 @@
 
 <section class="group-header">
 
-    <h1>weltPokal 2022</h1>
+    <h1 id="tournament-title"></h1>
 
-    <h2>Gruppe A</h2>
+    <h2 id="group-title"></h2>
 
     <div class="group-teams">
 
@@ -58,82 +58,7 @@
 
         <h3>Tabelle</h3>
 
-        <table class="standings">
-
-            <thead>
-
-            <tr>
-
-                <th>#</th>
-                <th>Team</th>
-                <th>Sp</th>
-                <th>S</th>
-                <th>U</th>
-                <th>N</th>
-                <th>TD</th>
-                <th>P</th>
-
-            </tr>
-
-            </thead>
-
-            <tbody>
-
-            <tr>
-
-                <td>1</td>
-                <td style="text-align: left;">🇵🇹 Portugal</td>
-                <td>3</td>
-                <td>2</td>
-                <td>1</td>
-                <td>0</td>
-                <td>6:2</td>
-                <td>7</td>
-
-            </tr>
-
-            <tr>
-
-                <td>2</td>
-                <td style="text-align: left;">🇺🇾 Uruguay</td>
-                <td>3</td>
-                <td>1</td>
-                <td>2</td>
-                <td>0</td>
-                <td>5:3</td>
-                <td>5</td>
-
-            </tr>
-
-            <tr>
-
-                <td>3</td>
-                <td style="text-align: left;">🇳🇱 Niederlande</td>
-                <td>3</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>4:4</td>
-                <td>4</td>
-
-            </tr>
-
-            <tr>
-
-                <td>4</td>
-                <td style="text-align: left;">🇩🇿 Algerien</td>
-                <td>3</td>
-                <td>0</td>
-                <td>0</td>
-                <td>3</td>
-                <td>2:8</td>
-                <td>0</td>
-
-            </tr>
-
-            </tbody>
-
-        </table>
+        <div class="group-table" id="groupStandings"></div>
 
     </div>
 
@@ -165,7 +90,7 @@
                 Algerien
             </div>
             <div class="popup-flag-home">
-                <img src="../../flags/dz.png">
+                <img id="popup-away-img" src="../../flags/ch.png">
             </div>
 
         </div>

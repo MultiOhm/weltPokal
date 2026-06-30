@@ -84,7 +84,7 @@ window.addEventListener("resize", updateButtons);
 // Beim Laden
 updateSlider();
 
-fetch(CONFIG.BASE + "tools/matchcards.html")
+fetch(CONFIG.BASE + "data/generated/matchcards.html")
 .then(response => response.text())
 .then(html => {
 

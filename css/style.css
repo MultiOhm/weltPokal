@@ -8,6 +8,8 @@
 --text2:#aaaaaa;
 
 --green:#008751;
+--colblue:#001844;
+--colyellow:#FFCD00;
 
 --radius:18px;
 
@@ -58,13 +60,15 @@ justify-content:space-between;
 
 align-items:center;
 
-padding:0 60px;
 
 border-bottom:1px solid var(--line);
 
 flex-direction:column;
 
 width:100%;
+
+background-color: var(--colblue);
+color: var(--colyellow);
 
 }
 
@@ -78,7 +82,7 @@ font-weight:bold;
 
 .logo span{
 
-color:var(--green);
+color:var();
 
 }
 
@@ -88,13 +92,14 @@ display:flex;
 
 gap:30px;
 
+
 }
 
 nav a{
 
 text-decoration:none;
 
-color:var(--text2);
+color:var(--colyellow);
 
 transition:.2s;
 
@@ -116,6 +121,9 @@ color:white;
 
     margin-top:20px;
 
+    border-bottom:1px solid var(--line);
+
+
 }
 
 .tournament-item{
@@ -133,7 +141,7 @@ color:white;
 
     font-family: 'MadimiOne';
     
-    width:90%;
+    width:100%;
 
     padding:12px;
 
@@ -299,5 +307,51 @@ margin-bottom:15px;
 color:var(--text2);
 
 line-height:1.5;
+
+}
+
+.submenu-inline{
+
+    display:none;
+
+    padding-left:20px;
+
+}
+
+.submenu-inline.open{
+
+    display:block;
+
+}
+
+.submenu-inline a{
+
+    display:block;
+
+    padding:8px 0;
+
+    font-size:0.9rem;
+
+    color:#ddd;
+
+}
+
+.submenu-toggle{
+
+    width:100%;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    text-align:left;
+
+    cursor:pointer;
+
+    padding:10px 16px;
+
+    font:inherit;
 
 }

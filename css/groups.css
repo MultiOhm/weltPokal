@@ -55,25 +55,7 @@
 
 }
 
-.group-matches .match-card .team {
-    flex-direction:row;
-}
 
-.group-matches .match-card .team:last-child{
-    flex-direction: row-reverse;
-}
-
-.group-matches .match-card .team img{
-    height: 12px;
-    width: auto;
-}
-
-.group-matches .match-card {
-    margin-bottom: 20px;
-}
-.group-matches .match-card .stadium{
-    display: none;
-}
 .standings{
 
     width:100%;
@@ -235,5 +217,54 @@
     font-size:28px;
 
     cursor:pointer;
+
+}
+
+.group-matches .match-card .teams {
+
+    display:grid;
+
+    grid-template-columns: 1fr 40px 20px 40px 1fr;
+
+    align-items:center;
+
+    width:100%;
+
+}
+
+
+.group-matches .match-card .team:first-child {
+
+    justify-content:flex-end;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+
+.group-matches .match-card .team:last-child {
+
+    justify-content:flex-start;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+
+.group-matches .match-card .score-home,
+.group-matches .match-card .score-away,
+.group-matches .match-card .teams > span {
+
+    text-align:center;
+
+    font-weight:bold;
 
 }

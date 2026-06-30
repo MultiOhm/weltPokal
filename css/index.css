@@ -47,9 +47,12 @@
 
     padding:30px;
 
-    border:1px solid var(--line);
+    border:6px solid var(--line);
 
     transition:.25s;
+
+    overflow:hidden;
+
 
 }
 
@@ -200,3 +203,4 @@
     opacity:0.5;
 
 }
+
