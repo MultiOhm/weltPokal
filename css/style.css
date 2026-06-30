@@ -23,7 +23,7 @@ box-sizing:border-box;
 
 @font-face {
   font-family: 'MadimiOne'; /* Name, den Sie in CSS verwenden möchten */
-  src: url('/') format('truetype'); /* Pfad und Format der Datei */
+  src: url('../assets/webfonts/MadimiOne-Regular.ttf') format('truetype'); /* Pfad und Format der Datei */
   font-weight: normal;
   font-style: normal;
 }
