@@ -1,4 +1,4 @@
-fetch("/components/header.html")
+fetch("/weltPokal/components/header.html")
 
 .then(r=>r.text())
 
