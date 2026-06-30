@@ -84,14 +84,16 @@ window.addEventListener("resize", updateButtons);
 // Beim Laden
 updateSlider();
 
-fetch("tools/matchcards.html")
-    .then(response => response.text())
-    .then(html => {
+fetch("../tools/matchcards.html")
+.then(response => response.text())
+.then(html => {
 
-        document.getElementById("matchesTrack").innerHTML = html;
+    document.getElementById("matchesTrack").innerHTML = html;
 
-        console.log(document.querySelector(".match-card").outerHTML);
+    setTimeout(() => {
 
-        filterCards();
+        updateSlider();
 
-    });
+    }, 50);
+
+});

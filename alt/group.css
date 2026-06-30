@@ -1,0 +1,160 @@
+.group-layout {
+
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+
+    gap: 30px;
+
+    margin-top: 40px;
+
+}
+
+.group-matches {
+
+    grid-column: span 7;
+
+}
+
+.group-table-box {
+
+    grid-column: span 5;
+
+}
+
+.group-table-box {
+
+    grid-column: span 5;
+
+    position: sticky;
+
+    top: 20px;
+
+    height: fit-content;
+
+}
+
+.group-matches .match-card {
+
+    margin-bottom: 15px;
+
+}
+
+@media (max-width: 800px) {
+
+
+.group-layout {
+
+    display: block;
+
+}
+
+
+.group-table-box {
+
+    margin-top: 40px;
+
+}
+
+
+}
+
+.matches-section{
+
+    margin:80px auto;
+
+}
+
+.section-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+.matches-wrapper{
+
+    overflow:hidden;
+
+
+    padding-top:12px;
+
+    margin-top:-12px;
+
+}
+
+.matches-track{
+
+    display:flex;
+
+    gap:30px;
+
+    transition:.4s;
+
+}
+
+.group-match{
+
+    display:grid;
+
+    grid-template-columns: 1fr 70px 1fr;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:15px;
+
+    border-bottom:1px solid var(--line);
+
+}
+
+
+.group-team{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+
+.group-team.home{
+
+    justify-content:flex-end;
+    text-align: left;
+
+}
+
+
+.group-team.away{
+
+    justify-content:flex-start;
+    text-align: right;
+
+}
+
+
+.group-team img{
+
+    width:30px;
+
+}
+
+
+.group-score{
+
+    text-align:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}

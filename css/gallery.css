@@ -22,7 +22,7 @@
 
 .filter-box{
 
-    background:var(--card);
+    background:var(--accent);
 
     border-radius:20px;
 
@@ -98,6 +98,7 @@
 .year-btn,
 .type-btn{
 
+    font-family: 'MadimiOne';
     background:#303030;
 
     border:none;

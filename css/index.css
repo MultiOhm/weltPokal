@@ -41,7 +41,7 @@
 
     min-width:350px;
 
-    background:var(--card);
+    background: var(--accent);
 
     border-radius:20px;
 
@@ -55,9 +55,9 @@
 
 .match-card:hover{
 
-    transform:translateY(-6px);
-
-    border-color:var(--green);
+    transform:
+        translateY(-3px)
+        scale(1.02);
 
 }
 
