@@ -1,4 +1,4 @@
-fetch("../../tools/matchcards.html")
+fetch(CONFIG.BASE + "tools/matchcards.html")
 .then(r=>r.text())
 .then(html=>{
 

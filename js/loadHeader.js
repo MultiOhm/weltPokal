@@ -1,4 +1,4 @@
-fetch("/weltPokal/components/header.html")
+fetch(CONFIG.BASE + "components/header.html")
 
 .then(r=>r.text())
 

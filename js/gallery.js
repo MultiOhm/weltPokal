@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-fetch("tools/kitcards.html")
+fetch(CONFIG.BASE + "tools/kitcards.html")
     .then(response => response.text())
     .then(html => {
 
