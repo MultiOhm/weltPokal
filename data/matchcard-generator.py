@@ -95,7 +95,10 @@ data-home="{match['home']}"
 data-away="{match['away']}"
 data-homegoals="{match['homeGoals']}"
 data-awaygoals="{match['awayGoals']}"
+data-city="{match['city']}"
+data-stadium="{match['stadium']}"
 >
+
 
 
 <div class="match-status">
@@ -113,7 +116,7 @@ data-awaygoals="{match['awayGoals']}"
 
         <span class="team-name">{match['home']}</span>
 
-        <img src="../../flags/{codes[match['home']]}.png">
+        <img src="/weltPokal/flags/{codes[match['home']]}.png">
 
     </div>
 
@@ -129,7 +132,7 @@ data-awaygoals="{match['awayGoals']}"
 
     <div class="team away">
 
-        <img src="../../flags/{codes[match['home']]}.png">
+        <img src="/weltPokal/flags/{codes[match['away']]}.png">
 
         <span class="team-name">{match['away']}</span>
 

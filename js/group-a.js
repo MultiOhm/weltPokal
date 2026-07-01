@@ -97,6 +97,8 @@ document.addEventListener("click", function (e) {
     document.getElementById("popup-score").textContent =
         card.dataset.homegoals+":"+card.dataset.awaygoals;
 
+    document.getElementById("popup-stadium").textContent =
+        card.dataset.stadium+" in "+card.dataset.city;
 
     document.getElementById("popup-away-img").src =
         "../../flags/" + card.dataset.flagaway + ".png";
