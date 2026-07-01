@@ -70,6 +70,12 @@ fetch(CONFIG.BASE + "data/"+year+"/"+group+"/standings.html")
 });
 
 
+document.getElementById("groupTeams").textContent =
+    findTeams(group);
+
+
+
+
 // ----------------------------------------
 // Popup öffnen
 // ----------------------------------------
@@ -89,17 +95,27 @@ document.addEventListener("click", function (e) {
         card.dataset.away;
 
     document.getElementById("popup-score").textContent =
-        card.dataset.score;
+        card.dataset.homegoals+":"+card.dataset.awaygoals;
 
-    document.getElementById("popup-stadium").textContent =
-        card.dataset.stadium;
 
     document.getElementById("popup-away-img").src =
         "../../flags/" + card.dataset.flagaway + ".png";
 
+    document.getElementById("popup-home-img").src =
+        "../../flags/" + card.dataset.flaghome + ".png";
+    
     popup.style.display = "flex";
 
 });
+
+function findTeams(groupString)
+{
+    if (groupString == "A")
+        return "Portugal, Algerien, Uruguay, Niederlande"
+    if (groupString == "B")
+        return "Brasilien, Nigeria, Iran, Kroatien"
+    return "Teams Missing"
+}
 
 // ----------------------------------------
 // Popup schließen

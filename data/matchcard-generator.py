@@ -6,8 +6,9 @@ import os
 # Einstellungen
 # ==========================
 
-TOURNAMENT = "2022"
-GROUP = "B"
+TOURNAMENT = "2025"
+GROUP = "A"
+GROUPS = ["A", "B", "C", "D",]# "E", "F", "G", "H"]
 
 OUTPUT = TOURNAMENT+"/"+GROUP+"/standings.html"
 
@@ -44,16 +45,28 @@ def load_matches():
 
         for row in reader:
 
-            if (
-                row["tournament"] == TOURNAMENT
-                and row["stage"] == "group"
-                and row["group"] == GROUP
+            if (True
             ):
 
                 matches.append(row)
 
     return matches
 
+def load_matches_group(group):
+
+    matches = []
+
+    with open(MATCH_FILE, encoding="utf-8") as file:
+
+        reader = csv.DictReader(file)
+
+        for row in reader:
+
+            if row["group"] == group:
+
+                matches.append(row)
+
+    return matches
 
 
 # ==========================
@@ -76,13 +89,19 @@ data-tournament="{match['tournament']}"
 data-stage="{match['stage']}"
 data-group="{match['group']}"
 data-matchday="{match['matchday']}"
-
+data-flaghome="{codes[match['home']]}"
+data-flagaway="{codes[match['away']]}"
+data-home="{match['home']}"
+data-away="{match['away']}"
+data-homegoals="{match['homeGoals']}"
+data-awaygoals="{match['awayGoals']}"
 >
 
 
 <div class="match-status">
 
-{match['date']} · {match['time']}
+{match['date']} · {match['time']} in {match['city']} <br>
+{match['stadium']}
 
 </div>
 
@@ -90,45 +109,31 @@ data-matchday="{match['matchday']}"
 
 <div class="teams">
 
+    <div class="team home">
 
-<div class="team">
+        <span class="team-name">{match['home']}</span>
 
-<img src="../../flags/{codes[match['home']]}.png">
+        <img src="../../flags/{codes[match['home']]}.png">
 
-<span>{match['home']}</span>
+    </div>
 
-</div>
+    <div class="score">
 
+        <span class="score-home">{match['homeGoals']}</span>
 
+        <span class="separator">:</span>
 
-<div class="score-home">
+        <span class="score-away">{match['awayGoals']}</span>
 
-{match['homeGoals']}
+    </div>
 
-</div>
+    <div class="team away">
 
+        <img src="../../flags/{codes[match['home']]}.png">
 
+        <span class="team-name">{match['away']}</span>
 
-<span>:</span>
-
-
-
-<div class="score-away">
-
-{match['awayGoals']}
-
-</div>
-
-
-
-<div class="team">
-
-<img src="../../flags/{codes[match['away']]}.png">
-
-<span>{match['away']}</span>
-
-</div>
-
+    </div>
 
 </div>
 
@@ -161,79 +166,96 @@ def calculate_table(matches):
 
 
     for match in matches:
-
-
         home = match["home"]
         away = match["away"]
-
-
-        hg = int(match["homeGoals"])
-        ag = int(match["awayGoals"])
-
-
-
         for team in [home, away]:
 
-            if team not in table:
+                    if team not in table:
 
-                table[team] = {
+                        table[team] = {
 
-                    "games":0,
-                    "wins":0,
-                    "draws":0,
-                    "losses":0,
-                    "gf":0,
-                    "ga":0,
-                    "points":0
+                            "games":0,
+                            "wins":0,
+                            "draws":0,
+                            "losses":0,
+                            "gf":0,
+                            "ga":0,
+                            "points":0
 
-                }
+                        }
 
+        if match["status"]=="finished":
 
-
-        # Spiele
-
-        table[home]["games"] += 1
-        table[away]["games"] += 1
+               
 
 
-
-        # Tore
-
-        table[home]["gf"] += hg
-        table[home]["ga"] += ag
-
-        table[away]["gf"] += ag
-        table[away]["ga"] += hg
+                hg = int(match["homeGoals"])
+                ag = int(match["awayGoals"])
 
 
 
-        # Punkte
+                for team in [home, away]:
 
-        if hg > ag:
+                    if team not in table:
 
-            table[home]["wins"] += 1
-            table[home]["points"] += 3
+                        table[team] = {
 
-            table[away]["losses"] += 1
+                            "games":0,
+                            "wins":0,
+                            "draws":0,
+                            "losses":0,
+                            "gf":0,
+                            "ga":0,
+                            "points":0
 
-
-
-        elif ag > hg:
-
-            table[away]["wins"] += 1
-            table[away]["points"] += 3
-
-            table[home]["losses"] += 1
+                        }
 
 
 
-        else:
+                # Spiele
 
-            table[home]["draws"] += 1
-            table[away]["draws"] += 1
+                table[home]["games"] += 1
+                table[away]["games"] += 1
 
-            table[home]["points"] += 1
-            table[away]["points"] += 1
+
+
+                # Tore
+
+                table[home]["gf"] += hg
+                table[home]["ga"] += ag
+
+                table[away]["gf"] += ag
+                table[away]["ga"] += hg
+
+
+
+                # Punkte
+
+                if hg > ag:
+
+                    table[home]["wins"] += 1
+                    table[home]["points"] += 3
+
+                    table[away]["losses"] += 1
+
+
+
+                elif ag > hg:
+
+                    table[away]["wins"] += 1
+                    table[away]["points"] += 3
+
+                    table[home]["losses"] += 1
+
+
+
+                else:
+
+                    table[home]["draws"] += 1
+                    table[away]["draws"] += 1
+
+                    table[home]["points"] += 1
+                    table[away]["points"] += 1
 
 
     return table
@@ -275,11 +297,11 @@ def create_table_html(table):
 
 <th>#</th>
 <th>Team</th>
-<th>Sp</th>
-<th>S</th>
-<th>U</th>
-<th>N</th>
-<th>Tore</th>
+<th class="removeable">Sp</th>
+<th class="removeable">S</th>
+<th class="removeable">U</th>
+<th class="removeable">N</th>
+<th class="removeable">Tore</th>
 <th>Pkt</th>
 
 </tr>
@@ -313,16 +335,16 @@ def create_table_html(table):
 </td>
 
 
-<td>{data['games']}</td>
+<td class="removeable">{data['games']}</td>
 
-<td>{data['wins']}</td>
+<td class="removeable">{data['wins']}</td>
 
-<td>{data['draws']}</td>
+<td class="removeable">{data['draws']}</td>
 
-<td>{data['losses']}</td>
+<td class="removeable">{data['losses']}</td>
 
 
-<td>
+<td class="removeable">
 
 {data['gf']}:{data['ga']}
 
@@ -382,32 +404,30 @@ matches = load_matches()
 
 matches_html = create_matchcards(matches)
 
-
-table = calculate_table(matches)
-
-
-table_html = create_table_html(table)
-
-
-
-os.makedirs(
-    os.path.dirname(OUTPUT),
-    exist_ok=True
-)
-
-
-with open(
-    OUTPUT,
-    "w",
-    encoding="utf-8"
-) as file:
-
-    file.write(
-        create_page(
-            matches_html,
-            table_html
-        )
+for s in GROUPS:
+   
+    GROUP = s
+    groupmatches = load_matches_group(s)
+    table = calculate_table(groupmatches)
+    table_html = create_table_html(table)
+    OUTPUT = TOURNAMENT+"/"+GROUP+"/standings.html"
+    os.makedirs(
+        os.path.dirname(OUTPUT),
+        exist_ok=True
     )
 
 
-print("Gruppe erstellt:", OUTPUT)
+    with open(
+        OUTPUT,
+        "w",
+    encoding="utf-8"
+    ) as file:
+
+        file.write(
+            create_page(
+                matches_html,
+                table_html
+            )
+        )
+
+    print("Gruppe erstellt:", OUTPUT)
