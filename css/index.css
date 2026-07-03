@@ -1,3 +1,6 @@
+:root{
+
+}
 .matches-section{
 
     margin:80px auto;
@@ -17,6 +20,7 @@
 
 }
 
+.standings-wrapper,
 .matches-wrapper{
 
     overflow:hidden;
@@ -27,7 +31,7 @@
     margin-top:-12px;
 
 }
-
+.standings-track,
 .matches-track{
 
     display:flex;
@@ -38,100 +42,6 @@
 
 }
 
-.match-card{
-
-    min-width:350px;
-
-    background: #000000;
-
-    border-radius:20px;
-
-    padding:30px;
-
-    border:1px;
-
-    transition:.25s;
-
-    overflow:hidden;
-
-
-}
-
-.match-card:hover{
-
-    transform:
-        translateY(-3px)
-        scale(1.02);
-
-}
-
-.match-card .home{
-    flex-direction: column-reverse;
-}
-
-.match-status{
-
-    display:inline-block;
-
-    background:#000000;
-
-    color:white;
-
-    padding:6px 14px;
-
-    border-radius:999px;
-
-    font-size:13px;
-
-    margin-bottom:25px;
-
-}
-
-.teams{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    align-items:center;
-
-}
-
-.team{
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:10px;
-
-}
-
-.team img{
-
-    width:70px;
-
-}
-
-.score{
-
-    font-size:38px;
-
-    font-weight:bold;
-
-}
-
-.stadium{
-
-    margin-top:30px;
-
-    text-align:center;
-
-    color:#9b9b9b;
-
-}
 
 .slider-buttons{
 

@@ -13,7 +13,7 @@ document.querySelectorAll('[data-link="group"]').forEach(link => {
 
     link.href =
         CONFIG.BASE +
-        "2022/groups/group.html?year="+year+"&group="+group;
+        "group.html?year="+year+"&group="+group;
 
 });
 document.querySelectorAll(".submenu-toggle").forEach(button => {

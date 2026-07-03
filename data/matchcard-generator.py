@@ -116,7 +116,7 @@ data-stadium="{match['stadium']}"
 
         <span class="team-name">{match['home']}</span>
 
-        <img src="/weltPokal/flags/{codes[match['home']]}.png">
+        <img src="/flags/{codes[match['home']]}.png">
 
     </div>
 
@@ -132,7 +132,7 @@ data-stadium="{match['stadium']}"
 
     <div class="team away">
 
-        <img src="/weltPokal/flags/{codes[match['away']]}.png">
+        <img src="/flags/{codes[match['away']]}.png">
 
         <span class="team-name">{match['away']}</span>
 

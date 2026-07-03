@@ -1,0 +1,34 @@
+.standings{
+
+    width:100%;
+
+    border-collapse:collapse;
+}
+
+.standings th{
+
+    background:var(--colyellow);
+
+    color:var(--colblue);
+
+    padding:14px;
+
+}
+
+.standings td{
+    padding:12px;
+
+
+    text-align:center;
+
+}
+
+.standings .table-team{
+    text-align: left;
+}
+
+
+.standings tr:hover{
+
+
+}

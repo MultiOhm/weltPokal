@@ -1,5 +1,6 @@
 country,jahr,type,texture
 ar,2025,home,argh25.png
+ar,2025,away,arga25.png
 co,2018,home,colh18.png
 co,2019,home,colh19.png
 co,2020,home,colh20.png
@@ -8,5 +9,12 @@ co,2022,home,colh22.png
 co,2022,away,cola22.png
 co,2025,home,colh25.png
 co,2025,away,cola25.png
-jp,2020,home,jpnh25.png
+jp,2025,home,jpnh25.png
 pt,2022,home,porh22.png
+pt,2022,away,pora22.png
+ir,2025,home,irnh25.png
+ir,2025,away,irna25.png
+ir,2022,home,irnh22.png
+ir,2022,away,irna22.png
+ar,2022,home,argh22.png
+ar,2022,away,arga22.png

@@ -1,10 +1,10 @@
 :root{
 
---background:#000411;
---card:#242424;
+--background:#111;
+--card:#222;
 --line:#353535;
 
---text:#FFCD00;
+--text:#eee;
 --text2:#aaaaaa;
 
 --green:#008751;
@@ -42,7 +42,7 @@ font-family:'MadimiOne';
 
 main{
 
-max-width:1400px;
+max-width:1500px;
 
 margin:auto;
 
@@ -52,7 +52,7 @@ padding:60px;
 
 header{
 
-height:72px;
+height:180px;
 
 display:flex;
 
@@ -163,7 +163,7 @@ color:white;
 @media(max-width:1000px)
 {
     .tournament-item button{
-        font-size: 0;
+        font-size: 6px;
     }
 }
 

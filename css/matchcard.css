@@ -1,0 +1,135 @@
+.match-card{
+
+    min-width:400px;
+
+    height: 180px;
+    background: #000000;
+
+    border-radius:20px;
+
+
+    border:1px;
+
+    transition:.25s;
+
+    overflow:hidden;
+
+
+}
+
+.match-card:hover{
+
+    transform:
+        translateY(-3px)
+        scale(1.02);
+
+}
+
+.match-card .home{
+    flex-direction: column-reverse;
+}
+
+.match-status{
+
+    display:inline-block;
+
+    background:#000000;
+
+    color:white;
+
+    border-radius:999px;
+    padding: 15px;
+    font-size:13px;
+    height: 60px;
+}
+
+.teams{
+
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    
+
+}
+
+.team{
+
+    display:flex;
+
+    flex-direction:column;
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.home{
+
+    background:var(--home-color);
+
+    color:var(--home-text);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.away{
+
+    background:var(--away-color);
+
+    color:var(--away-text);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width: 50%;
+
+}
+
+.team img{
+
+    width:70px;
+
+}
+
+.score{
+
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0 , 0, 0.2);
+    font-size:38px;
+
+    font-weight:bold;
+
+}
+
+.stadium{
+
+    margin-top:30px;
+
+    text-align:center;
+
+    color:#9b9b9b;
+
+}

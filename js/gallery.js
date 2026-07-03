@@ -150,14 +150,58 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-fetch(CONFIG.BASE + "tools/kitcards.html")
-    .then(response => response.text())
-    .then(html => {
+window.teamsReady.then(() => {
 
-        document.getElementById("gallery").innerHTML = html;
+    fetch(CONFIG.BASE + "data/generated/kitcards.html")
+        .then(r => r.text())
+        .then(html => {
 
-        console.log(document.querySelector(".kit-card").outerHTML);
+            const gallery = document.getElementById("gallery");
+            if (!gallery) return;
 
-        filterCards();
+            // 🧠 1. HTML parsen (isoliert)
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, "text/html");
 
-    });
+            // 🧠 2. Karten holen
+            let cards = Array.from(doc.querySelectorAll(".kit-card"));
+
+            // 🧠 3. ALPHABETISCH SORTIEREN
+            cards.sort((a, b) => {
+                const aVal = (a.dataset.country || "").toLowerCase();
+                const bVal = (b.dataset.country || "").toLowerCase();
+                const countryCompare = aVal.localeCompare(bVal);          
+                if (countryCompare !== 0) {
+                    return countryCompare;
+                }
+
+        // dann nach Jahr
+                const yearA = parseInt(a.dataset.year) || 0;
+                const yearB = parseInt(b.dataset.year) || 0;
+                return yearA - yearB;
+            });
+
+            // 🧠 4. Rendern
+            gallery.innerHTML = "";
+            cards.forEach(card => gallery.appendChild(card));
+
+            // 🧠 5. Farben setzen
+            gallery.querySelectorAll(".kit-card").forEach(card => {
+
+                const team = window.teams[card.dataset.team];
+
+                if (!team) {
+                    console.warn("Team nicht gefunden:", card.dataset.team);
+                    return;
+                }
+
+                card.style.setProperty("--accent", team.primary);
+                card.style.setProperty("--accentfont", team.secondary);
+            });
+
+            // 🧠 6. Filter anwenden
+            filterCards();
+
+            console.log("First kitcard:", cards[0]?.outerHTML);
+        });
+});

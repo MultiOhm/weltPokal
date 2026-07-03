@@ -1,0 +1,372 @@
+.team-page{
+
+max-width:1400px;
+
+margin:auto;
+
+padding:40px;
+
+}
+
+.team-hero{
+
+    position: relative;
+
+    display:grid;
+
+    grid-template-columns:1fr auto;
+
+    background:var(--primary);
+
+    color:var(--secondary);
+
+    border-radius:24px;
+
+    padding:50px;
+
+    margin-bottom:50px;
+
+    overflow:hidden;
+
+}
+
+.team-hero{
+
+    position:relative;
+
+    background:var(--primary);
+
+}
+
+.team-hero::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:90px;
+
+height:100%;
+
+background:var(--secondary);
+
+}
+
+.hero-left,
+.hero-right{
+
+    position:relative;
+
+    z-index:1;
+
+}
+
+.team-flag{
+    box-shadow: 0 0 20px 1px #000;
+    width:128px;
+
+    margin-bottom:20px;
+
+}
+
+.hero-left{
+    margin-left: 100px;
+}
+.hero-right{
+
+display:grid;
+
+grid-template-columns:repeat(4,140px);
+
+gap:25px;
+
+align-items:center;
+
+}
+
+
+
+.hero-stat{
+
+text-align:center;
+
+}
+
+.hero-stat b{
+
+font-size:48px;
+
+display:block;
+
+}
+
+.team-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:35px;
+
+}
+
+.team-history,
+.team-kits,
+.team-records,
+.team-matches{
+
+background:#10131d;
+
+border-radius:20px;
+
+padding:30px;
+
+}
+
+/* ---------- Timeline ---------- */
+
+.history{
+
+    margin:50px 0;
+
+}
+
+.history-events{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    position:relative;
+
+    padding-top:18px;
+
+}
+
+/* Horizontale Linie */
+
+.history-events::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:18px;
+    right:18px;
+
+    top:26px;
+
+    height:4px;
+
+    background:#3a3a3a;
+
+    border-radius:10px;
+
+    z-index:0;
+
+}
+
+/* Ein Turnier */
+
+.history-event{
+
+    position:relative;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    flex:1;
+
+    z-index:2;
+
+}
+
+/* Punkt */
+
+.history-dot{
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    background:#777;
+
+    border:4px solid #0f1322;
+
+    box-sizing:content-box;
+
+    margin-bottom:12px;
+
+}
+
+/* Jahreszahl */
+
+.history-year{
+
+    font-weight:bold;
+
+    margin-bottom:8px;
+
+    font-size:.95rem;
+
+}
+
+/* Ergebnis */
+
+.history-result{
+
+    text-align:center;
+
+    font-size:.8rem;
+
+    color:#bdbdbd;
+
+    line-height:1.3;
+
+    max-width:90px;
+
+}
+
+/* ---------- Farben ---------- */
+
+.history-dot.nq{
+    background-color: #000;
+}
+.history-dot.group{
+
+    background:#222;
+
+}
+
+.history-dot.round16{
+    background:cornflowerblue;
+}
+
+.history-dot.quarter{
+
+    background:#4CAF50;
+
+}
+
+.history-dot.third{
+
+    background:rgb(244, 164, 96);
+    box-shadow: 0 0 12px rgb(244, 164, 96,.6);
+
+}
+
+.history-dot.final{
+
+    background:silver;
+    box-shadow: 0 0 12px rgba(192,192,192,.6);
+}
+
+.history-dot.winner{
+
+    background:gold;
+
+    box-shadow:0 0 12px rgba(255,215,0,.6);
+
+}
+
+/* ---------- Hover ---------- */
+
+.history-event:hover .history-dot{
+
+    transform:scale(1.15);
+
+    transition:.2s;
+
+}
+
+.history-event:hover .history-year{
+
+    color:#FFD700;
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media(max-width:900px){
+
+    .history-events{
+
+        overflow-x:auto;
+
+        gap:50px;
+
+        justify-content:flex-start;
+
+        padding-bottom:10px;
+
+    }
+
+    .history-event{
+
+        min-width:90px;
+
+    }
+
+}
+
+.kit-timeline{
+
+display:flex;
+
+gap:25px;
+
+overflow-x:auto;
+
+padding-bottom:15px;
+
+}
+
+.kit-node{
+
+min-width:140px;
+
+text-align:center;
+
+}
+
+.kit-node img{
+
+height:180px;
+
+margin:10px auto;
+
+display:block;
+
+}
+
+.team-records table{
+
+width:100%;
+
+border-collapse:collapse;
+
+}
+
+.team-records td{
+
+padding:12px;
+
+border-bottom:1px solid #2a2a2a;
+
+}
+
+.team-matches h2{
+    margin-bottom: 10px;
+}
+

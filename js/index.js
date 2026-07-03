@@ -18,6 +18,19 @@ function getCardWidth() {
 
 }
 
+function getTableWidth() {
+
+    const table = document.querySelector(".table");
+
+    if (!table) return 0;
+
+    const gap = 30; // entspricht gap im CSS
+
+    return table.offsetWidth + gap;
+
+}
+
+
 function updateButtons() {
 
     const maxScroll = Math.max(0, track.scrollWidth - wrapper.clientWidth);
@@ -83,12 +96,19 @@ window.addEventListener("resize", updateButtons);
 
 // Beim Laden
 updateSlider();
+teamsLoaded.then(() => {
 
-fetch(CONFIG.BASE + "data/generated/matchcards.html")
+    console.log(teams)
+    console.log(teams["Kolumbien"])
+
+})
+
+
+fetch(CONFIG.BASE + "data/2022/A/standings.html")
 .then(response => response.text())
 .then(html => {
 
-    document.getElementById("matchesTrack").innerHTML = html;
+    document.getElementById("standingsTrack").innerHTML = html;
 
     setTimeout(() => {
 
@@ -97,3 +117,4 @@ fetch(CONFIG.BASE + "data/generated/matchcards.html")
     }, 50);
 
 });
+

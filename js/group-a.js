@@ -23,35 +23,52 @@ document.getElementById("group-title").textContent =
 // Matchcards laden
 // ----------------------------------------
 
-fetch(CONFIG.BASE + "data/generated/matchcards.html")
+window.teamsReady.then(() => {
 
-.then(response => response.text())
+    fetch(CONFIG.BASE + "data/generated/matchcards.html")
+        .then(r => r.text())
+        .then(html => {
 
-.then(html => {
+            const track = document.getElementById("groupMatches");
+            if (!track) return;
 
-    const temp = document.createElement("div");
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, "text/html");
 
-    temp.innerHTML = html;
+            const cards = Array.from(doc.querySelectorAll(".match-card"));
 
-    const container = document.getElementById("groupMatches");
+            // 👉 Beispiel: Filterwerte (kannst du dynamisch setzen!)
+            const allowedGroup = group; // z. B. "A"
 
-    container.innerHTML = "";
+            const filtered = cards.filter(card => {
 
-    temp.querySelectorAll(".match-card").forEach(card => {
+                const group = card.dataset.group;
+                const stage = card.dataset.stage;
 
-        if (
+                return (!allowedGroup || group === allowedGroup);            });
 
-            card.dataset.tournament === year &&
-            card.dataset.group === group
+            track.innerHTML = "";
+            filtered.forEach(card => track.appendChild(card));
 
-        ) {
+            // Farben setzen
+            document.querySelectorAll(".match-card").forEach(card => {
 
-            container.appendChild(card);
+                const home = window.teams[card.dataset.home];
+                const away = window.teams[card.dataset.away];
 
-        }
+                if (!home || !away) return;
 
-    });
+                card.style.setProperty("--home-color", home.primary);
+                card.style.setProperty("--home-secondary", home.secondary);
+                card.style.setProperty("--home-text", home.text);
 
+                card.style.setProperty("--away-color", away.primary);
+                card.style.setProperty("--away-secondary", away.secondary);
+                card.style.setProperty("--away-text", away.text);
+            });
+
+            setTimeout(updateSlider, 50);
+        });
 });
 
 fetch(CONFIG.BASE + "data/"+year+"/"+group+"/standings.html")
@@ -113,9 +130,9 @@ document.addEventListener("click", function (e) {
 function findTeams(groupString)
 {
     if (groupString == "A")
-        return "Portugal, Algerien, Uruguay, Niederlande"
+        return "Portugal - Algerien - Uruguay - Niederlande"
     if (groupString == "B")
-        return "Brasilien, Nigeria, Iran, Kroatien"
+        return "Brasilien - Nigeria - Iran - Kroatien"
     return "Teams Missing"
 }
 
@@ -138,3 +155,4 @@ document.getElementById("match-popup").addEventListener("click", e => {
     }
 
 });
+

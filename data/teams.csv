@@ -1,18 +1,50 @@
-name,code
-Kolumbien,co
-Marokko,ma
-Italien,it
-Mexiko,mx
-Spanien,es
-Republik Korea,kr
-Mali,ml
-Dänemark,dk
-Brasilien,br
-IR Iran,ir
-Iran,ir
-Neuseeland,nz
-Kroatien,hr
-Portugal,pt
-Venezuela,ve
-Österreich,at
-Kanada,ca
+country,code,flag,primary,secondary,text
+Portugal,POR,pt,#D81E05,#ffffff,#046A38
+Kolumbien,COL,co,#FCD116,#003893,#003893
+Marokko,MAR,ma,#C1272D,#046A38,#FFFFFF
+Mexiko,MEX,mx,#006847,#CE1126,#FFFFFF
+Brasilien,BRA,br,#009C3B,#FFDF00,#003366
+Niederlande,NED,nl,#F97316,#1E3A8A,#FFFFFF
+Argentinien,ARG,ar,#74ACDF,#FFFFFF,#000000
+Deutschland,GER,de,#111111,#DD0000,#FFFFFF
+England,ENG,en,#FFFFFF,#C8102E,#111111
+Italien,ITA,it,#0000ee,#0000aa,#ffffff
+Frankreich,FRA,fr,#0055A4,#EF4135,#FFFFFF
+Spanien,ESP,es,#AA151B,#0033A0,#F1BF00
+Belgien,BEL,be,#ED2939,#FFD90C,#000000
+Schweiz,SUI,ch,#FF0000,#FFFFFF,#000000
+Österreich,AUT,at,#ED2939,#FFFFFF,#000000
+Kroatien,CRO,hr,#171796,#FFFFFF,#C8102E
+Dänemark,DEN,dk,#C60C30,#FFFFFF,#002868
+Schweden,SWE,se,#006AA7,#FECC00,#000000
+Norwegen,NOR,no,#BA0C2F,#00205B,#FFFFFF
+Polen,POL,pl,#DC143C,#FFFFFF,#000000
+Tschechien,CZE,cz,#D7141A,#11457E,#FFFFFF
+Türkei,TUR,tr,#E30A17,#FFFFFF,#000000
+USA,USA,us,#B22234,#3C3B6E,#FFFFFF
+Kanada,CAN,ca,#FF0000,#FFFFFF,#000000
+Australien,AUS,au,#012169,#FFFFFF,#E4002B
+Neuseeland,NZL,nz,#00247D,#FFFFFF,#CC142B
+Japan,JPN,jp,#ffffff,#BC002D,#000000
+Republik Korea,KOR,kr,#C60C30,#003478,#FFFFFF
+IR Iran,IRN,ir,#ffffff,#DA0000,#DA0000
+Saudi-Arabien,KSA,sa,#006C35,#FFFFFF,#000000
+Katar,QAT,qa,#8A1538,#FFFFFF,#000000
+Usbekistan,UZB,uz,#1EB53A,#FFFFFF,#0099B5
+Jordanien,JOR,jo,#CE1126,#FFFFFF,#007A3D
+Irak,IRQ,iq,#007A3D,#FFFFFF,#CE1126
+Vereinigte Arabische Emirate,ARE,ae,#FF0000,#00732F,#FFFFFF
+Ägypten,EGY,eg,#CE1126,#FFFFFF,#000000
+Marokko,MAR,ma,#C1272D,#006233,#FFFFFF
+Tunesien,TUN,tn,#E70013,#FFFFFF,#000000
+Algerien,ALG,dz,#006233,#FFFFFF,#D21034
+Senegal,SEN,sn,#00853F,#FDEF42,#E31B23
+Ghana,GHA,gh,#006B3F,#FCD116,#CE1126
+Elfenbeinküste,CIV,ci,#F77F00,#FFFFFF,#009E60
+Südafrika,RSA,za,#007A4D,#FFB612,#000000
+DR Kongo,COD,cd,#007FFF,#FFD700,#CE1021
+Argentinien,ARG,ar,#74ACDF,#FFFFFF,#000000
+Uruguay,URU,uy,#75AADB,#FFFFFF,#000000
+Ecuador,ECU,ec,#FFD100,#0033A0,#EF3340
+Paraguay,PAR,py,#D52B1E,#FFFFFF,#0038A8
+Venezuela,VEN,ve,#D90000,#0033A0,#FFFFFF
