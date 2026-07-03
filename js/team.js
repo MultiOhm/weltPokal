@@ -102,42 +102,45 @@ function loadMatches(team){
 
 function loadKits(team){
 
-    fetch(CONFIG.BASE+"data/generated/kitcards.html")
+    fetch(CONFIG.BASE + "data/generated/kitcards.html")
 
-    .then(r=>r.text())
+    .then(r => r.text())
 
-    .then(html=>{
+    .then(html => {
 
-        const parser=new DOMParser();
+        const parser = new DOMParser();
 
-        const doc=parser.parseFromString(html,"text/html");
+        const doc = parser.parseFromString(html,"text/html");
 
-        const kits=[
+        const kits = [...doc.querySelectorAll(".kit-card")];
 
-            ...doc.querySelectorAll(".kit-card")
+        const track = document.getElementById("kit-track");
 
-        ];
+        track.innerHTML = "";
 
-        const container=document.getElementById("kitTimeline");
+        kits
 
-        kits.forEach(kit=>{
+        .filter(card =>
 
-            if(
+            card.dataset.team === teamId && card.dataset.year != 2020
 
-                kit.dataset.team===team.id
+        )
 
-            ){
+        .sort((a,b)=>
 
-                container.appendChild(kit);
+            parseInt(a.dataset.year)-parseInt(b.dataset.year)
 
-            }
+        )
+
+        .forEach(card=>{
+
+            track.appendChild(card);
 
         });
 
     });
 
 }
-
 function loadHistory(team){
 
     fetch(CONFIG.BASE+"data/history.csv")
@@ -211,9 +214,42 @@ function loadHistory(team){
             `;
 
         });
+    const history = document.getElementById("history");
+
+    const left =
+        first.getBoundingClientRect().left -
+        history.getBoundingClientRect().left +
+        first.offsetWidth/2;
+
+    const right =
+        last.getBoundingClientRect().left -
+        history.getBoundingClientRect().left +
+        last.offsetWidth/2;
+    const line = document.querySelector(".history-line");
+
+    const first = document.querySelector(".history-event:first-child .history-dot");
+    const last  = document.querySelector(".history-event:last-child .history-dot");
+
+    if(!first || !last){
+        return;
+    }
+    if(first && last){
+
+        const left =
+            first.offsetLeft + first.offsetWidth/2;
+
+        const right =
+            last.offsetLeft + last.offsetWidth/2;
+
+        line.style.left = left + "px";
+        line.style.width = (right-left) + "px";
+
+    }     
     });
 
+
 }
+
 
 function loadStatistics(team){
 
@@ -229,3 +265,69 @@ function loadStatistics(team){
 
 
 }
+
+const track = document.getElementById("kit-track");
+
+document.querySelector(".prev").onclick = () => {
+
+    track.scrollBy({
+
+        left:-150,
+
+        behavior:"smooth"
+
+    });
+
+};
+
+document.querySelector(".next").onclick = () => {
+
+    track.scrollBy({
+
+        left:150,
+
+        behavior:"smooth"
+
+    });
+
+};
+
+let isDragging = false;
+let startX = 0;
+let scrollLeft = 0;
+
+let moved = false;
+
+const threshold = 5; // px – ab wann es kein Klick mehr ist
+
+const slider = document.querySelector('.kit-track');
+
+slider.addEventListener('pointerdown', (e) => {
+  isDragging = true;
+  moved = false;
+
+  startX = e.clientX;
+  scrollLeft = slider.scrollLeft;
+
+  slider.setPointerCapture(e.pointerId);
+});
+
+slider.addEventListener('pointermove', (e) => {
+  if (!isDragging) return;
+
+  const walk = e.clientX - startX;
+
+  if (Math.abs(walk) > threshold) {
+    moved = true;
+  }
+
+  slider.scrollLeft = scrollLeft - walk;
+});
+
+slider.addEventListener('pointerup', (e) => {
+  isDragging = false;
+  slider.releasePointerCapture(e.pointerId);
+});
+
+slider.addEventListener('pointerup', stopDragging);
+slider.addEventListener('pointercancel', stopDragging);
