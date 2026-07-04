@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Turniere</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/tournament.css">
+
+
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <main>
+        <section class="tournament-header">
+            <div class="tournament-info">
+                <h1 id="tournamentName"></h1>
+                <img id="tournamentFlag" src="">
+                <h2 id="tournamentHost"></h2>
+            </div>
+            <div class="tournament-result">
+                <a id="tournamentWinner"></a>
+                <a id="tournamentSecond"></a>
+                <a id="tournamentThird"></a>
+                <a id="tournamentForth"></a>
+            </div>
+        </section>
+        <nav class="tournament-nav">
+            <a href="../index.html">Übersicht</a>
+
+            <div class="dropdown">
+
+                <a>Gruppen ▾</a>
+
+                <div class="dropdown-content">
+
+                    <a href="group.html?year=2025&group=A">Gruppe A</a>
+                    <a href="group.html?year=2025&group=C">Gruppe B</a>
+                    <a href="group.html?year=2025&group=B">Gruppe C</a>
+                    <a href="group.html?year=2025&group=D">Gruppe D</a>
+                    <a href="group.html?year=2025&group=E">Gruppe E</a>
+                    <a href="group.html?year=2025&group=F">Gruppe F</a>
+                    <a href="group.html?year=2025&group=G">Gruppe G</a>
+                    <a href="group.html?year=2025&group=H">Gruppe H</a>
+
+
+                </div>
+
+            </div>
+
+            <a href="../teams.html">KO-Phase</a>
+            <a href="">Statistiken</a>
+            <a href="../kits.html">Stadien</a>
+
+        </nav>
+
+        <section class="tournament-grid">
+            <div>Sektion 1</div>
+            <div>Sektion 2</div>
+        </section>
+        
+        <section class="group-grid">
+            <div class="group-card">
+                <a href="group.html?year=2025&group=A"><h3>Gruppe A</h3></a>
+                <a href="team.html?team=Kolumbien">COL</a>
+                <a href="team.html?team=Mexiko">MAR</a>
+                <a href="team.html?team=Italien">ITA</a>
+                <a href="team.html?team=Mexiko">MEX</a>
+            </div>
+
+
+        </section>
+    </main>
+<script src="js/config.js"></script>
+<script src="js/loadHeader.js"></script>
+<script src="js/team-loader.js"></script>
+<script src="js/tournament-loader.js"></script>
+<script src="js/tournament.js"></script>
+</body>

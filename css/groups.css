@@ -1,39 +1,29 @@
 .group-header{
-
-    text-align:center;
-
-    margin:60px 0;
-
-}
-
-.group-header h1{
-
-    font-family:'MadimiOne';
-
-    font-size:54px;
-
-}
-
-.group-header h2{
-
-
-
-    margin-top:10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #000011;
+    color: var(--colyellow);
+    border-radius: 18px;
+    padding: 20px;
 
 }
 
 .group-teams{
+    overflow: hidden;
+    border-radius: 18px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
 
-    margin-top:20px;
+.group-teams a{
+    padding: 10px;
 
-    font-size:18px;
+}
 
-    display:flex;
-
-    justify-content:center;
-
-    gap:30px;
-
+.group-teams a:hover{
+    background-color: white;
+    color: black;
 }
 
 .group-content{

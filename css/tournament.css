@@ -1,0 +1,94 @@
+
+.tournament-header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #000011;
+    color: var(--colyellow);
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.tournament-result{
+    overflow: hidden;
+    border-radius: 18px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tournament-result a{
+    padding: 10px;
+
+}
+
+.tournament-result a:hover{
+    background-color: white;
+    color: black;
+}
+.tournament-header h2,
+.tournament-header h1{
+    margin: 10px;
+}
+.tournament-header img{
+    margin: 10px;
+    height:60px;
+}
+
+.tournament-nav{
+    background-color: black;
+    height: 64px;
+    align-items: center;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.tournament-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.group-grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap:20px
+}
+
+.group-card{
+    background: black;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-card h3{
+    user-select: none;
+}
+
+.group-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 0 18px white;
+    transition:.25s;
+}
+
+.group-card a{
+    background-color: #080808;
+    padding: 10px;
+    color: white;
+    user-select: none;
+    text-decoration: none;
+}
+
+.group-card a:hover{
+    background-color: white;
+    color: black;
+}
+
+.tournament-grid div{
+    background-color: black;
+    padding: 20px;
+    border-radius: 18px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}

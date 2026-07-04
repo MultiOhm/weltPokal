@@ -4,6 +4,8 @@ const wrapper = document.querySelector(".matches-wrapper");
 const prev = document.getElementById("prevMatch");
 const next = document.getElementById("nextMatch");
 
+const dotsContainer = document.querySelector(".slider-dots");
+
 let position = 0;
 
 function getCardWidth() {
@@ -65,6 +67,7 @@ function updateSlider() {
 
     updateButtons();
 
+    updateDots();
 }
 
 next.addEventListener("click", () => {
@@ -96,7 +99,7 @@ window.addEventListener("resize", updateButtons);
 
 // Beim Laden
 updateSlider();
-teamsLoaded.then(() => {
+teamsReady.then(() => {
 
     console.log(teams)
     console.log(teams["Kolumbien"])
@@ -108,7 +111,7 @@ fetch(CONFIG.BASE + "data/2022/A/standings.html")
 .then(response => response.text())
 .then(html => {
 
-    document.getElementById("standingsTrack").innerHTML = html;
+    //document.getElementById("standingsTrack").innerHTML = html;
 
     setTimeout(() => {
 
@@ -116,5 +119,88 @@ fetch(CONFIG.BASE + "data/2022/A/standings.html")
 
     }, 50);
 
+});
+
+
+function createDots(){
+    
+    dotsContainer.innerHTML = "";
+    
+    const cards = document.querySelectorAll(".match-card");
+
+    console.log(cards);
+    
+    
+    cards.forEach((card,index)=>{
+
+        const dot = document.createElement("span");
+
+        dot.className = "dot";
+
+        if(index===0){
+
+            dot.classList.add("active");
+
+        }
+        dotsContainer.appendChild(dot);
+
+        dot.addEventListener("click",()=>{
+
+            position = index * getCardWidth();
+
+            updateSlider();
+
+        });
+
+
+    });
+
+}
+
+function updateDots(){
+
+    const dots = dotsContainer.querySelectorAll(".dot");
+
+    const current = Math.round(position / getCardWidth());
+
+    dots.forEach((dot,index)=>{
+
+        dot.classList.toggle("active",index===current);
+
+    });
+
+}
+
+window.teamsReady.then(() => {
+
+    fetch(CONFIG.BASE + "data/generated/matchcards.html")
+        .then(r => r.text())
+        .then(html => {
+
+            const track = document.getElementById("matchesTrack");
+            if (!track) return;
+
+            track.innerHTML = html;
+
+            document.querySelectorAll(".match-card").forEach(card => {
+            createDots();
+            updateDots();
+
+                const home = window.teams[card.dataset.home];
+                const away = window.teams[card.dataset.away];
+
+                if (!home || !away) return;
+
+                card.style.setProperty("--home-color", home.primary);
+                card.style.setProperty("--home-secondary", home.secondary);
+                card.style.setProperty("--home-text", home.text);
+
+                card.style.setProperty("--away-color", away.primary);
+                card.style.setProperty("--away-secondary", away.secondary);
+                card.style.setProperty("--away-text", away.text);
+            });
+
+            setTimeout(updateSlider, 50);
+        });
 });
 

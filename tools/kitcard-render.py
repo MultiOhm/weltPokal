@@ -15,19 +15,7 @@ with open(input_file, newline="", encoding="utf-8") as csvfile:
         texture = row["texture"]
 
         # Ländername optional über Mapping
-        countries = {
-            "pt": "Portugal",
-            "mx": "Mexiko",
-            "jp": "Japan",
-            "uy": "Uruguay",
-            "co": "Kolumbien",
-"be": "Belgien",
-"hr": "Kroatien",
-"br": "Brasilien",
-"en": "England",
-"ar": "Argentinien",
-"ir": "IR Iran",
-        }
+    
 
         country_name = countries.get(country, country.upper())
 

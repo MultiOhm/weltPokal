@@ -225,14 +225,3 @@
 
 }
 
-#.kit-card::after{
-
-    content:"";
-
-    display:block;
-
-    height:10px;
-
-    background:var(--accentfont);
-
-}

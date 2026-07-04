@@ -24,8 +24,8 @@ box-sizing:border-box;
 }
 
 @font-face {
-  font-family: 'MadimiOne'; /* Name, den Sie in CSS verwenden möchten */
-  src: url('../assets/webfonts/MadimiOne-Regular.ttf') format('truetype'); /* Pfad und Format der Datei */
+  font-family: 'Candara'; /* Name, den Sie in CSS verwenden möchten */
+  src: url('candara.ttf') format('truetype'); /* Pfad und Format der Datei */
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +36,7 @@ background:var(--background);
 
 color:var(--text);
 
-font-family:'MadimiOne';
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -52,7 +52,7 @@ padding:60px;
 
 header{
 
-height:180px;
+height:auto;
 
 display:flex;
 
@@ -67,8 +67,8 @@ flex-direction:column;
 
 width:100%;
 
-background-color: var(--colblue);
-color: var(--colyellow);
+background-color: #000;
+color: white;
 
 }
 
@@ -99,7 +99,7 @@ nav a{
 
 text-decoration:none;
 
-color:var(--colyellow);
+color:white;
 
 transition:.2s;
 
@@ -169,51 +169,70 @@ color:white;
 
 .dropdown{
 
-    display:none;
+    position:relative;
+
+    display:inline-block;
+
+}
+
+.dropdown-content{
 
     position:absolute;
 
     top:100%;
+    left:0;
 
-    left:50%;
+    min-width:180px;
 
-    transform:translateX(-50%);
-
-    background:#151515;
-
-    min-width:160px;
+    background:black;
 
     border-radius:10px;
 
-    padding:10px;
+    overflow:hidden;
 
-    z-index:1000;
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(10px);
+
+    transition:.2s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+
+    z-index:100;
 
 }
 
-.tournament-item:hover .dropdown{
+.dropdown:hover .dropdown-content{
 
-    display:flex;
+    opacity:1;
 
-    flex-direction:column;
+    visibility:visible;
+
+    transform:translateY(0);
 
 }
 
-.dropdown a{
+.dropdown-content a{
+
+    display:block;
+
+    padding:10px 16px;
 
     color:white;
 
     text-decoration:none;
 
-    padding:10px;
-    
+    transition:.2s;
 
 }
 
+.dropdown-content a:hover{
 
-.dropdown a:hover{
+    background:white;
 
-    background:#333;
+    color:black;
 
 }
 
@@ -221,7 +240,7 @@ color:white;
 
 text-align:center;
 
-padding:80px 0;
+padding: 0px 0;
 }
 
 .hero h1{
