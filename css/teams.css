@@ -24,7 +24,7 @@
     padding: 25px;
     border-radius:20px;
     text-decoration: none;
-
+    background-color: black;
 }
 
     
@@ -36,7 +36,8 @@
 .team-card span{
     margin-top: 12px;
     text-align: center;
-    font-size: 24px;
+    font-size: 30px;
+    color: #fff;
 }
 .team::before{
 
@@ -53,5 +54,9 @@
 .team-card:hover{
 
     transform:translateY(-6px);
+    background-color: var(--primary);
+}
 
+.team-card:hover span{
+    color: var(--text);
 }

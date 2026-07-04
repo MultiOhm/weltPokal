@@ -27,7 +27,7 @@ def load_team_codes():
 
         for row in reader:
 
-            codes[row["name"]] = row["code"]
+            codes[row["country"]] = row["flag"]
 
     return codes
 

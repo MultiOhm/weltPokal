@@ -2,6 +2,7 @@ const params=new URLSearchParams(window.location.search);
 
 const teamId=params.get("team");
 
+const currentTournament="2025"
 teamsReady.then(()=>{
 
     const team=teams[teamId];
@@ -30,6 +31,12 @@ teamsReady.then(()=>{
     document.documentElement.style.setProperty(
         "--secondary",
         team.secondary
+    );
+
+    document.documentElement.style.setProperty(
+        "--teamtext",
+        team.text
+
     );
 
 
@@ -68,9 +75,11 @@ function loadMatches(team){
 
             if(
 
-                card.dataset.home===teamId ||
+                (card.dataset.home===teamId ||
 
-                card.dataset.away===teamId
+                card.dataset.away===teamId) &&
+                
+                card.dataset.tournament===currentTournament
 
             ){
 
@@ -291,43 +300,14 @@ document.querySelector(".next").onclick = () => {
     });
 
 };
-
 let isDragging = false;
-let startX = 0;
-let scrollLeft = 0;
-
 let moved = false;
 
-const threshold = 5; // px – ab wann es kein Klick mehr ist
+let startX = 5;
+let scrollLeft = 0;
 
-const slider = document.querySelector('.kit-track');
+const threshold = 20;
 
-slider.addEventListener('pointerdown', (e) => {
-  isDragging = true;
-  moved = false;
+const slider = document.querySelector(".kit-track");
 
-  startX = e.clientX;
-  scrollLeft = slider.scrollLeft;
 
-  slider.setPointerCapture(e.pointerId);
-});
-
-slider.addEventListener('pointermove', (e) => {
-  if (!isDragging) return;
-
-  const walk = e.clientX - startX;
-
-  if (Math.abs(walk) > threshold) {
-    moved = true;
-  }
-
-  slider.scrollLeft = scrollLeft - walk;
-});
-
-slider.addEventListener('pointerup', (e) => {
-  isDragging = false;
-  slider.releasePointerCapture(e.pointerId);
-});
-
-slider.addEventListener('pointerup', stopDragging);
-slider.addEventListener('pointercancel', stopDragging);

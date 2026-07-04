@@ -10,10 +10,10 @@ window.teamsReady.then(() => {
         
         container.innerHTML += `
 
-        <a class="team-card" href="team.html?team=${team.country}" style="background-color:${team.primary}">
+        <a class="team-card" href="team.html?team=${team.country}" style="--primary:${team.primary};--text:${team.text};">
             <img src="${CONFIG.BASE}flags/${team.flag}.png"><br>
 
-            <span class="team-name" style="color:${team.text}">
+            <span class="team-name">
 
                 ${team.code}
 
@@ -23,6 +23,7 @@ window.teamsReady.then(() => {
         </a>
 
         `;
+
 
     });
 

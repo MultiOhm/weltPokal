@@ -49,7 +49,7 @@ with open(input_file, newline="", encoding="utf-8") as csvfile:
         </div>
 
         <div class="meta">
-            {kit_type.capitalize()} • <br>{country_name} {year}
+            {kit_type.upper()} • {year}
         </div>
 
     </div>

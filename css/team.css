@@ -17,17 +17,13 @@ padding:40px;
 
     background:var(--primary);
 
-    color:var(--secondary);
+    color:var(--teamtext);
 
     border-radius:24px;
 
     padding:50px;
 
     overflow:hidden;
-
-}
-
-.team-hero{
 
     position:relative;
 
@@ -102,9 +98,25 @@ display:block;
 }
 
 .team-grid{
-    display: grid;
+
+    display:grid;
+
     grid-template-columns:1fr 1fr;
 
+    gap:20px;
+
+    align-items:start;
+
+}
+
+.left-column,
+.right-column{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
 
 }
 
@@ -120,8 +132,15 @@ border-radius:20px;
 
 padding:30px;
 
-margin: 20px;
+margin-bottom: 20px;
 
+}
+
+.team-matches h2{
+    margin-bottom: 30px;
+}
+.team-matches{
+    max-width: 1000px;
 }
 
 /* ---------- Timeline ---------- */
@@ -129,6 +148,7 @@ margin: 20px;
 .history{
 
     overflow-x:auto;
+    margin-bottom: 30px;
 
 }
 
@@ -244,6 +264,10 @@ margin: 20px;
 
 }
 
+.history-dot.forth{
+    background-color: skyblue;
+}
+
 .history-dot.third{
 
     background:rgb(244, 164, 96);
@@ -285,6 +309,10 @@ margin: 20px;
 
 @media(max-width:900px){
 
+    .team-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .history-events{
 
         overflow-x:auto;
@@ -299,7 +327,7 @@ margin: 20px;
 
     .history-event{
 
-        min-width:90px;
+        min-width:10px;
 
     }
 
@@ -325,8 +353,8 @@ margin: 20px;
     overflow: visible;
 }
 
-.kit-slider::before,
-.kit-slider::after{
+#kit-slider::before,
+#kit-slider::after{
 
     content:"";
     position:absolute;
@@ -334,7 +362,6 @@ margin: 20px;
     bottom:0;
     width:100px;
     z-index:5;
-    pointer-events:none;
 
 }
 
@@ -365,7 +392,7 @@ margin: 20px;
 
     display:flex;
 
-    gap:0px;
+    gap:-100px;
 
     overflow-x:auto;
 
@@ -374,10 +401,6 @@ margin: 20px;
     scrollbar-width:none;
 
     -ms-overflow-style:none;
-
-    padding:10px 5px;
-    overflow-x: scroll;
-    cursor: grab;
     user-select: none;
     touch-action: pan-y; /* wichtig! */
 
@@ -395,9 +418,8 @@ margin: 20px;
 .kit-track .kit-card{
 
     flex:0 0 10px;   /* feste Breite */
-
+    user-select:none;
 }
-
 
 /* ---------- Buttons ---------- */
 
@@ -430,17 +452,9 @@ margin: 20px;
     justify-content: space-around;
     
 }
-@media(max-width:900px)
-{
-    .slider-buttons{
-        display: none;
-    }
-}
 
 .kit-slider .kit-render{
     height: 150px;
-    pointer-events: none;
-    user-select: none;
 }
 
 .kit-slider .kit-info{
@@ -462,34 +476,6 @@ margin: 20px;
 
 /* ---------- Mobile ---------- */
 
-@media(max-width:900px){
-
-    .kit-slider{
-
-        grid-template-columns:1fr;
-
-    }
-
-    .kit-slider button{
-
-        display:none;
-
-    }
-
-    .kit-track{
-
-
-        padding-bottom:10px;
-
-    }
-
-    .kit-track .kit-card{
-
-        flex:0 0 0px;
-
-    }
-
-}
 
 
 
@@ -542,9 +528,5 @@ padding:12px;
 
 border-bottom:1px solid #2a2a2a;
 
-}
-
-.team-matches h2{
-    margin-bottom: 10px;
 }
 
