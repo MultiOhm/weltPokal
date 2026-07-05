@@ -2,7 +2,7 @@ const params=new URLSearchParams(window.location.search);
 
 const teamId=params.get("team");
 
-const currentTournament="2025"
+const currentTournament="2015"
 teamsReady.then(()=>{
 
     const team=teams[teamId];
@@ -52,7 +52,7 @@ teamsReady.then(()=>{
 
 function loadMatches(team){
 
-    fetch(CONFIG.BASE+"data/generated/matchcards.html")
+    fetch(CONFIG.BASE+"matchcards.html")
 
     .then(r=>r.text())
 
@@ -77,9 +77,7 @@ function loadMatches(team){
 
                 (card.dataset.home===teamId ||
 
-                card.dataset.away===teamId) &&
-                
-                card.dataset.tournament===currentTournament
+                card.dataset.away===teamId) // && card.dataset.tournament===currentTournament
 
             ){
 

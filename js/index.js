@@ -173,7 +173,7 @@ function updateDots(){
 
 window.teamsReady.then(() => {
 
-    fetch(CONFIG.BASE + "data/generated/matchcards.html")
+    fetch(CONFIG.BASE + "matchcards.html")
         .then(r => r.text())
         .then(html => {
 
