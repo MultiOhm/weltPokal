@@ -1,5 +1,7 @@
 id,tournament,stage,group,matchday,date,time,city,stadium,home,away,homeGoals,awayGoals,status
 
+1,2015,group,A,1,2015-07-01,16:00,London,London Stadium,England,Kamerun,4,1,finished
+1,2015,group,A,1,2015-07-01,21:00,Manchester,Old Trafford,Schottland,Trinidad und Tobago,2,2,finished
 1,2025,group,A,1,2025-07-01,18:00,Cali,Cali Stadium,Kolumbien,Marokko,,,no
 2,2025,group,A,1,2025-07-01,21:00,Bogotá,Bogotá Stadium,Italien,Mexiko,,,no
 3,2025,group,B,1,2025-07-01,18:00,Manizales,Cali Stadium,Spanien,Republik Korea,,,no

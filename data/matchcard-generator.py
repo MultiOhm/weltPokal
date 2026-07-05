@@ -6,7 +6,7 @@ import os
 # Einstellungen
 # ==========================
 
-TOURNAMENT = "2025"
+TOURNAMENT = "2015"
 GROUP = "A"
 GROUPS = ["A", "B", "C", "D",]# "E", "F", "G", "H"]
 
@@ -62,7 +62,7 @@ def load_matches_group(group):
 
         for row in reader:
 
-            if row["group"] == group:
+            if row["group"] == group and row["tournament"] == TOURNAMENT:
 
                 matches.append(row)
 
@@ -163,6 +163,25 @@ with open(
 # Tabelle berechnen
 # ==========================
 
+def createGroupCSV(matches,group):
+    table = []
+    for match in matches:
+        if match["matchday"] == "1":
+            team = match["home"]
+            table.append(team)
+            team = match["away"]
+            table.append(team)
+        
+    with open(
+        TOURNAMENT+"/"+group+"/group.html",
+        "w",
+    encoding="utf-8"
+    ) as file:
+
+        file.write(
+            str(table)
+        )
+        
 def calculate_table(matches):
 
     table = {}
@@ -412,6 +431,7 @@ for s in GROUPS:
     GROUP = s
     groupmatches = load_matches_group(s)
     table = calculate_table(groupmatches)
+#    createGroupCSV(groupmatches,s)
     table_html = create_table_html(table)
     OUTPUT = TOURNAMENT+"/"+GROUP+"/standings.html"
     os.makedirs(

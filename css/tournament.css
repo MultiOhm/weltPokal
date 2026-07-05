@@ -2,8 +2,8 @@
 .tournament-header{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-color: #000011;
-    color: var(--colyellow);
+    background-color: #080808;
+    color: white;
     border-radius: 18px;
     padding: 20px;
 }
@@ -48,10 +48,33 @@
     gap: 20px;
 }
 
+
 .group-grid{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     gap:20px
+}
+
+@media(max-width:900px){
+    .group-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:550px){
+    .tournament-header{
+        grid-template-columns: 1fr;
+    }
+
+    .tournament-grid{
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .group-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .group-card{
@@ -79,10 +102,38 @@
     user-select: none;
     text-decoration: none;
 }
+.group-card-team{
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+.group-card-team::after{
+
+    content:"";
+
+    position:absolute;
+
+    left: 0;
+    top:90%;
+
+    height:10%;
+    width: 100%;
+
+
+    background:var(--primary);
+
+
+}
 
 .group-card a:hover{
-    background-color: white;
-    color: black;
+    background-color: var(--primary);
+    color:var(--text);
 }
 
 .tournament-grid div{
@@ -91,4 +142,8 @@
     border-radius: 18px;
     margin-top:20px;
     margin-bottom: 20px;
+}
+
+.tournament-result .resultFlag{
+    height: 24px;
 }

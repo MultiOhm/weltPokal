@@ -150,6 +150,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+
+
 window.teamsReady.then(() => {
 
     fetch(CONFIG.BASE + "data/generated/kitcards.html")

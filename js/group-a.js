@@ -13,12 +13,6 @@ const group = params.get("group");
 
 document.title = `weltPokal ${year} | Gruppe ${group}`;
 
-document.getElementById("tournament-title").textContent =
-    `weltPokal ${year}`;
-
-document.getElementById("group-title").textContent =
-    `Gruppe ${group}`;
-
 // ----------------------------------------
 // Matchcards laden
 // ----------------------------------------
@@ -39,13 +33,15 @@ window.teamsReady.then(() => {
 
             // 👉 Beispiel: Filterwerte (kannst du dynamisch setzen!)
             const allowedGroup = group; // z. B. "A"
+            const allowedYear = year;
 
             const filtered = cards.filter(card => {
 
                 const group = card.dataset.group;
-                const stage = card.dataset.stage;
-
-                return (!allowedGroup || group === allowedGroup);            });
+                const year = card.dataset.tournament;
+                console.log(card);
+                
+                return ((!allowedGroup || group === allowedGroup) &&(!allowedYear || year === allowedYear));            });
 
             track.innerHTML = "";
             filtered.forEach(card => track.appendChild(card));
@@ -67,9 +63,33 @@ window.teamsReady.then(() => {
                 card.style.setProperty("--away-text", away.text);
             });
 
-            setTimeout(updateSlider, 50);
+        //    setTimeout(updateSlider, 50);
         });
 });
+
+window.groupsReady.then(() => {
+
+    document.getElementById("tournament").textContent = "weltPokal "+year;
+    document.getElementById("host").textContent = tournaments[year].host;
+
+    document.getElementById("team1").textContent = tournamentGroups[year][group].team1;
+    document.getElementById("team1").style.setProperty("--primary",teams[tournamentGroups[year][group].team1].primary);
+    document.getElementById("team1").style.setProperty("--text",teams[tournamentGroups[year][group].team1].text);
+
+    document.getElementById("team2").textContent = tournamentGroups[year][group].team2;
+    document.getElementById("team2").style.setProperty("--primary",teams[tournamentGroups[year][group].team2].primary);
+    document.getElementById("team2").style.setProperty("--text",teams[tournamentGroups[year][group].team2].text);
+
+    document.getElementById("team3").textContent = tournamentGroups[year][group].team3;
+    document.getElementById("team3").style.setProperty("--primary",teams[tournamentGroups[year][group].team3].primary);
+    document.getElementById("team3").style.setProperty("--text",teams[tournamentGroups[year][group].team3].text);
+
+    document.getElementById("team4").textContent = tournamentGroups[year][group].team4;
+    document.getElementById("team4").style.setProperty("--primary",teams[tournamentGroups[year][group].team4].primary);
+    document.getElementById("team4").style.setProperty("--text",teams[tournamentGroups[year][group].team4].text);
+
+});
+
 
 fetch(CONFIG.BASE + "data/"+year+"/"+group+"/standings.html")
 
@@ -87,8 +107,6 @@ fetch(CONFIG.BASE + "data/"+year+"/"+group+"/standings.html")
 });
 
 
-document.getElementById("groupTeams").textContent =
-    findTeams(group);
 
 
 
@@ -127,14 +145,7 @@ document.addEventListener("click", function (e) {
 
 });
 
-function findTeams(groupString)
-{
-    if (groupString == "A")
-        return "Portugal - Algerien - Uruguay - Niederlande"
-    if (groupString == "B")
-        return "Brasilien - Nigeria - Iran - Kroatien"
-    return "Teams Missing"
-}
+
 
 // ----------------------------------------
 // Popup schließen

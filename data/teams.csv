@@ -25,7 +25,7 @@ Neuseeland,NZL,nz,#000000,#FFFFFF,#FFFFFF
 Japan,JPN,jp,#ffffff,#BC002D,#BC002D
 Republik Korea,KOR,kr,#C60C30,#003478,#FFFFFF
 IR Iran,IRN,ir,#ffffff,#DA0000,#DA0000
-Saudi-Arabien,KSA,sa,#006C35,#FFFFFF,#FFFFFF
+Saudi Arabien,KSA,sa,#006C35,#FFFFFF,#FFFFFF
 Ägypten,EGY,eg,#CE1126,#FFFFFF,#000000
 Marokko,MAR,ma,#C1272D,#006233,#FFFFFF
 Tunesien,TUN,tn,#E70013,#FFFFFF,#FFFFFF
@@ -50,5 +50,6 @@ Russland,RUS,ru,#DA291C,#0033A0,#ffffff
 Nordirland,NIR,gb,#046547,#083484,#ffffff
 Serbien,SRB,rs,#C6363C,#0C4076,#ffffff
 Wales,WAL,gb,#d30731,#174a3f,#ffffff
-Ukraine,UKR,UA,#FFD700,#0057B8,#0057B8
+Ukraine,UKR,ua,#FFD700,#0057B8,#0057B8
 Griechenland,GRE,gr,#0D5EAF,#ffffff,#ffffff
+Schottland,SCO,gb,#005EB8,#005EB8,#ffffff

@@ -1,8 +1,8 @@
 .group-header{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color: #000011;
-    color: var(--colyellow);
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #080808;
+    color: white;
     border-radius: 18px;
     padding: 20px;
 
@@ -22,8 +22,8 @@
 }
 
 .group-teams a:hover{
-    background-color: white;
-    color: black;
+    background-color: var(--primary);
+    color: var(--text);
 }
 
 .group-content{
@@ -79,9 +79,9 @@
 
 .standings th{
 
-    background:var(--colyellow);
+    background:white;
 
-    color:var(--colblue);
+    color:black;
 
     padding:14px;
 
@@ -104,17 +104,25 @@
     display: none;
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1000px){
     .standings .removeable{
         display: none;
     }
 }
-@media (max-width: 1200px){
-    .standings .table-team .long{
-        display: none;
+@media (max-width: 800px){
+    .group-content{
+        grid-template-columns: 1fr;
     }
-    .standings .table-team .short{
-        display: inline;
+
+    .group-header{
+        grid-template-columns: 1fr;
+        gap:20px;
+    }
+    .group-teams{
+        width: 100%;
+    }
+    .group-teams a{
+        font-size: 12px;
     }
 }
 .group-stats{
@@ -168,7 +176,7 @@
 .popup-box{
 
     position:relative;
-
+    margin-top: 10%;
     background:var(--background);
 
     padding:40px;
@@ -245,4 +253,3 @@
     cursor:pointer;
 
 }
-

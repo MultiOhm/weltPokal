@@ -13,7 +13,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-
+    position: relative;
 
     overflow:hidden;
 
@@ -26,6 +26,24 @@
     background-color: black;
 }
 
+.team-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left: 0;
+    top:95%;
+
+    height:5%;
+    width: 100%;
+
+
+    background:var(--primary);
+
+
+
+}
     
 .team-card img{
     height: 64px;
