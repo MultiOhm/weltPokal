@@ -3,7 +3,7 @@ window.tournamentsReady = fetch(CONFIG.BASE + "data/tournaments.csv")
     .then(r => r.text())
     .then(csv => {
 
-        const rows = csv.trim().split("\r\n");
+        const rows = csv.trim().split(/\r?\n/);
         rows.shift();
 
         rows.forEach(row => {
@@ -26,7 +26,7 @@ window.groupsReady = fetch(CONFIG.BASE + "data/groups.csv")
 .then(r => r.text())
 .then(csv => {
 
-    const rows = csv.trim().split("\r\n");
+    const rows = csv.trim().split(/\r?\n/);
     rows.shift();
 
     rows.forEach(row => {
