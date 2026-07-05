@@ -79,7 +79,7 @@ function teamLink(name){
     return `
 
         <a class="group-card-team" href="team.html?team=${name}" style="--primary:${teams[name].primary};--text:${teams[name].text};">
-            <img style="height:12px" src="../flags/${teams[name].flag}.png">
+            <img style="height:12px" src="flags/${teams[name].flag}.png">
             ${teams[name].code}
         </a>
 
