@@ -1,5 +1,5 @@
 window.tournaments = {};
-window.tournamentsReady = fetch("weltPokal/data/tournaments.csv")
+window.tournamentsReady = fetch("data/tournaments.csv")
     .then(r => r.text())
     .then(csv => {
 
@@ -22,7 +22,7 @@ window.tournamentsReady = fetch("weltPokal/data/tournaments.csv")
     });
 
 window.tournamentGroups = {};
-window.groupsReady = fetch("weltPokal/data/groups.csv")
+window.groupsReady = fetch("data/groups.csv")
 .then(r => r.text())
 .then(csv => {
 

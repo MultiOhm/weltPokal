@@ -1,5 +1,5 @@
 window.teams = {};
-window.teamsReady = fetch("weltPokal/data/teams.csv")
+window.teamsReady = fetch("data/teams.csv")
     .then(r => r.text())
     .then(csv => {
 
