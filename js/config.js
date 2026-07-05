@@ -6,8 +6,8 @@ const CONFIG = {
         const path = window.location.pathname;
 
         // GitHub Pages
-        if (path.startsWith("weltPokal/")) {
-            return "weltPokal/";
+        if (path.startsWith("/weltPokal/")) {
+            return "/weltPokal/";
         }
 
         // Live Server
