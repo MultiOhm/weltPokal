@@ -1,5 +1,5 @@
 window.teams = {};
-window.teamsReady = fetch("data/teams.csv")
+window.teamsReady = fetch(CONFIG.BASE + "data/teams.csv")
     .then(r => r.text())
     .then(csv => {
 
