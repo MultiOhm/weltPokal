@@ -1,4 +1,4 @@
-fetch(CONFIG.BASE + "components/header.html")
+fetch(CONFIG.BASE + "header.html")
 
 .then(r=>r.text())
 
