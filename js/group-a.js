@@ -66,15 +66,41 @@ window.teamsReady.then(() => {
         //    setTimeout(updateSlider, 50);
         });
 });
+tournamentGroups1 = {};
+groupsReady = fetch(CONFIG.BASE + "data/groups.csv")
+.then(r => r.text())
+.then(csv => {
 
-window.groupsReady.then(() => {
+    const rows = csv.trim().split(/\r?\n/);
+    rows.shift();
 
+    rows.forEach(row => {
+
+        const [year, group, team1, team2, team3, team4] = row.split(",");
+
+        if(!tournamentGroups1[year]){
+
+            tournamentGroups1[year] = {};
+
+        }
+
+        window.tournamentGroups[year][group] = {
+
+            team1,
+            team2,
+            team3,
+            team4
+
+        };
+
+    });
     document.getElementById("tournament").textContent = "weltPokal "+year;
     document.getElementById("host").textContent = tournaments[year].host;
 
     document.getElementById("team1").textContent = tournamentGroups[year][group].team1;
     document.getElementById("team1").style.setProperty("--primary",teams[tournamentGroups[year][group].team1].primary);
     document.getElementById("team1").style.setProperty("--text",teams[tournamentGroups[year][group].team1].text);
+    
 
     document.getElementById("team2").textContent = tournamentGroups[year][group].team2;
     document.getElementById("team2").style.setProperty("--primary",teams[tournamentGroups[year][group].team2].primary);
@@ -88,7 +114,9 @@ window.groupsReady.then(() => {
     document.getElementById("team4").style.setProperty("--primary",teams[tournamentGroups[year][group].team4].primary);
     document.getElementById("team4").style.setProperty("--text",teams[tournamentGroups[year][group].team4].text);
 
+
 });
+
 
 
 fetch(CONFIG.BASE + "data/"+year+"/"+group+"/standings.html")

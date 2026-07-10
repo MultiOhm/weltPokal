@@ -1,19 +1,177 @@
-id,tournament,stage,group,matchday,date,time,city,stadium,home,away,homeGoals,awayGoals,status
-
-1,2015,group,A,1,2015-07-01,16:00,London,London Stadium,England,Kamerun,4,1,finished
-1,2015,group,A,1,2015-07-01,21:00,London,Stamford Bridge,Schottland,Trinidad und Tobago,2,2,finished
-2,2015,group,B,1,2015-07-02,15:00,Manchester,Old Trafford,Italien,Republik Korea,1,0,finished
-2,2015,group,B,1,2015-07-02,15:00,Manchester,City of Manchester,Kroatien,Chile,1,2,finished
-
-1,2025,group,A,1,2025-07-01,18:00,Cali,Cali Stadium,Kolumbien,Marokko,,,no
-2,2025,group,A,1,2025-07-01,21:00,Bogotá,Bogotá Stadium,Italien,Mexiko,,,no
-3,2025,group,B,1,2025-07-01,18:00,Manizales,Cali Stadium,Spanien,Republik Korea,,,no
-4,2025,group,B,1,2025-07-01,21:00,Baranquilla,Cali Stadium,Mali,Dänemark,,,no
-
-5,2025,group,C,1,2025-07-05,18:00,Perreira,Cali Stadium,Brasilien,IR Iran,,,no
-6,2025,group,C,1,2025-07-05,21:00,Cali,Cali Stadium,Neuseeland,Kroatien,,,no
-
-7,2025,group,D,1,2025-07-09,18:00,Manizales,Cali Stadium,Portugal,Venezuela,,,no
-8,2025,group,D,1,2025-07-09,18:00,Baranquilla,Cali Stadium,Österreich,Kanada,,,no
-
-9,2025,group,C,2,2025-07-10,15:00,Medellin,Medellin Stadium,Kroatien,IR Iran,,,no
+id,tournament,stage,group,matchday,date,time,city,stadium,home,away,homeGoals,homePens,awayGoals,awayPens,note,status
+101,2015,group,A,1,2015-07-01,16:00,London,London Stadium,England,Kamerun,4,,1,,,finished
+102,2015,group,A,1,2015-07-01,21:00,London,Stamford Bridge,Schottland,Trinidad und Tobago,2,,2,,,finished
+103,2015,group,B,1,2015-07-02,15:00,Manchester,Old Trafford,Italien,Republik Korea,1,,0,,,finished
+104,2015,group,B,1,2015-07-02,15:00,Manchester,City of Manchester,Kroatien,Chile,1,,2,,,finished
+105,2015,group,C,1,2015-07-02,19:00,London,Wembley Stadium,Spanien,Brasilien,2,,0,,,finished
+106,2015,group,C,1,2015-07-02,21:00,Newcastle,St. James Park,Costa Rica,Bosnien und Herzegowina,2,,1,,,finished
+107,2015,group,D,1,2015-07-03,,,,Uruguay,Ghana,2,,1,,,finished
+108,2015,group,D,1,2015-07-03,,,,Schweden,Australien,0,,0,,,finished
+109,2015,group,E,1,2015-07-03,,,,Kolumbien,Nigeria,1,,1,,,finished
+110,2015,group,E,1,2015-07-04,,,,Neuseeland,Russland,2,,3,,,finished
+111,2015,group,F,1,,,,,Deutschland,Schweiz,4,,1,,,finished
+112,2015,group,F,1,,,,,Japan,Elfenbeinküste,3,,1,,,finished
+113,2015,group,G,1,,,,,Argentinien,Algerien,3,,2,,,finished
+114,2015,group,G,1,,,,,Portugal,Mexiko,1,,2,,,finished
+115,2015,group,H,1,,,,,Niederlande,Ecuador,3,,2,,,finished
+116,2015,group,H,1,,,,,USA,Frankreich,2,,1,,,finished
+117,2015,group,A,2,,,,,England,Schottland,3,,3,,,finished
+118,2015,group,A,2,,,,,Trinidad und Tobago,Kamerun,1,,0,,,finished
+119,2015,group,B,2,,,,,Italien,Kroatien,1,,1,,,finished
+120,2015,group,B,2,,,,,Chile,Republik Korea,2,,2,,,finished
+121,2015,group,C,2,,,,,Spanien,Costa Rica,1,,1,,,finished
+122,2015,group,C,2,,,,,Bosnien und Herzegowina,Brasilien,2,,1,,,finished
+123,2015,group,D,2,,,,,Uruguay,Schweden,0,,1,,,finished
+124,2015,group,D,2,,,,,Australien,Ghana,1,,2,,,finished
+125,2015,group,E,2,,,,,Kolumbien,Neuseeland,2,,1,,,finished
+126,2015,group,E,2,,,,,Russland,Nigeria,2,,0,,,finished
+127,2015,group,F,2,,,,,Deutschland,Japan,2,,1,,,finished
+128,2015,group,F,2,,,,,Elfenbeinküste,Schweiz,1,,3,,,finished
+129,2015,group,G,2,,,,,Argentinien,Portugal,2,,2,,,finished
+130,2015,group,G,2,,,,,Mexiko,Algerien,2,,1,,,finished
+131,2015,group,H,2,,,,,Niederlande,USA,3,,0,,,finished
+132,2015,group,H,2,,,,,Frankreich,Ecuador,0,,0,,,finished
+133,2015,group,A,3,,,,,Trinidad und Tobago,England,0,,4,,,finished
+134,2015,group,A,3,,,,,Kamerun,Schottland,3,,0,,,finished
+135,2015,group,B,3,,,,,Chile,Italien,0,,1,,,finished
+136,2015,group,B,3,,,,,Republik Korea,Kroatien,0,,0,,,finished
+137,2015,group,C,3,,,,,Bosnien und Herzegowina,Spanien,1,,1,,,finished
+138,2015,group,C,3,,,,,Brasilien,Costa Rica,2,,1,,,finished
+139,2015,group,D,3,,,,,Australien,Uruguay,1,,2,,,finished
+140,2015,group,D,3,,,,,Ghana,Schweden,0,,1,,,finished
+141,2015,group,E,3,,,,,Russland,Kolumbien,1,,2,,,finished
+142,2015,group,E,3,,,,,Nigeria,Neuseeland,2,,1,,,finished
+143,2015,group,F,3,,,,,Elfenbeinküste,Deutschland,1,,5,,,finished
+144,2015,group,F,3,,,,,Schweiz,Japan,4,,1,,,finished
+145,2015,group,G,3,,,,,Mexiko,Argentinien,0,,0,,,finished
+146,2015,group,G,3,,,,,Algerien,Portugal,1,,2,,,finished
+147,2015,group,H,3,,,,,Frankreich,Niederlande,0,,1,,,finished
+148,2015,group,H,3,,,,,Ecuador,USA,1,,0,,,finished
+149,2015,r16,,4,,,,,England,Chile,3,,1,,,finished
+150,2015,r16,,4,,,,,Spanien,Uruguay,0,,2,,,finished
+151,2015,r16,,4,,,,,Kolumbien,Schweiz,0,,1,,,finished
+152,2015,r16,,4,,,,,Mexiko,Ecuador,3,,0,,,finished
+153,2015,r16,,4,,,,,Italien,Trinidad und Tobago,2,,1,,,finished
+154,2015,r16,,4,,,,,Schweden,Costa Rica,1,,2,,,finished
+155,2015,r16,,4,,,,,Deutschland,Russland,1,,0,,,finished
+156,2015,r16,,4,,,,,Niederlande,Argentinien,1,,0,,,finished
+157,2015,qf,,5,,,,,England,Uruguay,2,,1,,,finished
+158,2015,qf,,5,,,,,Schweiz,Mexiko,1,,0,,,finished
+159,2015,qf,,5,,,,,Italien,Costa Rica,0,,1,,,finished
+160,2015,qf,,5,,,,,Deutschland,Niederlande,3,,2,,,finished
+161,2015,sf,,6,,,,,England,Mexiko,3,,1,,,finished
+162,2015,sf,,6,,,,,Costa Rica,Deutschland,2,4,2,5,,finished
+163,2015,p3,,7,,,,,Mexiko,Costa Rica,1,1,1,3,,finished
+164,2015,f,,8,,,,,England,Deutschland,2,4,2,5,,finished
+201,2018,group,A,1,,,,,Marokko,Kolumbien,2,,1,,,finished
+202,2018,group,A,1,,,,,Nordirland,Russland,0,,1,,,finished
+203,2018,group,B,1,,,,,Belgien,Chile,1,,1,,,finished
+204,2018,group,B,1,,,,,Kamerun,Schottland,1,,2,,,finished
+205,2018,group,C,1,,,,,Argentinien,Republik Korea,0,,0,,,finished
+206,2018,group,C,1,,,,,Mexiko,Serbien,0,,1,,,finished
+207,2018,group,D,1,,,,,Frankreich,Neuseeland,4,,0,,,finished
+208,2018,group,D,1,,,,,Polen,Senegal,1,,0,,,finished
+209,2018,group,E,1,,,,,Deutschland,Nigeria,0,,0,,,finished
+210,2018,group,E,1,,,,,Australien,Dänemark,1,,3,,,finished
+211,2018,group,F,1,,,,,Portugal,Kroatien,2,,0,,,finished
+212,2018,group,F,1,,,,,Uruguay,Ägypten,1,,1,,,finished
+213,2018,group,G,1,,,,,Brasilien,Schweden,2,,1,,,finished
+214,2018,group,G,1,,,,,Japan,England,0,,0,,,finished
+215,2018,group,H,1,,,,,Spanien,Costa Rica,1,,0,,,finished
+216,2018,group,H,1,,,,,Schweiz,Saudi Arabien,1,,0,,,finished
+217,2018,group,A,2,,,,,Marokko,Nordirland,1,,1,,,finished
+218,2018,group,A,2,,,,,Russland,Kolumbien,2,,0,,,finished
+219,2018,group,B,2,,,,,Belgien,Kamerun,2,,0,,,finished
+220,2018,group,B,2,,,,,Schottland,Chile,4,,2,,,finished
+221,2018,group,C,2,,,,,Argentinien,Mexiko,0,,0,,,finished
+222,2018,group,C,2,,,,,Serbien,Republik Korea,1,,0,,,finished
+223,2018,group,D,2,,,,,Polen,Frankreich,0,,1,,,finished
+224,2018,group,D,2,,,,,Neuseeland,Senegal,2,,2,,,finished
+225,2018,group,E,2,,,,,Deutschland,Australien,2,,1,,,finished
+226,2018,group,E,2,,,,,Dänemark,Nigeria,0,,0,,,finished
+227,2018,group,F,2,,,,,Portugal,Uruguay,1,,1,,,finished
+228,2018,group,F,2,,,,,Ägypten,Kroatien,3,,1,,,finished
+229,2018,group,G,2,,,,,Brasilien,Japan,3,,1,,,finished
+230,2018,group,G,2,,,,,England,Schweden,3,,2,,,finished
+231,2018,group,H,2,,,,,Spanien,Schweiz,1,,0,,,finished
+232,2018,group,H,2,,,,,Saudi Arabien,Costa Rica,1,,1,,,finished
+233,2018,group,A,3,,,,,Russland,Marokko,0,,2,,,finished
+234,2018,group,A,3,,,,,Kolumbien,Nordirland,3,,0,,,finished
+235,2018,group,B,3,,,,,Schottland,Belgien,2,,0,,,finished
+236,2018,group,B,3,,,,,Chile,Kamerun,1,,1,,,finished
+237,2018,group,C,3,,,,,Serbien,Argentinien,0,,3,,,finished
+238,2018,group,C,3,,,,,Republik Korea,Mexiko,0,,2,,,finished
+239,2018,group,D,3,,,,,Neuseeland,Polen,0,,1,,,finished
+240,2018,group,D,3,,,,,Senegal,Frankreich,0,,3,,,finished
+241,2018,group,E,3,,,,,Dänemark,Deutschland,2,,0,,,finished
+242,2018,group,E,3,,,,,Nigeria,Australien,1,,1,,,finished
+243,2018,group,F,3,,,,,Ägypten,Portugal,1,,1,,,finished
+244,2018,group,F,3,,,,,Kroatien,Uruguay,0,,0,,,finished
+245,2018,group,G,3,,,,,England,Brasilien,1,,0,,,finished
+246,2018,group,G,3,,,,,Schweden,Japan,2,,0,,,finished
+247,2018,group,H,3,,,,,Saudi Arabien,Spanien,0,,2,,,finished
+248,2018,group,H,3,,,,,Costa Rica,Schweiz,0,,2,,,finished
+249,2018,r16,,4,,,,,Marokko,Belgien,1,,0,,,finished
+250,2018,r16,,4,,,,,Serbien,Polen,1,,3,,,finished
+251,2018,r16,,4,,,,,Dänemark,Portugal,1,4,1,1,i.E.,finished
+252,2018,r16,,4,,,,,England,Schweiz,2,,1,,,finished
+253,2018,r16,,4,,,,,Schottland,Russland,2,3,2,4,i.E.,finished
+254,2018,r16,,4,,,,,Frankreich,Argentinien,1,,0,,,finished
+255,2018,r16,,4,,,,,Ägypten,Deutschland,0,,2,,,finished
+256,2018,r16,,4,,,,,Spanien,Brasilien,0,,2,,,finished
+257,2018,qf,,5,,,,,Marokko,Polen,2,,1,,,finished
+258,2018,qf,,5,,,,,Dänemark,England,0,,1,,,finished
+259,2018,qf,,5,,,,,Russland,Frankreich,0,,2,,,finished
+260,2018,qf,,5,,,,,Deutschland,Brasilien,0,,1,,,finished
+261,2018,sf,,6,,,,,Marokko,England,1,,0,,,finished
+262,2018,sf,,6,,,,,Frankreich,Brasilien,1,,3,,n.V.,finished
+263,2018,p3,,7,,,,,England,Frankreich,0,,1,,n.V.,finished
+264,2018,f,,8,,,,,Marokko,Brasilien,2,,3,,n.V.,finished
+601,2025,group,A,1,2025-07-10,18:00,Cali,Cali Stadium,Kolumbien,Marokko,,,,,,no
+602,2025,group,A,1,2025-07-11,21:00,Bogotá,Bogotá Stadium,Italien,Mexiko,,,,,,no
+603,2025,group,B,1,2025-07-1,18:00,Manizales,Cali Stadium,Spanien,Republik Korea,,,,,,no
+604,2025,group,B,1,2025-07-11,21:00,Baranquilla,Cali Stadium,Mali,Dänemark,,,,,,no
+605,2025,group,C,1,2025-07-11,18:00,Perreira,Cali Stadium,Brasilien,IR Iran,,,,,,no
+606,2025,group,C,1,2025-07-12,21:00,Cali,Cali Stadium,Neuseeland,Kroatien,,,,,,no
+607,2025,group,D,1,2025-07-12,18:00,Manizales,Cali Stadium,Portugal,Venezuela,,,,,,no
+608,2025,group,D,1,2025-07-12,18:00,Baranquilla,Cali Stadium,Österreich,Kanada,,,,,,no
+609,2025,group,E,1,,,,,Deutschland,Australien,,,,,,no
+610,2025,group,E,1,,,,,Belgien,Ecuador,,,,,,no
+611,2025,group,F,1,,,,,Argentinien,Ägypten,,,,,,no
+612,2025,group,F,1,,,,,Schweiz,Japan,,,,,,no
+613,2025,group,G,1,,,,,England,Senegal,,,,,,no
+614,2025,group,G,1,,,,,Uruguay,Griechenland,,,,,,no
+615,2025,group,H,1,,,,,Frankreich,Algerien,,,,,,no
+616,2025,group,H,1,,,,,USA,Niederlande,,,,,,no
+617,2025,group,A,2,,,,,Kolumbien,Italien,,,,,,no
+618,2025,group,A,2,,,,,Mexiko,Marokko,,,,,,no
+619,2025,group,B,2,,,,,Spanien,Mali,,,,,,no
+620,2025,group,B,2,,,,,Dänemark,Republik Korea,,,,,,no
+621,2025,group,C,2,,,,,Brasilien,Neuseeland,,,,,,no
+622,2025,group,C,2,,,,,Kroatien,IR Iran,,,,,,no
+623,2025,group,D,2,,,,,Portugal,Österreich,,,,,,no
+624,2025,group,D,2,,,,,Kanada,Venezuela,,,,,,no
+625,2025,group,E,2,,,,,Deutschland,Belgien,,,,,,no
+626,2025,group,E,2,,,,,Ecuador,Australien,,,,,,no
+627,2025,group,F,2,,,,,Argentinien,Schweiz,,,,,,no
+628,2025,group,F,2,,,,,Japan,Ägypten,,,,,,no
+629,2025,group,G,2,,,,,England,Uruguay,,,,,,no
+630,2025,group,G,2,,,,,Griechenland,Senegal,,,,,,no
+631,2025,group,H,2,,,,,Frankreich,USA,,,,,,no
+632,2025,group,H,2,,,,,Niederlande,Algerien,,,,,,no
+633,2025,group,A,3,,,,,Mexiko,Kolumbien,,,,,,no
+634,2025,group,A,3,,,,,Marokko,Italien,,,,,,no
+635,2025,group,B,3,,,,,Dänemark,Spanien,,,,,,no
+636,2025,group,B,3,,,,,Republik Korea,Mali,,,,,,no
+637,2025,group,C,3,,,,,Kroatien,Brasilien,,,,,,no
+638,2025,group,C,3,,,,,IR Iran,Neuseeland,,,,,,no
+639,2025,group,D,3,,,,,Kanada,Portugal,,,,,,no
+640,2025,group,D,3,,,,,Venezuela,Österreich,,,,,,no
+641,2025,group,E,3,,,,,Ecuador,Deutschland,,,,,,no
+642,2025,group,E,3,,,,,Australien,Belgien,,,,,,no
+643,2025,group,F,3,,,,,Japan,Argentinien,,,,,,no
+644,2025,group,F,3,,,,,Ägypten,Schweiz,,,,,,no
+645,2025,group,G,3,,,,,Griechenland,England,,,,,,no
+646,2025,group,G,3,,,,,Senegal,Uruguay,,,,,,no
+647,2025,group,H,3,,,,,Niederlande,Frankreich,,,,,,no
+648,2025,group,H,3,,,,,Algerien,USA,,,,,,no

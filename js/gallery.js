@@ -185,7 +185,12 @@ window.teamsReady.then(() => {
 
             // 🧠 4. Rendern
             gallery.innerHTML = "";
-            cards.forEach(card => gallery.appendChild(card));
+            cards.forEach(card => {
+                if (card.dataset.year != "2020")
+                {
+                    gallery.appendChild(card);
+                }
+        });
 
             // 🧠 5. Farben setzen
             gallery.querySelectorAll(".kit-card").forEach(card => {
@@ -198,7 +203,7 @@ window.teamsReady.then(() => {
                 }
 
                 card.style.setProperty("--accent", team.primary);
-                card.style.setProperty("--accentfont", team.secondary);
+                card.style.setProperty("--accentfont", team.text);
             });
 
             // 🧠 6. Filter anwenden
@@ -206,4 +211,56 @@ window.teamsReady.then(() => {
 
             console.log("First kitcard:", cards[0]?.outerHTML);
         });
+});
+
+const preview = {
+
+    header : document.getElementById("previewHeader"),
+    body : document.getElementById("previewBody"),
+
+    flag : document.getElementById("previewFlag"),
+
+    country : document.getElementById("previewCountry"),
+
+    render : document.getElementById("previewRender"),
+
+    type : document.getElementById("previewType"),
+
+    tournament : document.getElementById("previewTournament"),
+
+    host : document.getElementById("previewHost")
+
+};
+
+gallery.addEventListener("mouseover", e => {
+
+    const card = e.target.closest(".kit-card");
+
+    if(!card) return;
+
+    preview.flag.src =
+        CONFIG.BASE + "flags/" + card.dataset.country + ".png";
+
+    preview.country.textContent = card.dataset.team;
+
+    preview.type.textContent = card.dataset.type.toUpperCase();
+
+    preview.render.src = CONFIG.BASE + "renders/" + card.dataset.render;
+
+    preview.tournament.textContent = card.dataset.tournament;
+
+    preview.header.style.setProperty(
+        "--accent",
+        getComputedStyle(card).getPropertyValue("--accent")
+    );
+
+    preview.header.style.setProperty(
+        "--accentfont",
+        getComputedStyle(card).getPropertyValue("--accentfont")
+    );
+    preview.body.style.setProperty(
+        "--accentfont",
+        getComputedStyle(card).getPropertyValue("--accentfont")
+    );
+
 });

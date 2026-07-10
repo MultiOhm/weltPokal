@@ -37,19 +37,6 @@
     <div id="country-filter">
 
         <button class="flag-btn active" data-country="all">🌍</button>
-
-        <button class="flag-btn" data-country="jp">
-            <img src="flags/jp.png">
-        </button>
-
-        <button class="flag-btn" data-country="mx">
-            <img src="flags/mx.png">
-        </button>
-
-        <button class="flag-btn" data-country="uy">
-            <img src="flags/uy.png">
-        </button>
-
         <button class="flag-btn" data-country="ar">
             <img src="flags/ar.png">
         </button>
@@ -57,10 +44,28 @@
         <button class="flag-btn" data-country="co">
             <img src="flags/co.png">
         </button>
+        <button class="flag-btn" data-country="fr">
+            <img src="flags/fr.png">
+        </button>
+        <button class="flag-btn" data-country="de">
+            <img src="flags/de.png">
+        </button>
         <button class="flag-btn" data-country="ir">
             <img src="flags/ir.png">
         </button>
+        <button class="flag-btn" data-country="jp">
+            <img src="flags/jp.png">
+        </button>
+        <button class="flag-btn" data-country="ma">
+            <img src="flags/ma.png">
+        </button>
+        <button class="flag-btn" data-country="mx">
+            <img src="flags/mx.png">
+        </button>
 
+        <button class="flag-btn" data-country="uy">
+            <img src="flags/uy.png">
+        </button>
     </div>
 
     <h2>Turniere</h2>
@@ -94,11 +99,42 @@
 </section>
 
 <p id="result-count"></p>
+<div class="gallery-grid">
 
-<section class="gallery" id="gallery">
+    <div id="gallery" class="gallery">
 
-</section>
+        <!-- Kit Cards -->
 
+    </div>
+
+    <aside class="gallery-preview">
+
+        <div id="previewHeader" class="preview-header">
+
+            <img id="previewFlag">
+
+            <h2 id="previewCountry"></h2>
+
+        </div>
+
+        <div id="previewBody" class="preview-body">
+
+            <h3 id="previewType"></h3>
+
+            <img id="previewRender">
+
+        </div>
+
+        <div class="preview-footer">
+
+            <span id="previewTournament"></span><br>
+            <span id="previewHost"></span>
+
+        </div>
+
+    </aside>
+
+</div>
 </main>
 <script src="js/config.js"></script>
 <script src="js/loadHeader.js"></script>

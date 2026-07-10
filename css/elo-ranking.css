@@ -1,0 +1,50 @@
+.page-title{
+    margin: 40px auto;
+    text-align: center;
+}
+
+.ranking{
+    width:70%;
+
+    margin:40px auto;
+
+
+    background: #080808;
+    border-collapse: separate;
+    border-spacing: 0;
+
+
+    overflow: hidden;
+    border-radius: 18px;
+    font-size: 20px;
+}
+
+.ranking th{
+
+    text-align:left;
+
+    padding:12px;
+
+    border-bottom:2px solid #444;
+
+}
+
+.ranking td{
+
+    padding:12px;
+
+}
+
+.ranking-line img{
+    min-height: 40px;
+    border-radius: 0px;
+}
+.ranking-line:nth-child(odd){
+    background: #101010;
+}
+
+.ranking-detail{
+
+    display:none;
+
+}

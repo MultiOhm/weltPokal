@@ -177,14 +177,29 @@ window.teamsReady.then(() => {
         .then(r => r.text())
         .then(html => {
 
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, "text/html");
+
+            const cards = [...doc.querySelectorAll(".match-card")];
+
+            // Neuestes Turnier bestimmen
+            const latestTournament = Math.max(
+                ...cards.map(card => Number(card.dataset.tournament))
+            );
+
+            // Nur Spiele des neuesten Turniers
+            const currentCards = cards.filter(card =>
+                Number(card.dataset.tournament) === latestTournament
+            );
+
             const track = document.getElementById("matchesTrack");
             if (!track) return;
 
-            track.innerHTML = html;
+            track.innerHTML = "";
 
-            document.querySelectorAll(".match-card").forEach(card => {
-            createDots();
-            updateDots();
+            currentCards.slice(0,10).forEach(card => {
+
+                track.appendChild(card);
 
                 const home = window.teams[card.dataset.home];
                 const away = window.teams[card.dataset.away];
@@ -198,9 +213,14 @@ window.teamsReady.then(() => {
                 card.style.setProperty("--away-color", away.primary);
                 card.style.setProperty("--away-secondary", away.secondary);
                 card.style.setProperty("--away-text", away.text);
+
             });
 
-            setTimeout(updateSlider, 50);
-        });
-});
+            createDots();
+            updateDots();
 
+            setTimeout(updateSlider, 50);
+
+        });
+
+});

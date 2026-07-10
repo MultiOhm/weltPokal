@@ -29,6 +29,12 @@
     flex-direction: column-reverse;
 }
 
+.card-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.match-type,
 .match-status{
 
     display:inline-block;
@@ -41,6 +47,10 @@
     padding: 15px;
     font-size:13px;
     height: 60px;
+}
+
+.match-type{
+    text-align: end;
 }
 
 .teams{
@@ -111,7 +121,7 @@
     left:50%;
     transform:translateX(-50%);
 
-    width:80px;
+    width:100px;
     height:60px;
 
     display:grid;

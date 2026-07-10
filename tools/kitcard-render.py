@@ -1,9 +1,18 @@
 import csv
 
+team_file = "../data/teams.csv"
 input_file = "kitcards.csv"
 output_file = "../data/generated/kitcards.html"
 
 html = ""
+
+def findTeam(code):
+    with open(team_file, newline="", encoding="utf-8") as csvteamfile:
+        reader = csv.DictReader(csvteamfile)
+
+        for row in reader:
+            if row["flag"] == code:
+                return row["country"]
 
 with open(input_file, newline="", encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile)
@@ -17,14 +26,15 @@ with open(input_file, newline="", encoding="utf-8") as csvfile:
         # Ländername optional über Mapping
     
 
-        country_name = countries.get(country, country.upper())
+        country_name = findTeam(country)
 
         card = f"""
 <div class="kit-card"
      data-team="{country_name}"
      data-country="{country}"
      data-year="{year}"
-     data-type="{kit_type}">
+     data-type="{kit_type}"
+     data-render="{texture}">
 
     <img class="kit-render"
          src="renders/{texture}">

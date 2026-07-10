@@ -126,7 +126,7 @@ display:block;
 .team-matches,
 .team-news{
 
-background:#10131d;
+background:#080808;
 
 border-radius:20px;
 
@@ -141,6 +141,10 @@ margin-bottom: 20px;
 }
 .team-matches{
     max-width: 1000px;
+}
+
+.match-card{
+    margin-bottom: 20px;
 }
 
 /* ---------- Timeline ---------- */
@@ -530,3 +534,46 @@ border-bottom:1px solid #2a2a2a;
 
 }
 
+.tournament-filter{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+    margin-bottom:20px;
+
+}
+
+.tournament-filter button{
+
+    background:#111;
+
+    color:white;
+
+    border:none;
+
+    border-radius:999px;
+
+    padding:8px 18px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.tournament-filter button:hover{
+
+    background:#2a2a2a;
+
+}
+
+.tournament-filter button.active{
+
+    background:var(--primary);
+
+    color:var(--teamtext);
+
+}

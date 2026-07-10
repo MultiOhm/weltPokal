@@ -1,0 +1,833 @@
+snapshot,tournament,stage,matchday,team,rank,elo
+1,2015,group,1,Deutschland,1,1552
+1,2015,group,1,England,2,1552
+1,2015,group,1,Spanien,3,1545
+1,2015,group,1,Japan,4,1545
+1,2015,group,1,Mexiko,5,1530
+1,2015,group,1,Niederlande,6,1530
+1,2015,group,1,Argentinien,7,1530
+1,2015,group,1,Italien,8,1530
+1,2015,group,1,USA,9,1530
+1,2015,group,1,Uruguay,10,1530
+1,2015,group,1,Costa Rica,11,1530
+1,2015,group,1,Chile,12,1530
+1,2015,group,1,Russland,13,1530
+1,2015,group,1,Kolumbien,14,1500
+1,2015,group,1,Marokko,15,1500
+1,2015,group,1,Belgien,16,1500
+1,2015,group,1,Österreich,17,1500
+1,2015,group,1,Dänemark,18,1500
+1,2015,group,1,Schweden,19,1500
+1,2015,group,1,Polen,20,1500
+1,2015,group,1,Kanada,21,1500
+1,2015,group,1,Australien,22,1500
+1,2015,group,1,IR Iran,23,1500
+1,2015,group,1,Saudi Arabien,24,1500
+1,2015,group,1,Ägypten,25,1500
+1,2015,group,1,Tunesien,26,1500
+1,2015,group,1,Senegal,27,1500
+1,2015,group,1,Venezuela,28,1500
+1,2015,group,1,Trinidad und Tobago,29,1500
+1,2015,group,1,Nigeria,30,1500
+1,2015,group,1,Mali,31,1500
+1,2015,group,1,Jamaika,32,1500
+1,2015,group,1,Peru,33,1500
+1,2015,group,1,Nordirland,34,1500
+1,2015,group,1,Serbien,35,1500
+1,2015,group,1,Wales,36,1500
+1,2015,group,1,Ukraine,37,1500
+1,2015,group,1,Griechenland,38,1500
+1,2015,group,1,Schottland,39,1500
+1,2015,group,1,Portugal,40,1470
+1,2015,group,1,Frankreich,41,1470
+1,2015,group,1,Kroatien,42,1470
+1,2015,group,1,Neuseeland,43,1470
+1,2015,group,1,Republik Korea,44,1470
+1,2015,group,1,Algerien,45,1470
+1,2015,group,1,Ghana,46,1470
+1,2015,group,1,Ecuador,47,1470
+1,2015,group,1,Bosnien und Herzegowina,48,1470
+1,2015,group,1,Brasilien,49,1455
+1,2015,group,1,Elfenbeinküste,50,1455
+1,2015,group,1,Schweiz,51,1448
+1,2015,group,1,Kamerun,52,1448
+2,2015,group,2,Niederlande,1,1582
+2,2015,group,2,Deutschland,2,1582
+2,2015,group,2,Russland,3,1571
+2,2015,group,2,Mexiko,4,1555
+2,2015,group,2,England,5,1548
+2,2015,group,2,Spanien,6,1544
+2,2015,group,2,Schweden,7,1533
+2,2015,group,2,Costa Rica,8,1531
+2,2015,group,2,Kolumbien,9,1527
+2,2015,group,2,Trinidad und Tobago,10,1526
+2,2015,group,2,Argentinien,11,1525
+2,2015,group,2,Italien,12,1525
+2,2015,group,2,Chile,13,1525
+2,2015,group,2,Japan,14,1516
+2,2015,group,2,Schottland,15,1504
+2,2015,group,2,Ghana,16,1503
+2,2015,group,2,Marokko,17,1500
+2,2015,group,2,Belgien,18,1500
+2,2015,group,2,Österreich,19,1500
+2,2015,group,2,Dänemark,20,1500
+2,2015,group,2,Polen,21,1500
+2,2015,group,2,Kanada,22,1500
+2,2015,group,2,IR Iran,23,1500
+2,2015,group,2,Saudi Arabien,24,1500
+2,2015,group,2,Ägypten,25,1500
+2,2015,group,2,Tunesien,26,1500
+2,2015,group,2,Senegal,27,1500
+2,2015,group,2,Venezuela,28,1500
+2,2015,group,2,Mali,29,1500
+2,2015,group,2,Jamaika,30,1500
+2,2015,group,2,Peru,31,1500
+2,2015,group,2,Nordirland,32,1500
+2,2015,group,2,Serbien,33,1500
+2,2015,group,2,Wales,34,1500
+2,2015,group,2,Ukraine,35,1500
+2,2015,group,2,Griechenland,36,1500
+2,2015,group,2,Bosnien und Herzegowina,37,1499
+2,2015,group,2,Uruguay,38,1497
+2,2015,group,2,Schweiz,39,1493
+2,2015,group,2,USA,40,1478
+2,2015,group,2,Portugal,41,1475
+2,2015,group,2,Kroatien,42,1475
+2,2015,group,2,Republik Korea,43,1475
+2,2015,group,2,Frankreich,44,1470
+2,2015,group,2,Ecuador,45,1470
+2,2015,group,2,Australien,46,1467
+2,2015,group,2,Nigeria,47,1459
+2,2015,group,2,Algerien,48,1445
+2,2015,group,2,Neuseeland,49,1443
+2,2015,group,2,Brasilien,50,1426
+2,2015,group,2,Kamerun,51,1422
+2,2015,group,2,Elfenbeinküste,52,1409
+3,2015,group,3,Deutschland,1,1612
+3,2015,group,3,Niederlande,2,1603
+3,2015,group,3,England,3,1601
+3,2015,group,3,Kolumbien,4,1561
+3,2015,group,3,Schweden,5,1560
+3,2015,group,3,Italien,6,1555
+3,2015,group,3,Mexiko,7,1552
+3,2015,group,3,Schweiz,8,1549
+3,2015,group,3,Spanien,9,1540
+3,2015,group,3,Russland,10,1537
+3,2015,group,3,Argentinien,11,1527
+3,2015,group,3,Uruguay,12,1525
+3,2015,group,3,Bosnien und Herzegowina,13,1503
+3,2015,group,3,Portugal,14,1503
+3,2015,group,3,Ecuador,15,1501
+3,2015,group,3,Marokko,16,1500
+3,2015,group,3,Belgien,17,1500
+3,2015,group,3,Österreich,18,1500
+3,2015,group,3,Dänemark,19,1500
+3,2015,group,3,Polen,20,1500
+3,2015,group,3,Kanada,21,1500
+3,2015,group,3,IR Iran,22,1500
+3,2015,group,3,Saudi Arabien,23,1500
+3,2015,group,3,Ägypten,24,1500
+3,2015,group,3,Tunesien,25,1500
+3,2015,group,3,Senegal,26,1500
+3,2015,group,3,Venezuela,27,1500
+3,2015,group,3,Mali,28,1500
+3,2015,group,3,Jamaika,29,1500
+3,2015,group,3,Peru,30,1500
+3,2015,group,3,Nordirland,31,1500
+3,2015,group,3,Serbien,32,1500
+3,2015,group,3,Wales,33,1500
+3,2015,group,3,Ukraine,34,1500
+3,2015,group,3,Griechenland,35,1500
+3,2015,group,3,Chile,36,1495
+3,2015,group,3,Costa Rica,37,1492
+3,2015,group,3,Nigeria,38,1487
+3,2015,group,3,Kamerun,39,1487
+3,2015,group,3,Ghana,40,1475
+3,2015,group,3,Kroatien,41,1475
+3,2015,group,3,Republik Korea,42,1475
+3,2015,group,3,Trinidad und Tobago,43,1473
+3,2015,group,3,Brasilien,44,1465
+3,2015,group,3,Japan,45,1460
+3,2015,group,3,Frankreich,46,1449
+3,2015,group,3,USA,47,1447
+3,2015,group,3,Australien,48,1440
+3,2015,group,3,Schottland,49,1440
+3,2015,group,3,Algerien,50,1418
+3,2015,group,3,Neuseeland,51,1414
+3,2015,group,3,Elfenbeinküste,52,1379
+4,2015,r16,4,Deutschland,1,1636
+4,2015,r16,4,England,2,1632
+4,2015,r16,4,Niederlande,3,1627
+4,2015,r16,4,Mexiko,4,1597
+4,2015,r16,4,Schweiz,5,1580
+4,2015,r16,4,Italien,6,1578
+4,2015,r16,4,Uruguay,7,1572
+4,2015,r16,4,Kolumbien,8,1530
+4,2015,r16,4,Costa Rica,9,1528
+4,2015,r16,4,Schweden,10,1524
+4,2015,r16,4,Russland,11,1514
+4,2015,r16,4,Argentinien,12,1504
+4,2015,r16,4,Bosnien und Herzegowina,13,1503
+4,2015,r16,4,Portugal,14,1503
+4,2015,r16,4,Marokko,15,1500
+4,2015,r16,4,Belgien,16,1500
+4,2015,r16,4,Österreich,17,1500
+4,2015,r16,4,Dänemark,18,1500
+4,2015,r16,4,Polen,19,1500
+4,2015,r16,4,Kanada,20,1500
+4,2015,r16,4,IR Iran,21,1500
+4,2015,r16,4,Saudi Arabien,22,1500
+4,2015,r16,4,Ägypten,23,1500
+4,2015,r16,4,Tunesien,24,1500
+4,2015,r16,4,Senegal,25,1500
+4,2015,r16,4,Venezuela,26,1500
+4,2015,r16,4,Mali,27,1500
+4,2015,r16,4,Jamaika,28,1500
+4,2015,r16,4,Peru,29,1500
+4,2015,r16,4,Nordirland,30,1500
+4,2015,r16,4,Serbien,31,1500
+4,2015,r16,4,Wales,32,1500
+4,2015,r16,4,Ukraine,33,1500
+4,2015,r16,4,Griechenland,34,1500
+4,2015,r16,4,Spanien,35,1493
+4,2015,r16,4,Nigeria,36,1487
+4,2015,r16,4,Kamerun,37,1487
+4,2015,r16,4,Ghana,38,1475
+4,2015,r16,4,Kroatien,39,1475
+4,2015,r16,4,Republik Korea,40,1475
+4,2015,r16,4,Brasilien,41,1465
+4,2015,r16,4,Chile,42,1463
+4,2015,r16,4,Japan,43,1460
+4,2015,r16,4,Ecuador,44,1456
+4,2015,r16,4,Trinidad und Tobago,45,1450
+4,2015,r16,4,Frankreich,46,1449
+4,2015,r16,4,USA,47,1447
+4,2015,r16,4,Australien,48,1440
+4,2015,r16,4,Schottland,49,1440
+4,2015,r16,4,Algerien,50,1418
+4,2015,r16,4,Neuseeland,51,1414
+4,2015,r16,4,Elfenbeinküste,52,1379
+5,2015,qf,5,Deutschland,1,1665
+5,2015,qf,5,England,2,1657
+5,2015,qf,5,Schweiz,3,1612
+5,2015,qf,5,Niederlande,4,1597
+5,2015,qf,5,Mexiko,5,1566
+5,2015,qf,5,Costa Rica,6,1563
+5,2015,qf,5,Uruguay,7,1547
+5,2015,qf,5,Italien,8,1544
+5,2015,qf,5,Kolumbien,9,1530
+5,2015,qf,5,Schweden,10,1524
+5,2015,qf,5,Russland,11,1514
+5,2015,qf,5,Argentinien,12,1504
+5,2015,qf,5,Bosnien und Herzegowina,13,1503
+5,2015,qf,5,Portugal,14,1503
+5,2015,qf,5,Marokko,15,1500
+5,2015,qf,5,Belgien,16,1500
+5,2015,qf,5,Österreich,17,1500
+5,2015,qf,5,Dänemark,18,1500
+5,2015,qf,5,Polen,19,1500
+5,2015,qf,5,Kanada,20,1500
+5,2015,qf,5,IR Iran,21,1500
+5,2015,qf,5,Saudi Arabien,22,1500
+5,2015,qf,5,Ägypten,23,1500
+5,2015,qf,5,Tunesien,24,1500
+5,2015,qf,5,Senegal,25,1500
+5,2015,qf,5,Venezuela,26,1500
+5,2015,qf,5,Mali,27,1500
+5,2015,qf,5,Jamaika,28,1500
+5,2015,qf,5,Peru,29,1500
+5,2015,qf,5,Nordirland,30,1500
+5,2015,qf,5,Serbien,31,1500
+5,2015,qf,5,Wales,32,1500
+5,2015,qf,5,Ukraine,33,1500
+5,2015,qf,5,Griechenland,34,1500
+5,2015,qf,5,Spanien,35,1493
+5,2015,qf,5,Nigeria,36,1487
+5,2015,qf,5,Kamerun,37,1487
+5,2015,qf,5,Ghana,38,1475
+5,2015,qf,5,Kroatien,39,1475
+5,2015,qf,5,Republik Korea,40,1475
+5,2015,qf,5,Brasilien,41,1465
+5,2015,qf,5,Chile,42,1463
+5,2015,qf,5,Japan,43,1460
+5,2015,qf,5,Ecuador,44,1456
+5,2015,qf,5,Trinidad und Tobago,45,1450
+5,2015,qf,5,Frankreich,46,1449
+5,2015,qf,5,USA,47,1447
+5,2015,qf,5,Australien,48,1440
+5,2015,qf,5,Schottland,49,1440
+5,2015,qf,5,Algerien,50,1418
+5,2015,qf,5,Neuseeland,51,1414
+5,2015,qf,5,Elfenbeinküste,52,1379
+6,2015,sf,6,England,1,1691
+6,2015,sf,6,Deutschland,2,1656
+6,2015,sf,6,Schweiz,3,1612
+6,2015,sf,6,Niederlande,4,1597
+6,2015,sf,6,Costa Rica,5,1571
+6,2015,sf,6,Uruguay,6,1547
+6,2015,sf,6,Italien,7,1544
+6,2015,sf,6,Mexiko,8,1532
+6,2015,sf,6,Kolumbien,9,1530
+6,2015,sf,6,Schweden,10,1524
+6,2015,sf,6,Russland,11,1514
+6,2015,sf,6,Argentinien,12,1504
+6,2015,sf,6,Bosnien und Herzegowina,13,1503
+6,2015,sf,6,Portugal,14,1503
+6,2015,sf,6,Marokko,15,1500
+6,2015,sf,6,Belgien,16,1500
+6,2015,sf,6,Österreich,17,1500
+6,2015,sf,6,Dänemark,18,1500
+6,2015,sf,6,Polen,19,1500
+6,2015,sf,6,Kanada,20,1500
+6,2015,sf,6,IR Iran,21,1500
+6,2015,sf,6,Saudi Arabien,22,1500
+6,2015,sf,6,Ägypten,23,1500
+6,2015,sf,6,Tunesien,24,1500
+6,2015,sf,6,Senegal,25,1500
+6,2015,sf,6,Venezuela,26,1500
+6,2015,sf,6,Mali,27,1500
+6,2015,sf,6,Jamaika,28,1500
+6,2015,sf,6,Peru,29,1500
+6,2015,sf,6,Nordirland,30,1500
+6,2015,sf,6,Serbien,31,1500
+6,2015,sf,6,Wales,32,1500
+6,2015,sf,6,Ukraine,33,1500
+6,2015,sf,6,Griechenland,34,1500
+6,2015,sf,6,Spanien,35,1493
+6,2015,sf,6,Nigeria,36,1487
+6,2015,sf,6,Kamerun,37,1487
+6,2015,sf,6,Ghana,38,1475
+6,2015,sf,6,Kroatien,39,1475
+6,2015,sf,6,Republik Korea,40,1475
+6,2015,sf,6,Brasilien,41,1465
+6,2015,sf,6,Chile,42,1463
+6,2015,sf,6,Japan,43,1460
+6,2015,sf,6,Ecuador,44,1456
+6,2015,sf,6,Trinidad und Tobago,45,1450
+6,2015,sf,6,Frankreich,46,1449
+6,2015,sf,6,USA,47,1447
+6,2015,sf,6,Australien,48,1440
+6,2015,sf,6,Schottland,49,1440
+6,2015,sf,6,Algerien,50,1418
+6,2015,sf,6,Neuseeland,51,1414
+6,2015,sf,6,Elfenbeinküste,52,1379
+7,2015,p3,7,England,1,1691
+7,2015,p3,7,Deutschland,2,1656
+7,2015,p3,7,Schweiz,3,1612
+7,2015,p3,7,Niederlande,4,1597
+7,2015,p3,7,Costa Rica,5,1568
+7,2015,p3,7,Uruguay,6,1547
+7,2015,p3,7,Italien,7,1544
+7,2015,p3,7,Mexiko,8,1536
+7,2015,p3,7,Kolumbien,9,1530
+7,2015,p3,7,Schweden,10,1524
+7,2015,p3,7,Russland,11,1514
+7,2015,p3,7,Argentinien,12,1504
+7,2015,p3,7,Bosnien und Herzegowina,13,1503
+7,2015,p3,7,Portugal,14,1503
+7,2015,p3,7,Marokko,15,1500
+7,2015,p3,7,Belgien,16,1500
+7,2015,p3,7,Österreich,17,1500
+7,2015,p3,7,Dänemark,18,1500
+7,2015,p3,7,Polen,19,1500
+7,2015,p3,7,Kanada,20,1500
+7,2015,p3,7,IR Iran,21,1500
+7,2015,p3,7,Saudi Arabien,22,1500
+7,2015,p3,7,Ägypten,23,1500
+7,2015,p3,7,Tunesien,24,1500
+7,2015,p3,7,Senegal,25,1500
+7,2015,p3,7,Venezuela,26,1500
+7,2015,p3,7,Mali,27,1500
+7,2015,p3,7,Jamaika,28,1500
+7,2015,p3,7,Peru,29,1500
+7,2015,p3,7,Nordirland,30,1500
+7,2015,p3,7,Serbien,31,1500
+7,2015,p3,7,Wales,32,1500
+7,2015,p3,7,Ukraine,33,1500
+7,2015,p3,7,Griechenland,34,1500
+7,2015,p3,7,Spanien,35,1493
+7,2015,p3,7,Nigeria,36,1487
+7,2015,p3,7,Kamerun,37,1487
+7,2015,p3,7,Ghana,38,1475
+7,2015,p3,7,Kroatien,39,1475
+7,2015,p3,7,Republik Korea,40,1475
+7,2015,p3,7,Brasilien,41,1465
+7,2015,p3,7,Chile,42,1463
+7,2015,p3,7,Japan,43,1460
+7,2015,p3,7,Ecuador,44,1456
+7,2015,p3,7,Trinidad und Tobago,45,1450
+7,2015,p3,7,Frankreich,46,1449
+7,2015,p3,7,USA,47,1447
+7,2015,p3,7,Australien,48,1440
+7,2015,p3,7,Schottland,49,1440
+7,2015,p3,7,Algerien,50,1418
+7,2015,p3,7,Neuseeland,51,1414
+7,2015,p3,7,Elfenbeinküste,52,1379
+8,2015,f,8,England,1,1688
+8,2015,f,8,Deutschland,2,1659
+8,2015,f,8,Schweiz,3,1612
+8,2015,f,8,Niederlande,4,1597
+8,2015,f,8,Costa Rica,5,1568
+8,2015,f,8,Uruguay,6,1547
+8,2015,f,8,Italien,7,1544
+8,2015,f,8,Mexiko,8,1536
+8,2015,f,8,Kolumbien,9,1530
+8,2015,f,8,Schweden,10,1524
+8,2015,f,8,Russland,11,1514
+8,2015,f,8,Argentinien,12,1504
+8,2015,f,8,Bosnien und Herzegowina,13,1503
+8,2015,f,8,Portugal,14,1503
+8,2015,f,8,Marokko,15,1500
+8,2015,f,8,Belgien,16,1500
+8,2015,f,8,Österreich,17,1500
+8,2015,f,8,Dänemark,18,1500
+8,2015,f,8,Polen,19,1500
+8,2015,f,8,Kanada,20,1500
+8,2015,f,8,IR Iran,21,1500
+8,2015,f,8,Saudi Arabien,22,1500
+8,2015,f,8,Ägypten,23,1500
+8,2015,f,8,Tunesien,24,1500
+8,2015,f,8,Senegal,25,1500
+8,2015,f,8,Venezuela,26,1500
+8,2015,f,8,Mali,27,1500
+8,2015,f,8,Jamaika,28,1500
+8,2015,f,8,Peru,29,1500
+8,2015,f,8,Nordirland,30,1500
+8,2015,f,8,Serbien,31,1500
+8,2015,f,8,Wales,32,1500
+8,2015,f,8,Ukraine,33,1500
+8,2015,f,8,Griechenland,34,1500
+8,2015,f,8,Spanien,35,1493
+8,2015,f,8,Nigeria,36,1487
+8,2015,f,8,Kamerun,37,1487
+8,2015,f,8,Ghana,38,1475
+8,2015,f,8,Kroatien,39,1475
+8,2015,f,8,Republik Korea,40,1475
+8,2015,f,8,Brasilien,41,1465
+8,2015,f,8,Chile,42,1463
+8,2015,f,8,Japan,43,1460
+8,2015,f,8,Ecuador,44,1456
+8,2015,f,8,Trinidad und Tobago,45,1450
+8,2015,f,8,Frankreich,46,1449
+8,2015,f,8,USA,47,1447
+8,2015,f,8,Australien,48,1440
+8,2015,f,8,Schottland,49,1440
+8,2015,f,8,Algerien,50,1418
+8,2015,f,8,Neuseeland,51,1414
+8,2015,f,8,Elfenbeinküste,52,1379
+9,2018,group,1,England,1,1670
+9,2018,group,1,Deutschland,2,1646
+9,2018,group,1,Schweiz,3,1632
+9,2018,group,1,Niederlande,4,1597
+9,2018,group,1,Portugal,5,1544
+9,2018,group,1,Italien,6,1544
+9,2018,group,1,Uruguay,7,1543
+9,2018,group,1,Russland,8,1543
+9,2018,group,1,Dänemark,9,1537
+9,2018,group,1,Serbien,10,1533
+9,2018,group,1,Marokko,11,1533
+9,2018,group,1,Costa Rica,12,1531
+9,2018,group,1,Polen,13,1530
+9,2018,group,1,Spanien,14,1529
+9,2018,group,1,Ägypten,15,1504
+9,2018,group,1,Bosnien und Herzegowina,16,1503
+9,2018,group,1,Mexiko,17,1502
+9,2018,group,1,Argentinien,18,1501
+9,2018,group,1,Nigeria,19,1501
+9,2018,group,1,Brasilien,20,1500
+9,2018,group,1,Österreich,21,1500
+9,2018,group,1,Kanada,22,1500
+9,2018,group,1,IR Iran,23,1500
+9,2018,group,1,Tunesien,24,1500
+9,2018,group,1,Venezuela,25,1500
+9,2018,group,1,Mali,26,1500
+9,2018,group,1,Jamaika,27,1500
+9,2018,group,1,Peru,28,1500
+9,2018,group,1,Wales,29,1500
+9,2018,group,1,Ukraine,30,1500
+9,2018,group,1,Griechenland,31,1500
+9,2018,group,1,Frankreich,32,1500
+9,2018,group,1,Kolumbien,33,1498
+9,2018,group,1,Belgien,34,1497
+9,2018,group,1,Schweden,35,1489
+9,2018,group,1,Saudi Arabien,36,1479
+9,2018,group,1,Republik Korea,37,1478
+9,2018,group,1,Japan,38,1477
+9,2018,group,1,Ghana,39,1475
+9,2018,group,1,Schottland,40,1474
+9,2018,group,1,Nordirland,41,1471
+9,2018,group,1,Senegal,42,1470
+9,2018,group,1,Chile,43,1466
+9,2018,group,1,Ecuador,44,1456
+9,2018,group,1,Kamerun,45,1453
+9,2018,group,1,Trinidad und Tobago,46,1450
+9,2018,group,1,USA,47,1447
+9,2018,group,1,Kroatien,48,1434
+9,2018,group,1,Algerien,49,1418
+9,2018,group,1,Australien,50,1403
+9,2018,group,1,Elfenbeinküste,51,1379
+9,2018,group,1,Neuseeland,52,1363
+10,2018,group,2,England,1,1686
+10,2018,group,2,Deutschland,2,1658
+10,2018,group,2,Niederlande,3,1597
+10,2018,group,2,Schweiz,4,1594
+10,2018,group,2,Russland,5,1582
+10,2018,group,2,Spanien,6,1568
+10,2018,group,2,Serbien,7,1558
+10,2018,group,2,Portugal,8,1544
+10,2018,group,2,Italien,9,1544
+10,2018,group,2,Uruguay,10,1543
+10,2018,group,2,Brasilien,11,1542
+10,2018,group,2,Ägypten,12,1540
+10,2018,group,2,Belgien,13,1536
+10,2018,group,2,Dänemark,14,1534
+10,2018,group,2,Frankreich,15,1533
+10,2018,group,2,Marokko,16,1527
+10,2018,group,2,Costa Rica,17,1527
+10,2018,group,2,Schottland,18,1518
+10,2018,group,2,Nigeria,19,1504
+10,2018,group,2,Bosnien und Herzegowina,20,1503
+10,2018,group,2,Mexiko,21,1502
+10,2018,group,2,Argentinien,22,1502
+10,2018,group,2,Österreich,23,1500
+10,2018,group,2,Kanada,24,1500
+10,2018,group,2,IR Iran,25,1500
+10,2018,group,2,Tunesien,26,1500
+10,2018,group,2,Venezuela,27,1500
+10,2018,group,2,Mali,28,1500
+10,2018,group,2,Jamaika,29,1500
+10,2018,group,2,Peru,30,1500
+10,2018,group,2,Wales,31,1500
+10,2018,group,2,Ukraine,32,1500
+10,2018,group,2,Griechenland,33,1500
+10,2018,group,2,Polen,34,1497
+10,2018,group,2,Saudi Arabien,35,1484
+10,2018,group,2,Nordirland,36,1476
+10,2018,group,2,Ghana,37,1475
+10,2018,group,2,Schweden,38,1474
+10,2018,group,2,Senegal,39,1461
+10,2018,group,2,Kolumbien,40,1458
+10,2018,group,2,Ecuador,41,1456
+10,2018,group,2,Republik Korea,42,1452
+10,2018,group,2,Trinidad und Tobago,43,1450
+10,2018,group,2,USA,44,1447
+10,2018,group,2,Japan,45,1435
+10,2018,group,2,Chile,46,1422
+10,2018,group,2,Algerien,47,1418
+10,2018,group,2,Kamerun,48,1413
+10,2018,group,2,Kroatien,49,1398
+10,2018,group,2,Australien,50,1391
+10,2018,group,2,Elfenbeinküste,51,1379
+10,2018,group,2,Neuseeland,52,1372
+11,2018,group,3,England,1,1704
+11,2018,group,3,Schweiz,2,1630
+11,2018,group,3,Spanien,3,1602
+11,2018,group,3,Niederlande,4,1597
+11,2018,group,3,Deutschland,5,1597
+11,2018,group,3,Dänemark,6,1595
+11,2018,group,3,Marokko,7,1579
+11,2018,group,3,Frankreich,8,1574
+11,2018,group,3,Schottland,9,1565
+11,2018,group,3,Argentinien,10,1563
+11,2018,group,3,Italien,11,1544
+11,2018,group,3,Portugal,12,1544
+11,2018,group,3,Mexiko,13,1541
+11,2018,group,3,Ägypten,14,1540
+11,2018,group,3,Uruguay,15,1531
+11,2018,group,3,Russland,16,1530
+11,2018,group,3,Brasilien,17,1524
+11,2018,group,3,Polen,18,1517
+11,2018,group,3,Schweden,19,1514
+11,2018,group,3,Kolumbien,20,1514
+11,2018,group,3,Bosnien und Herzegowina,21,1503
+11,2018,group,3,Österreich,22,1500
+11,2018,group,3,Kanada,23,1500
+11,2018,group,3,IR Iran,24,1500
+11,2018,group,3,Tunesien,25,1500
+11,2018,group,3,Venezuela,26,1500
+11,2018,group,3,Mali,27,1500
+11,2018,group,3,Jamaika,28,1500
+11,2018,group,3,Peru,29,1500
+11,2018,group,3,Wales,30,1500
+11,2018,group,3,Ukraine,31,1500
+11,2018,group,3,Griechenland,32,1500
+11,2018,group,3,Serbien,33,1497
+11,2018,group,3,Nigeria,34,1495
+11,2018,group,3,Costa Rica,35,1490
+11,2018,group,3,Belgien,36,1489
+11,2018,group,3,Ghana,37,1475
+11,2018,group,3,Ecuador,38,1456
+11,2018,group,3,Trinidad und Tobago,39,1450
+11,2018,group,3,Saudi Arabien,40,1449
+11,2018,group,3,USA,41,1447
+11,2018,group,3,Chile,42,1422
+11,2018,group,3,Nordirland,43,1421
+11,2018,group,3,Senegal,44,1419
+11,2018,group,3,Algerien,45,1418
+11,2018,group,3,Kamerun,46,1414
+11,2018,group,3,Republik Korea,47,1414
+11,2018,group,3,Kroatien,48,1410
+11,2018,group,3,Australien,49,1400
+11,2018,group,3,Japan,50,1395
+11,2018,group,3,Elfenbeinküste,51,1379
+11,2018,group,3,Neuseeland,52,1353
+12,2018,r16,4,England,1,1728
+12,2018,r16,4,Deutschland,2,1635
+12,2018,r16,4,Schweiz,3,1607
+12,2018,r16,4,Frankreich,4,1603
+12,2018,r16,4,Marokko,5,1602
+12,2018,r16,4,Niederlande,6,1597
+12,2018,r16,4,Dänemark,7,1590
+12,2018,r16,4,Brasilien,8,1579
+12,2018,r16,4,Schottland,9,1562
+12,2018,r16,4,Polen,10,1560
+12,2018,r16,4,Portugal,11,1548
+12,2018,r16,4,Spanien,12,1547
+12,2018,r16,4,Italien,13,1544
+12,2018,r16,4,Mexiko,14,1541
+12,2018,r16,4,Argentinien,15,1534
+12,2018,r16,4,Russland,16,1533
+12,2018,r16,4,Uruguay,17,1531
+12,2018,r16,4,Schweden,18,1514
+12,2018,r16,4,Kolumbien,19,1514
+12,2018,r16,4,Ägypten,20,1503
+12,2018,r16,4,Bosnien und Herzegowina,21,1503
+12,2018,r16,4,Österreich,22,1500
+12,2018,r16,4,Kanada,23,1500
+12,2018,r16,4,IR Iran,24,1500
+12,2018,r16,4,Tunesien,25,1500
+12,2018,r16,4,Venezuela,26,1500
+12,2018,r16,4,Mali,27,1500
+12,2018,r16,4,Jamaika,28,1500
+12,2018,r16,4,Peru,29,1500
+12,2018,r16,4,Wales,30,1500
+12,2018,r16,4,Ukraine,31,1500
+12,2018,r16,4,Griechenland,32,1500
+12,2018,r16,4,Nigeria,33,1495
+12,2018,r16,4,Costa Rica,34,1490
+12,2018,r16,4,Ghana,35,1475
+12,2018,r16,4,Belgien,36,1466
+12,2018,r16,4,Ecuador,37,1456
+12,2018,r16,4,Serbien,38,1455
+12,2018,r16,4,Trinidad und Tobago,39,1450
+12,2018,r16,4,Saudi Arabien,40,1449
+12,2018,r16,4,USA,41,1447
+12,2018,r16,4,Chile,42,1422
+12,2018,r16,4,Nordirland,43,1421
+12,2018,r16,4,Senegal,44,1419
+12,2018,r16,4,Algerien,45,1418
+12,2018,r16,4,Kamerun,46,1414
+12,2018,r16,4,Republik Korea,47,1414
+12,2018,r16,4,Kroatien,48,1410
+12,2018,r16,4,Australien,49,1400
+12,2018,r16,4,Japan,50,1395
+12,2018,r16,4,Elfenbeinküste,51,1379
+12,2018,r16,4,Neuseeland,52,1353
+13,2018,qf,5,England,1,1747
+13,2018,qf,5,Frankreich,2,1639
+13,2018,qf,5,Marokko,3,1628
+13,2018,qf,5,Brasilien,4,1614
+13,2018,qf,5,Schweiz,5,1607
+13,2018,qf,5,Deutschland,6,1600
+13,2018,qf,5,Niederlande,7,1597
+13,2018,qf,5,Dänemark,8,1571
+13,2018,qf,5,Schottland,9,1562
+13,2018,qf,5,Portugal,10,1548
+13,2018,qf,5,Spanien,11,1547
+13,2018,qf,5,Italien,12,1544
+13,2018,qf,5,Mexiko,13,1541
+13,2018,qf,5,Argentinien,14,1534
+13,2018,qf,5,Polen,15,1533
+13,2018,qf,5,Uruguay,16,1531
+13,2018,qf,5,Schweden,17,1514
+13,2018,qf,5,Kolumbien,18,1514
+13,2018,qf,5,Ägypten,19,1503
+13,2018,qf,5,Bosnien und Herzegowina,20,1503
+13,2018,qf,5,Österreich,21,1500
+13,2018,qf,5,Kanada,22,1500
+13,2018,qf,5,IR Iran,23,1500
+13,2018,qf,5,Tunesien,24,1500
+13,2018,qf,5,Venezuela,25,1500
+13,2018,qf,5,Mali,26,1500
+13,2018,qf,5,Jamaika,27,1500
+13,2018,qf,5,Peru,28,1500
+13,2018,qf,5,Wales,29,1500
+13,2018,qf,5,Ukraine,30,1500
+13,2018,qf,5,Griechenland,31,1500
+13,2018,qf,5,Russland,32,1497
+13,2018,qf,5,Nigeria,33,1495
+13,2018,qf,5,Costa Rica,34,1490
+13,2018,qf,5,Ghana,35,1475
+13,2018,qf,5,Belgien,36,1466
+13,2018,qf,5,Ecuador,37,1456
+13,2018,qf,5,Serbien,38,1455
+13,2018,qf,5,Trinidad und Tobago,39,1450
+13,2018,qf,5,Saudi Arabien,40,1449
+13,2018,qf,5,USA,41,1447
+13,2018,qf,5,Chile,42,1422
+13,2018,qf,5,Nordirland,43,1421
+13,2018,qf,5,Senegal,44,1419
+13,2018,qf,5,Algerien,45,1418
+13,2018,qf,5,Kamerun,46,1414
+13,2018,qf,5,Republik Korea,47,1414
+13,2018,qf,5,Kroatien,48,1410
+13,2018,qf,5,Australien,49,1400
+13,2018,qf,5,Japan,50,1395
+13,2018,qf,5,Elfenbeinküste,51,1379
+13,2018,qf,5,Neuseeland,52,1353
+14,2018,sf,6,England,1,1707
+14,2018,sf,6,Marokko,2,1668
+14,2018,sf,6,Brasilien,3,1662
+14,2018,sf,6,Schweiz,4,1607
+14,2018,sf,6,Deutschland,5,1600
+14,2018,sf,6,Niederlande,6,1597
+14,2018,sf,6,Frankreich,7,1591
+14,2018,sf,6,Dänemark,8,1571
+14,2018,sf,6,Schottland,9,1562
+14,2018,sf,6,Portugal,10,1548
+14,2018,sf,6,Spanien,11,1547
+14,2018,sf,6,Italien,12,1544
+14,2018,sf,6,Mexiko,13,1541
+14,2018,sf,6,Argentinien,14,1534
+14,2018,sf,6,Polen,15,1533
+14,2018,sf,6,Uruguay,16,1531
+14,2018,sf,6,Schweden,17,1514
+14,2018,sf,6,Kolumbien,18,1514
+14,2018,sf,6,Ägypten,19,1503
+14,2018,sf,6,Bosnien und Herzegowina,20,1503
+14,2018,sf,6,Österreich,21,1500
+14,2018,sf,6,Kanada,22,1500
+14,2018,sf,6,IR Iran,23,1500
+14,2018,sf,6,Tunesien,24,1500
+14,2018,sf,6,Venezuela,25,1500
+14,2018,sf,6,Mali,26,1500
+14,2018,sf,6,Jamaika,27,1500
+14,2018,sf,6,Peru,28,1500
+14,2018,sf,6,Wales,29,1500
+14,2018,sf,6,Ukraine,30,1500
+14,2018,sf,6,Griechenland,31,1500
+14,2018,sf,6,Russland,32,1497
+14,2018,sf,6,Nigeria,33,1495
+14,2018,sf,6,Costa Rica,34,1490
+14,2018,sf,6,Ghana,35,1475
+14,2018,sf,6,Belgien,36,1466
+14,2018,sf,6,Ecuador,37,1456
+14,2018,sf,6,Serbien,38,1455
+14,2018,sf,6,Trinidad und Tobago,39,1450
+14,2018,sf,6,Saudi Arabien,40,1449
+14,2018,sf,6,USA,41,1447
+14,2018,sf,6,Chile,42,1422
+14,2018,sf,6,Nordirland,43,1421
+14,2018,sf,6,Senegal,44,1419
+14,2018,sf,6,Algerien,45,1418
+14,2018,sf,6,Kamerun,46,1414
+14,2018,sf,6,Republik Korea,47,1414
+14,2018,sf,6,Kroatien,48,1410
+14,2018,sf,6,Australien,49,1400
+14,2018,sf,6,Japan,50,1395
+14,2018,sf,6,Elfenbeinküste,51,1379
+14,2018,sf,6,Neuseeland,52,1353
+15,2018,p3,7,Marokko,1,1668
+15,2018,p3,7,England,2,1667
+15,2018,p3,7,Brasilien,3,1662
+15,2018,p3,7,Frankreich,4,1631
+15,2018,p3,7,Schweiz,5,1607
+15,2018,p3,7,Deutschland,6,1600
+15,2018,p3,7,Niederlande,7,1597
+15,2018,p3,7,Dänemark,8,1571
+15,2018,p3,7,Schottland,9,1562
+15,2018,p3,7,Portugal,10,1548
+15,2018,p3,7,Spanien,11,1547
+15,2018,p3,7,Italien,12,1544
+15,2018,p3,7,Mexiko,13,1541
+15,2018,p3,7,Argentinien,14,1534
+15,2018,p3,7,Polen,15,1533
+15,2018,p3,7,Uruguay,16,1531
+15,2018,p3,7,Schweden,17,1514
+15,2018,p3,7,Kolumbien,18,1514
+15,2018,p3,7,Ägypten,19,1503
+15,2018,p3,7,Bosnien und Herzegowina,20,1503
+15,2018,p3,7,Österreich,21,1500
+15,2018,p3,7,Kanada,22,1500
+15,2018,p3,7,IR Iran,23,1500
+15,2018,p3,7,Tunesien,24,1500
+15,2018,p3,7,Venezuela,25,1500
+15,2018,p3,7,Mali,26,1500
+15,2018,p3,7,Jamaika,27,1500
+15,2018,p3,7,Peru,28,1500
+15,2018,p3,7,Wales,29,1500
+15,2018,p3,7,Ukraine,30,1500
+15,2018,p3,7,Griechenland,31,1500
+15,2018,p3,7,Russland,32,1497
+15,2018,p3,7,Nigeria,33,1495
+15,2018,p3,7,Costa Rica,34,1490
+15,2018,p3,7,Ghana,35,1475
+15,2018,p3,7,Belgien,36,1466
+15,2018,p3,7,Ecuador,37,1456
+15,2018,p3,7,Serbien,38,1455
+15,2018,p3,7,Trinidad und Tobago,39,1450
+15,2018,p3,7,Saudi Arabien,40,1449
+15,2018,p3,7,USA,41,1447
+15,2018,p3,7,Chile,42,1422
+15,2018,p3,7,Nordirland,43,1421
+15,2018,p3,7,Senegal,44,1419
+15,2018,p3,7,Algerien,45,1418
+15,2018,p3,7,Kamerun,46,1414
+15,2018,p3,7,Republik Korea,47,1414
+15,2018,p3,7,Kroatien,48,1410
+15,2018,p3,7,Australien,49,1400
+15,2018,p3,7,Japan,50,1395
+15,2018,p3,7,Elfenbeinküste,51,1379
+15,2018,p3,7,Neuseeland,52,1353
+16,2018,f,8,Brasilien,1,1693
+16,2018,f,8,England,2,1667
+16,2018,f,8,Marokko,3,1637
+16,2018,f,8,Frankreich,4,1631
+16,2018,f,8,Schweiz,5,1607
+16,2018,f,8,Deutschland,6,1600
+16,2018,f,8,Niederlande,7,1597
+16,2018,f,8,Dänemark,8,1571
+16,2018,f,8,Schottland,9,1562
+16,2018,f,8,Portugal,10,1548
+16,2018,f,8,Spanien,11,1547
+16,2018,f,8,Italien,12,1544
+16,2018,f,8,Mexiko,13,1541
+16,2018,f,8,Argentinien,14,1534
+16,2018,f,8,Polen,15,1533
+16,2018,f,8,Uruguay,16,1531
+16,2018,f,8,Schweden,17,1514
+16,2018,f,8,Kolumbien,18,1514
+16,2018,f,8,Ägypten,19,1503
+16,2018,f,8,Bosnien und Herzegowina,20,1503
+16,2018,f,8,Österreich,21,1500
+16,2018,f,8,Kanada,22,1500
+16,2018,f,8,IR Iran,23,1500
+16,2018,f,8,Tunesien,24,1500
+16,2018,f,8,Venezuela,25,1500
+16,2018,f,8,Mali,26,1500
+16,2018,f,8,Jamaika,27,1500
+16,2018,f,8,Peru,28,1500
+16,2018,f,8,Wales,29,1500
+16,2018,f,8,Ukraine,30,1500
+16,2018,f,8,Griechenland,31,1500
+16,2018,f,8,Russland,32,1497
+16,2018,f,8,Nigeria,33,1495
+16,2018,f,8,Costa Rica,34,1490
+16,2018,f,8,Ghana,35,1475
+16,2018,f,8,Belgien,36,1466
+16,2018,f,8,Ecuador,37,1456
+16,2018,f,8,Serbien,38,1455
+16,2018,f,8,Trinidad und Tobago,39,1450
+16,2018,f,8,Saudi Arabien,40,1449
+16,2018,f,8,USA,41,1447
+16,2018,f,8,Chile,42,1422
+16,2018,f,8,Nordirland,43,1421
+16,2018,f,8,Senegal,44,1419
+16,2018,f,8,Algerien,45,1418
+16,2018,f,8,Kamerun,46,1414
+16,2018,f,8,Republik Korea,47,1414
+16,2018,f,8,Kroatien,48,1410
+16,2018,f,8,Australien,49,1400
+16,2018,f,8,Japan,50,1395
+16,2018,f,8,Elfenbeinküste,51,1379
+16,2018,f,8,Neuseeland,52,1353

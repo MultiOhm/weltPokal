@@ -2,7 +2,7 @@ const params=new URLSearchParams(window.location.search);
 
 const teamId=params.get("team");
 
-const currentTournament="2015"
+const currentTournament="2025"
 teamsReady.then(()=>{
 
     const team=teams[teamId];
@@ -43,14 +43,13 @@ teamsReady.then(()=>{
 
 
     loadHistory(team);
-    loadMatches(team);
 
     loadKits(team);
 
 
 });
 
-function loadMatches(team){
+function loadMatches(teamId){
 
     fetch(CONFIG.BASE+"matchcards.html")
 
@@ -62,50 +61,110 @@ function loadMatches(team){
 
         const doc=parser.parseFromString(html,"text/html");
 
-        const cards=[
-
-            ...doc.querySelectorAll(".match-card")
-
-        ];
-        
+        const cards=[...doc.querySelectorAll(".match-card")];
 
         const container=document.getElementById("recentMatches");
 
+        container.innerHTML="";
+
         cards.forEach(card=>{
+            const correctTournament =
+                selectedTournament === "all" ||
+                card.dataset.tournament === selectedTournament;
+            const correctTeam =
+                card.dataset.home===teamId ||
+                card.dataset.away===teamId;
 
-            if(
+            if(correctTeam && correctTournament){
 
-                (card.dataset.home===teamId ||
+                const home=window.teams[card.dataset.home];
+                const away=window.teams[card.dataset.away];
 
-                card.dataset.away===teamId) // && card.dataset.tournament===currentTournament
+                card.style.setProperty("--home-color",home.primary);
+                card.style.setProperty("--home-secondary",home.secondary);
+                card.style.setProperty("--home-text",home.text);
 
-            ){
+                card.style.setProperty("--away-color",away.primary);
+                card.style.setProperty("--away-secondary",away.secondary);
+                card.style.setProperty("--away-text",away.text);
 
                 container.appendChild(card);
 
             }
-             document.querySelectorAll(".match-card").forEach(card => {
-
-                const home = window.teams[card.dataset.home];
-                const away = window.teams[card.dataset.away];
-
-                if (!home || !away) return;
-
-                card.style.setProperty("--home-color", home.primary);
-                card.style.setProperty("--home-secondary", home.secondary);
-                card.style.setProperty("--home-text", home.text);
-
-                card.style.setProperty("--away-color", away.primary);
-                card.style.setProperty("--away-secondary", away.secondary);
-                card.style.setProperty("--away-text", away.text);
-            });
-
 
         });
 
     });
 
 }
+
+let selectedTournament = null;
+
+window.tournamentsReady.then(() => {
+
+    const filter = document.getElementById("tournamentFilter");
+
+    const years = Object.keys(window.tournaments)
+        .sort((a,b)=>a-b);
+
+    selectedTournament = years[5]; // neuestes
+
+    years.forEach(year=>{
+
+        const button = document.createElement("button");
+
+        button.textContent = year;
+
+        button.dataset.year = year;
+
+        if(year===selectedTournament){
+
+            button.classList.add("active");
+
+        }
+
+        button.onclick = ()=>{
+
+            selectedTournament = year;
+
+            filter.querySelectorAll("button")
+                .forEach(btn=>btn.classList.remove("active"));
+
+            button.classList.add("active");
+            console.log(selectedTournament);
+
+            loadMatches(teamId);
+
+        };
+
+        filter.appendChild(button);
+
+    });
+    const all = document.createElement("button");
+
+    all.textContent = "Alle";
+    all.dataset.year = "all";
+
+    all.onclick = ()=>{
+
+        selectedTournament = "all";
+
+        filter.querySelectorAll("button")
+            .forEach(btn=>btn.classList.remove("active"));
+
+        all.classList.add("active");
+
+        loadMatches(teamId);
+
+    };
+
+    filter.appendChild(all);
+
+    loadMatches(teamId);
+
+});
+
+
 
 function loadKits(team){
 

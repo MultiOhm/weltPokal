@@ -136,14 +136,157 @@
 }
 
 .gallery{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,175px);
+    gap: 10px;
+}
+
+.gallery-grid{
 
     display:grid;
 
-    grid-template-columns:repeat(auto-fill,175px);
+    grid-template-columns:1fr 420px;
 
-    justify-content:center;
+    gap:40px;
 
-    gap: 25px;;
+}
+
+.gallery-preview{
+
+    position:sticky;
+
+    top:110px;
+
+    height:fit-content;
+
+    background:#10131d;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.preview-header{
+
+    position:relative;
+
+    height:140px;
+
+    display:flex;
+
+    align-items:center;
+
+    padding: 20px;
+
+    gap:25px;
+
+    overflow:hidden;
+
+    background-color: var(--accent);
+    color: white;
+
+}
+
+.preview-header::before{
+
+    content:"";
+
+    position:absolute;
+
+    background-image:url("../assets/header.svg");
+    /* oder */
+    /* background-image:url("/assets/header.svg"); */
+
+    background-repeat:repeat;
+    background-size:350px;   /* je nach Muster anpassen */
+
+    inset:0;
+
+    background:var(--accent);
+
+    mask:url("../assets/header.svg") center/cover repeat;
+    -webkit-mask:url("../assets/header.svg") center/cover repeat;
+
+    z-index:0;
+
+}
+
+.preview-header img{
+
+    height:70px;
+
+    z-index:2;
+
+}
+
+.preview-header h2{
+
+    z-index:2;
+
+    font-size:48px;
+
+    text-shadow: 0px 0px 10px black;
+
+}
+
+/*.preview-body::before{
+    content:"";
+
+    position:absolute;
+
+    background-image:url("../assets/header.svg");
+    /* oder */
+    /* background-image:url("/assets/header.svg");
+
+    background-repeat:no-repeat;
+    background-size:350%;   /* je nach Muster anpassen 
+
+    inset:0;
+
+    background:white;
+    opacity: 10%;
+
+ /*   mask:url("../assets/header.svg") center repeat;
+    -webkit-mask:url("../assets/header.svg") center repeat;
+
+    z-index:-1
+}
+    */
+.preview-body{
+    position: relative;
+    padding:30px;
+
+    text-align:center;
+    background: #080808;
+    z-index: -2;
+    overflow: hidden;
+
+}
+
+.preview-body h3{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.preview-body img{
+
+    width:90%;
+
+    transition:.35s;
+
+}
+
+.preview-footer{
+
+    text-align:center;
+
+    padding:25px;
+
+    font-size:22px;
 
 }
 
@@ -158,6 +301,7 @@
     transition:.25s;
 
     border:1px solid var(--line);
+    height: 268px;
 
 }
 
@@ -225,3 +369,12 @@
 
 }
 
+@media(max-width: 1200px){
+    .gallery-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .gallery-preview{
+        display: none;
+    }
+}

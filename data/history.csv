@@ -1,57 +1,202 @@
 team,year,result
-Portugal,2015,Gruppenphase
-Portugal,2018,Achtelfinale
-Portugal,2019,Zweiter
-Portugal,2020,Viertelfinale
-Portugal,2022,Zweiter
-Brasilien,2015,Gruppenphase
-Brasilien,2018,Sieger
-Brasilien,2019,Gruppenphase
-Brasilien,2020,Sieger
-Brasilien,2022,Sieger
-Kolumbien,2015,Achtelfinale
-Kolumbien,2018,Gruppenphase
-Kolumbien,2019,Viertelfinale
-Kolumbien,2020,Dritter
-Kolumbien,2022,Gruppenphase
+Australien,2015,Gruppenphase
+Australien,2018,Gruppenphase
+Australien,2019,Achtelfinale
+Australien,2020,Gruppenphase
+Australien,2022,Gruppenphase
+IR Iran,2015,N.Q.
+IR Iran,2018,N.Q.
+IR Iran,2019,N.Q.
+IR Iran,2020,Viertelfinale
+IR Iran,2022,Gruppenphase
+Japan,2015,Gruppenphase
+Japan,2018,Gruppenphase
+Japan,2019,Achtelfinale
+Japan,2020,Gruppenphase
+Japan,2022,Gruppenphase
+Republik Korea,2015,Gruppenphase
+Republik Korea,2018,Gruppenphase
+Republik Korea,2019,Gruppenphase
+Republik Korea,2020,Gruppenphase
+Republik Korea,2022,Gruppenphase
+Saudi Arabien,2015,N.Q.
+Saudi Arabien,2018,Gruppenphase
+Saudi Arabien,2019,Achtelfinale
+Saudi Arabien,2020,N.Q.
+Saudi Arabien,2022,N.Q.
+Ägypten,2015,N.Q.
+Ägypten,2018,Achtelfinale
+Ägypten,2019,N.Q.
+Ägypten,2020,N.Q.
+Ägypten,2022,N.Q.
+Algerien,2015,Gruppenphase
+Algerien,2018,N.Q.
+Algerien,2019,N.Q.
+Algerien,2020,Gruppenphase
+Algerien,2022,Gruppenphase
+Elfenbeinküste,2015,Gruppenphase
+Elfenbeinküste,2018,N.Q.
+Elfenbeinküste,2019,N.Q.
+Elfenbeinküste,2020,N.Q.
+Elfenbeinküste,2022,Achtelfinale
 Ghana,2015,Gruppenphase
 Ghana,2018,N.Q.
 Ghana,2019,Sieger
 Ghana,2020,N.Q.
 Ghana,2022,N.Q.
 Ghana,2025,N.Q.
-Argentinien,2015,Achtelfinale
-Argentinien,2018,Achtelfinale
-Argentinien,2019,Gruppenphase
-Argentinien,2020,Gruppenphase
-Argentinien,2022,Viertelfinale
+Kamerun,2015,Gruppenphase
+Kamerun,2018,Gruppenphase
+Kamerun,2019,Gruppenphase
+Kamerun,2020,N.Q.
+Kamerun,2022,N.Q.
+Mali,2015,N.Q.
+Mali,2018,N.Q.
+Mali,2019,N.Q.
+Mali,2020,N.Q.
+Mali,2022,N.Q.
 Marokko,2015,N.Q.
 Marokko,2018,Zweiter
 Marokko,2019,Achtelfinale
 Marokko,2020,Vierter
 Marokko,2022,Viertelfinale
+Nigeria,2015,Gruppenphase
+Nigeria,2018,Gruppenphase
+Nigeria,2019,Gruppenphase
+Nigeria,2020,Achtelfinale
+Nigeria,2022,Achtelfinale
+Senegal,2015,N.Q.
+Senegal,2018,Gruppenphase
+Senegal,2019,Gruppenphase
+Senegal,2020,Gruppenphase
+Senegal,2022,Achtelfinale
+Tunesien,2015,N.Q.
+Tunesien,2018,N.Q.
+Tunesien,2019,N.Q.
+Tunesien,2020,Gruppenphase
+Tunesien,2022,N.Q.
+Costa Rica,2015,Dritter
+Costa Rica,2018,Gruppenphase
+Costa Rica,2019,Achtelfinale
+Costa Rica,2020,Achtelfinale
+Costa Rica,2022,N.Q.
+Jamaika,2015,N.Q.
+Jamaika,2018,N.Q.
+Jamaika,2019,N.Q.
+Jamaika,2020,Gruppenphase
+Jamaika,2022,N.Q.
+Kanada,2015,N.Q.
+Kanada,2018,N.Q.
+Kanada,2019,N.Q.
+Kanada,2020,Gruppenphase
+Kanada,2022,Gruppenphase
+Mexiko,2015,Vierter
+Mexiko,2018,Gruppenphase
+Mexiko,2019,Gruppenphase
+Mexiko,2020,Achtelfinale
+Mexiko,2022,Achtelfinale
+Trinidad und Tobago,2015,Achtelfinale
+Trinidad und Tobago,2018,N.Q.
+Trinidad und Tobago,2019,N.Q.
+Trinidad und Tobago,2020,N.Q.
+Trinidad und Tobago,2022,N.Q.
+USA,2015,Gruppenphase
+USA,2018,N.Q.
+USA,2019,Gruppenphase
+USA,2020,Achtelfinale
+USA,2022,Gruppenphase
+Argentinien,2015,Achtelfinale
+Argentinien,2018,Achtelfinale
+Argentinien,2019,Gruppenphase
+Argentinien,2020,Gruppenphase
+Argentinien,2022,Viertelfinale
+Brasilien,2015,Gruppenphase
+Brasilien,2018,Sieger
+Brasilien,2019,Gruppenphase
+Brasilien,2020,Sieger
+Brasilien,2022,Sieger
+Chile,2015,Achtelfinale
+Chile,2018,Gruppenphase
+Chile,2019,Achtelfinale
+Chile,2020,N.Q.
+Chile,2022,N.Q.
+Ecuador,2015,Achtelfinale
+Ecuador,2018,N.Q.
+Ecuador,2019,N.Q.
+Ecuador,2020,N.Q.
+Ecuador,2022,Gruppenphase
+Kolumbien,2015,Achtelfinale
+Kolumbien,2018,Gruppenphase
+Kolumbien,2019,Viertelfinale
+Kolumbien,2020,Dritter
+Kolumbien,2022,Gruppenphase
+Peru,2015,N.Q.
+Peru,2018,N.Q.
+Peru,2019,N.Q.
+Peru,2020,N.Q.
+Peru,2022,Achtelfinale
+Uruguay,2015,Viertelfinale
+Uruguay,2018,Gruppenphase
+Uruguay,2019,Gruppenphase
+Uruguay,2020,Zweiter
+Uruguay,2022,Gruppenphase
+Venezuela,2015,N.Q.
+Venezuela,2018,N.Q.
+Venezuela,2019,N.Q.
+Venezuela,2020,Achtelfinale
+Venezuela,2022,N.Q.
+Neuseeland,2015,Gruppenphase
+Neuseeland,2018,Gruppenphase
+Neuseeland,2019,Gruppenphase
+Neuseeland,2020,Gruppenphase
+Neuseeland,2022,Gruppenphase
+Bosnien und Herzegowina,2015,Gruppenphase
+Bosnien und Herzegowina,2018,N.Q.
+Bosnien und Herzegowina,2019,N.Q.
+Bosnien und Herzegowina,2020,N.Q.
+Bosnien und Herzegowina,2022,N.Q.
 Deutschland,2015,Sieger
 Deutschland,2018,Viertelfinale
 Deutschland,2019,Viertelfinale
 Deutschland,2020,Achtelfinale
 Deutschland,2022,Viertelfinale
-Australien,2015,Gruppenphase
-Australien,2018,Gruppenphase
-Australien,2019,Achtelfinale
-Australien,2020,Gruppenphase
-Australien,2022,Gruppenphase
-Japan,2015,Gruppenphase
-Japan,2018,Gruppenphase
-Japan,2019,Achtelfinale
-Japan,2020,Gruppenphase
-Japan,2022,Gruppenphase
-Saudi Arabien,2015,N.Q.
-Saudi Arabien,2018,Gruppenphase
-Saudi Arabien,2019,Achtelfinale
-Saudi Arabien,2020,N.Q.
-Saudi Arabien,2022,N.Q.
-IR Iran,2015,N.Q.
-IR Iran,2018,N.Q.
-IR Iran,2019,N.Q.
-IR Iran,2020,Viertelfinale
-IR Iran,2022,Gruppenphase
+England,2015,Zweiter
+England,2018,Vierter
+England,2019,Viertelfinale
+England,2020,Viertelfinale
+England,2022,Achtelfinale
+Frankreich,2015,Gruppenphase
+Frankreich,2018,Dritter
+Frankreich,2019,Gruppenphase
+Frankreich,2020,N.Q.
+Frankreich,2022,Dritter
+Italien,2015,Viertelfinale
+Italien,2018,N.Q.
+Italien,2019,N.Q.
+Italien,2020,Gruppenphase
+Italien,2022,Achtelfinale
+Kroatien,2015,Gruppenphase
+Kroatien,2018,Gruppenphase
+Kroatien,2019,Vierter
+Kroatien,2020,Gruppenphase
+Kroatien,2022,Gruppenphase
+Niederlande,2015,Viertelfinale
+Niederlande,2018,N.Q.
+Niederlande,2019,Gruppenphase
+Niederlande,2020,Achtelfinale
+Niederlande,2022,Achtelfinale
+Portugal,2015,Gruppenphase
+Portugal,2018,Achtelfinale
+Portugal,2019,Zweiter
+Portugal,2020,Viertelfinale
+Portugal,2022,Zweiter
+Russland,2015,Achtelfinale
+Russland,2018,Viertelfinale
+Russland,2019,Gruppenphase
+Russland,2020,N.Q.
+Russland,2022,N.Q.
+Schweden,2015,Achtelfinale
+Schweden,2018,Gruppenphase
+Schweden,2019,N.Q.
+Schweden,2020,N.Q.
+Schweden,2022,N.Q.

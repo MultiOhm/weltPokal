@@ -74,7 +74,6 @@ window.tournamentsReady.then(() => {
     });
 
 function teamLink(name){
-    console.log(name);
     
     return `
 

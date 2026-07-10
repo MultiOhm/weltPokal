@@ -6,15 +6,15 @@ Mexiko,MEX,mx,#006847,#CE1126,#FFFFFF
 Brasilien,BRA,br,#FFDF00,#003366,#009C3B
 Niederlande,NED,nl,#F97316,#1E3A8A,#FFFFFF
 Argentinien,ARG,ar,#74ACDF,#FFFFFF,#FFFFFF
-Deutschland,GER,de,#111111,#DD0000,#FFCC00
+Deutschland,GER,de,#000000,#DD0000,#FFCC00
 England,ENG,en,#FFFFFF,#C8102E,#C8102E
 Italien,ITA,it,#0A36AF,#0000aa,#ffffff
 Frankreich,FRA,fr,#000091,#EF4135,#FFFFFF
 Spanien,ESP,es,#AA151B,#0033A0,#F1BF00
-Belgien,BEL,be,#ED2939,#FFD90C,#000000
+Belgien,BEL,be,#ED2939,#000000,#FFD90C
 Schweiz,SUI,ch,#FF0000,#FFFFFF,#FFFFFF
-Österreich,AUT,at,#ED2939,#FFFFFF,#000000
-Kroatien,CRO,hr,#C8102E,#171796,#ffffff
+Österreich,AUT,at,#ED2939,#FFFFFF,#FFFFFF
+Kroatien,CRO,hr,#E1000F,#000091,#ffffff
 Dänemark,DEN,dk,#C60C30,#FFFFFF,#FFFFFF
 Schweden,SWE,se,#004B87,#FFCD00,#FFCD00
 Polen,POL,pl,#DC143C,#FFFFFF,#FFFFFF
@@ -36,7 +36,7 @@ Elfenbeinküste,CIV,ci,#F77F00,#009E60,#ffffff
 Argentinien,ARG,ar,#74ACDF,#FFFFFF,#ffffff
 Uruguay,URU,uy,#75AADB,#FFFFFF,#000000
 Ecuador,ECU,ec,#FFD100,#0033A0,#EF3340
-Venezuela,VEN,ve,#D90000,#0033A0,#FFFFFF
+Venezuela,VEN,ve,#EF3340,#00247D,#FFCC00
 Trinidad und Tobago,TTI,tt,#DA1A35,#000000,#ffffff
 Kamerun,CMR,cm,#007A5E,#CE1126,#FCD116
 Nigeria,NGA,ng,#008751,#ffffff,#ffffff
@@ -49,7 +49,7 @@ Bosnien und Herzegowina,BIH,ba,#002F6C,#FFCD00,#ffffff
 Russland,RUS,ru,#DA291C,#0033A0,#ffffff
 Nordirland,NIR,gb,#046547,#083484,#ffffff
 Serbien,SRB,rs,#C6363C,#0C4076,#ffffff
-Wales,WAL,gb,#d30731,#174a3f,#ffffff
+Wales,WAL,gb,#ffffff,#00B140,#C8102E
 Ukraine,UKR,ua,#FFD700,#0057B8,#0057B8
 Griechenland,GRE,gr,#0D5EAF,#ffffff,#ffffff
 Schottland,SCO,gb,#005EB8,#005EB8,#ffffff

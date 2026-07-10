@@ -45,6 +45,10 @@
 
 }
 
+.match-card{
+    margin-bottom: 20px;
+}
+
 
 .table-column{
     position:sticky;
@@ -176,7 +180,7 @@
 .popup-box{
 
     position:relative;
-    margin-top: 10%;
+    margin-top: 5%;
     background:var(--background);
 
     padding:40px;

@@ -1,0 +1,51 @@
+#bracket-container {
+    margin-top: 50px;
+    position: relative;
+    width: 80%; /* wichtig */
+    display: inline-block;
+    
+}
+
+
+#bracket {
+    width: 80%;
+    background: #080808;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    border-radius: 18px;
+    padding: 20px;
+    position: relative;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 25%;
+}
+
+#lines {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 100;
+    pointer-events: none;
+}
+
+.match {
+    width: 120px;
+    border: 1px solid #aaa;
+    border-radius: 18px;
+    padding: 10px;
+    background: black;
+}
+
+.match:hover{
+    background: white;
+    color: black;
+    
+}
+

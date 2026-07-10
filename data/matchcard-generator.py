@@ -8,7 +8,7 @@ import os
 
 TOURNAMENT = "2015"
 GROUP = "A"
-GROUPS = ["A", "B", "C", "D",]# "E", "F", "G", "H"]
+GROUPS = ["A", "B", "C", "D", "E", "F", "G", "H"]
 
 OUTPUT = TOURNAMENT+"/"+GROUP+"/standings.html"
 
@@ -68,6 +68,20 @@ def load_matches_group(group):
 
     return matches
 
+def load_match_type(match):
+    if match['stage'] == "group":
+        return "Gruppe " + match['group'] + " - " + match['matchday'] + ". Spieltag"
+    if match['stage'] == "r16":
+        return "Achtelfinale"
+    if match['stage'] == "qf":
+        return "Viertelfinale"
+    if match['stage'] == "sf":
+        return "Halbfinale"
+    if match['stage'] == "p3":
+        return "Spiel um Platz 3"
+    if match['stage'] == "f":
+        return "Finale"
+    return "-"
 
 # ==========================
 # Matchcards erstellen
@@ -95,20 +109,27 @@ data-home="{match['home']}"
 data-away="{match['away']}"
 data-homegoals="{match['homeGoals']}"
 data-awaygoals="{match['awayGoals']}"
+data-homepens="{match['homePens']}"
+data-awaypens="{match['awayPens']}"
+data-note="{match['note']}"
 data-city="{match['city']}"
 data-stadium="{match['stadium']}"
 >
 
 
 
-<div class="match-status">
 
-{match['date']} · {match['time']} in {match['city']} <br>
-{match['stadium']}
+<div class="card-header">
+    <div class="match-status">
 
+    {match['date']} · {match['time']} in {match['city']} <br>
+    {match['stadium']}
+
+    </div>
+    <div class="match-type">
+        {load_match_type(match)}
+    </div>
 </div>
-
-
 
 <div class="teams">
 
@@ -122,11 +143,11 @@ data-stadium="{match['stadium']}"
 
     <div class="score">
 
-        <span class="score-home">{match['homeGoals']}</span>
+        <span class="score-home">{match['homeGoals']}<span style="font-size:12pt">{match['homePens']}</span></span>
 
         <span class="separator">:</span>
 
-        <span class="score-away">{match['awayGoals']}</span>
+        <span class="score-away">{match['awayGoals']}<span style="font-size:12pt">{match['awayPens']}</span></span>
 
     </div>
 
@@ -150,7 +171,7 @@ data-stadium="{match['stadium']}"
 
 
 with open(
-    "generated/matchcards.html",
+    "../matchcards.html",
     "w",
     encoding="utf-8"
 ) as file:
