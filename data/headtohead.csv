@@ -1,0 +1,274 @@
+games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
+1,England,Kamerun,1,0,0,4,1,2015,2015
+1,Schottland,Trinidad und Tobago,0,1,0,2,2,2015,2015
+1,Italien,Republik Korea,1,0,0,1,0,2015,2015
+1,Chile,Kroatien,1,0,0,2,1,2015,2015
+3,Brasilien,Spanien,1,1,1,5,5,2015,2022
+1,Bosnien und Herzegowina,Costa Rica,0,0,1,1,2,2015,2015
+1,Ghana,Uruguay,0,0,1,1,2,2015,2015
+1,Australien,Schweden,0,1,0,0,0,2015,2015
+2,Kolumbien,Nigeria,1,1,0,2,1,2015,2019
+2,Neuseeland,Russland,0,1,1,2,3,2015,2019
+1,Deutschland,Schweiz,1,0,0,4,1,2015,2015
+1,Elfenbeinküste,Japan,0,0,1,1,3,2015,2015
+1,Algerien,Argentinien,0,0,1,2,3,2015,2015
+1,Mexiko,Portugal,1,0,0,2,1,2015,2015
+1,Ecuador,Niederlande,0,0,1,2,3,2015,2015
+1,Frankreich,USA,0,0,1,1,2,2015,2015
+1,England,Schottland,0,1,0,3,3,2015,2015
+1,Kamerun,Trinidad und Tobago,0,0,1,0,1,2015,2015
+1,Italien,Kroatien,0,1,0,1,1,2015,2015
+1,Chile,Republik Korea,0,1,0,2,2,2015,2015
+3,Costa Rica,Spanien,0,2,1,2,3,2015,2019
+1,Bosnien und Herzegowina,Brasilien,1,0,0,2,1,2015,2015
+1,Schweden,Uruguay,1,0,0,1,0,2015,2015
+1,Australien,Ghana,0,0,1,1,2,2015,2015
+1,Kolumbien,Neuseeland,1,0,0,2,1,2015,2015
+1,Nigeria,Russland,0,0,1,0,2,2015,2015
+2,Deutschland,Japan,2,0,0,7,1,2015,2020
+1,Elfenbeinküste,Schweiz,0,0,1,1,3,2015,2015
+2,Argentinien,Portugal,0,1,1,3,4,2015,2022
+2,Algerien,Mexiko,0,1,1,2,3,2015,2020
+2,Niederlande,USA,1,1,0,6,3,2015,2020
+2,Ecuador,Frankreich,0,1,1,0,3,2015,2022
+1,England,Trinidad und Tobago,1,0,0,4,0,2015,2015
+2,Kamerun,Schottland,1,0,1,4,2,2015,2018
+1,Chile,Italien,0,0,1,0,1,2015,2015
+1,Kroatien,Republik Korea,0,1,0,0,0,2015,2015
+1,Bosnien und Herzegowina,Spanien,0,1,0,1,1,2015,2015
+2,Brasilien,Costa Rica,2,0,0,4,2,2015,2020
+1,Australien,Uruguay,0,0,1,1,2,2015,2015
+1,Ghana,Schweden,0,0,1,0,1,2015,2015
+2,Kolumbien,Russland,1,0,1,2,3,2015,2018
+1,Neuseeland,Nigeria,0,0,1,1,2,2015,2015
+1,Deutschland,Elfenbeinküste,1,0,0,5,1,2015,2015
+2,Japan,Schweiz,0,0,2,2,6,2015,2022
+2,Argentinien,Mexiko,0,2,0,0,0,2015,2018
+2,Algerien,Portugal,0,0,2,1,3,2015,2022
+1,Frankreich,Niederlande,0,0,1,0,1,2015,2015
+1,Ecuador,USA,1,0,0,1,0,2015,2015
+2,Chile,England,0,0,2,2,6,2015,2019
+1,Spanien,Uruguay,0,0,1,0,2,2015,2015
+1,Kolumbien,Schweiz,0,0,1,0,1,2015,2015
+1,Ecuador,Mexiko,0,0,1,0,3,2015,2015
+1,Italien,Trinidad und Tobago,1,0,0,2,1,2015,2015
+1,Costa Rica,Schweden,1,0,0,2,1,2015,2015
+1,Deutschland,Russland,1,0,0,1,0,2015,2015
+2,Argentinien,Niederlande,0,0,2,0,2,2015,2020
+2,England,Uruguay,1,1,0,2,1,2015,2019
+2,Mexiko,Schweiz,1,0,1,2,2,2015,2022
+1,Costa Rica,Italien,1,0,0,1,0,2015,2015
+1,Deutschland,Niederlande,1,0,0,3,2,2015,2015
+1,England,Mexiko,1,0,0,3,1,2015,2015
+1,Costa Rica,Deutschland,0,1,0,2,2,2015,2015
+1,Costa Rica,Mexiko,0,1,0,1,1,2015,2015
+1,Deutschland,England,0,1,0,2,2,2015,2015
+2,Kolumbien,Marokko,0,1,1,4,5,2018,2020
+1,Nordirland,Russland,0,0,1,0,1,2018,2018
+1,Belgien,Chile,0,1,0,1,1,2018,2018
+1,Argentinien,Republik Korea,0,1,0,0,0,2018,2018
+1,Mexiko,Serbien,0,0,1,0,1,2018,2018
+1,Frankreich,Neuseeland,1,0,0,4,0,2018,2018
+1,Polen,Senegal,1,0,0,1,0,2018,2018
+1,Deutschland,Nigeria,0,1,0,0,0,2018,2018
+2,Australien,Dänemark,1,0,1,3,4,2018,2022
+2,Kroatien,Portugal,0,1,1,1,3,2018,2019
+1,Uruguay,Ägypten,0,1,0,1,1,2018,2018
+1,Brasilien,Schweden,1,0,0,2,1,2018,2018
+1,England,Japan,0,1,0,0,0,2018,2018
+1,Saudi Arabien,Schweiz,0,0,1,0,1,2018,2018
+1,Marokko,Nordirland,0,1,0,1,1,2018,2018
+1,Belgien,Kamerun,1,0,0,2,0,2018,2018
+1,Chile,Schottland,0,0,1,2,4,2018,2018
+1,Republik Korea,Serbien,0,0,1,0,1,2018,2018
+1,Frankreich,Polen,1,0,0,1,0,2018,2018
+1,Neuseeland,Senegal,0,1,0,2,2,2018,2018
+1,Australien,Deutschland,0,0,1,1,2,2018,2018
+1,Dänemark,Nigeria,0,1,0,0,0,2018,2018
+3,Portugal,Uruguay,1,1,1,9,6,2018,2022
+1,Kroatien,Ägypten,0,0,1,1,3,2018,2018
+1,Brasilien,Japan,1,0,0,3,1,2018,2018
+1,England,Schweden,1,0,0,3,2,2018,2018
+1,Schweiz,Spanien,0,0,1,0,1,2018,2018
+1,Costa Rica,Saudi Arabien,0,1,0,1,1,2018,2018
+1,Marokko,Russland,1,0,0,2,0,2018,2018
+1,Kolumbien,Nordirland,1,0,0,3,0,2018,2018
+1,Belgien,Schottland,0,0,1,0,2,2018,2018
+1,Chile,Kamerun,0,1,0,1,1,2018,2018
+2,Argentinien,Serbien,2,0,0,9,0,2018,2022
+2,Mexiko,Republik Korea,1,0,1,2,1,2018,2019
+1,Neuseeland,Polen,0,0,1,0,1,2018,2018
+1,Frankreich,Senegal,1,0,0,3,0,2018,2018
+1,Deutschland,Dänemark,0,0,1,0,2,2018,2018
+1,Australien,Nigeria,0,1,0,1,1,2018,2018
+1,Portugal,Ägypten,0,1,0,1,1,2018,2018
+1,Kroatien,Uruguay,0,1,0,0,0,2018,2018
+1,Brasilien,England,0,0,1,0,1,2018,2018
+1,Japan,Schweden,0,0,1,0,2,2018,2018
+1,Saudi Arabien,Spanien,0,0,1,0,2,2018,2018
+1,Costa Rica,Schweiz,0,0,1,0,2,2018,2018
+3,Belgien,Marokko,0,1,2,1,4,2018,2022
+1,Polen,Serbien,1,0,0,3,1,2018,2018
+2,Dänemark,Portugal,0,1,1,1,2,2018,2020
+1,England,Schweiz,1,0,0,2,1,2018,2018
+1,Russland,Schottland,0,1,0,2,2,2018,2018
+1,Argentinien,Frankreich,0,0,1,0,1,2018,2018
+1,Deutschland,Ägypten,1,0,0,2,0,2018,2018
+1,Marokko,Polen,1,0,0,2,1,2018,2018
+1,Dänemark,England,0,0,1,0,1,2018,2018
+1,Frankreich,Russland,1,0,0,2,0,2018,2018
+2,Brasilien,Deutschland,1,1,0,4,3,2018,2022
+2,England,Marokko,0,0,2,2,4,2018,2020
+1,Brasilien,Frankreich,1,0,0,3,1,2018,2018
+1,England,Frankreich,0,0,1,0,1,2018,2018
+2,Brasilien,Marokko,2,0,0,5,3,2018,2020
+1,Australien,Russland,0,1,0,1,1,2019,2019
+1,Chile,Neuseeland,1,0,0,2,0,2019,2019
+1,Nordirland,USA,1,0,0,1,0,2019,2019
+2,Brasilien,Portugal,1,0,1,2,3,2019,2022
+1,Kamerun,Wales,0,0,1,1,2,2019,2019
+1,Frankreich,Schottland,0,0,1,1,2,2019,2019
+1,Marokko,Schweiz,0,0,1,0,1,2019,2019
+2,Kroatien,Nigeria,1,1,0,3,2,2019,2022
+1,Kolumbien,Österreich,0,0,1,0,1,2019,2019
+1,Argentinien,Spanien,0,1,0,1,1,2019,2019
+1,Costa Rica,Japan,0,0,1,0,1,2019,2019
+1,Deutschland,Republik Korea,1,0,0,1,0,2019,2019
+1,Ghana,Mexiko,0,1,0,0,0,2019,2019
+1,Belgien,Senegal,1,0,0,4,1,2019,2019
+1,Niederlande,Saudi Arabien,0,0,1,1,2,2019,2019
+1,Australien,Chile,0,1,0,1,1,2019,2019
+1,Nordirland,Uruguay,1,0,0,1,0,2019,2019
+1,England,USA,1,0,0,2,0,2019,2019
+1,Brasilien,Kamerun,1,0,0,5,0,2019,2019
+1,Portugal,Wales,0,1,0,2,2,2019,2019
+1,Frankreich,Schweiz,1,0,0,1,0,2019,2019
+1,Marokko,Schottland,1,0,0,3,0,2019,2019
+1,Kroatien,Österreich,1,0,0,2,0,2019,2019
+1,Argentinien,Japan,0,0,1,0,1,2019,2019
+1,Deutschland,Ghana,0,1,0,0,0,2019,2019
+1,Belgien,Saudi Arabien,1,0,0,2,0,2019,2019
+1,Niederlande,Senegal,1,0,0,2,1,2019,2019
+1,Australien,Neuseeland,1,0,0,2,0,2019,2019
+1,Chile,Russland,0,1,0,1,1,2019,2019
+1,USA,Uruguay,0,0,1,0,1,2019,2019
+1,England,Nordirland,0,1,0,2,2,2019,2019
+1,Brasilien,Wales,0,1,0,1,1,2019,2019
+1,Kamerun,Portugal,0,0,1,1,2,2019,2019
+1,Frankreich,Marokko,0,1,0,0,0,2019,2019
+1,Schottland,Schweiz,0,0,1,0,4,2019,2019
+1,Kolumbien,Kroatien,0,1,0,0,0,2019,2019
+1,Nigeria,Österreich,0,1,0,0,0,2019,2019
+1,Japan,Spanien,1,0,0,2,1,2019,2019
+1,Argentinien,Costa Rica,0,0,1,0,1,2019,2019
+1,Deutschland,Mexiko,0,1,0,2,2,2019,2019
+1,Ghana,Republik Korea,1,0,0,1,0,2019,2019
+1,Belgien,Niederlande,1,0,0,2,1,2019,2019
+1,Saudi Arabien,Senegal,1,0,0,1,0,2019,2019
+1,Marokko,Portugal,0,0,1,1,3,2019,2019
+2,Costa Rica,Kroatien,0,2,0,0,0,2019,2020
+1,Deutschland,Saudi Arabien,1,0,0,3,0,2019,2019
+1,Australien,Nordirland,0,0,1,0,1,2019,2019
+1,Schweiz,Wales,0,1,0,2,2,2019,2019
+2,Japan,Kolumbien,0,1,1,3,4,2019,2020
+1,Belgien,Ghana,0,0,1,1,2,2019,2019
+1,England,Portugal,0,0,1,0,3,2019,2019
+1,Deutschland,Kroatien,0,0,1,1,2,2019,2019
+1,Nordirland,Schweiz,0,0,1,0,1,2019,2019
+1,Ghana,Kolumbien,1,0,0,3,2,2019,2019
+1,Ghana,Schweiz,1,0,0,1,0,2019,2019
+1,Kroatien,Schweiz,0,0,1,2,3,2019,2019
+1,Ghana,Portugal,0,1,0,1,1,2019,2019
+1,Kanada,Wales,0,0,1,0,1,2020,2020
+1,Schottland,Uruguay,0,0,1,0,1,2020,2020
+2,Brasilien,Kroatien,2,0,0,6,2,2020,2022
+1,Costa Rica,Senegal,1,0,0,1,0,2020,2020
+1,IR Iran,Tunesien,1,0,0,2,1,2020,2020
+1,Neuseeland,Niederlande,0,1,0,1,1,2020,2020
+1,Argentinien,USA,0,0,1,1,2,2020,2020
+2,Australien,Spanien,0,0,2,2,6,2020,2022
+1,Deutschland,Jamaika,1,0,0,1,0,2020,2020
+1,Italien,Ukraine,1,0,0,1,0,2020,2020
+1,Nigeria,Venezuela,1,0,0,2,1,2020,2020
+2,Belgien,Republik Korea,1,0,1,6,3,2020,2022
+1,Kanada,Uruguay,0,0,1,0,2,2020,2020
+1,Schottland,Wales,1,0,0,3,1,2020,2020
+1,Kroatien,Senegal,0,0,1,0,1,2020,2020
+1,Portugal,Tunesien,1,0,0,3,1,2020,2020
+1,Dänemark,IR Iran,0,1,0,2,2,2020,2020
+2,Argentinien,Neuseeland,2,0,0,4,0,2020,2022
+1,Mexiko,Spanien,1,0,0,2,1,2020,2020
+1,Algerien,Australien,1,0,0,2,1,2020,2020
+1,Jamaika,Kolumbien,0,0,1,0,3,2020,2020
+1,Italien,Nigeria,1,0,0,2,1,2020,2020
+1,Ukraine,Venezuela,0,0,1,1,2,2020,2020
+1,England,Republik Korea,1,0,0,2,1,2020,2020
+1,Kanada,Schottland,0,1,0,2,2,2020,2020
+1,Uruguay,Wales,1,0,0,3,0,2020,2020
+1,Brasilien,Senegal,1,0,0,2,0,2020,2020
+1,IR Iran,Portugal,0,1,0,0,0,2020,2020
+1,Dänemark,Tunesien,1,0,0,1,0,2020,2020
+1,Neuseeland,USA,1,0,0,1,0,2020,2020
+1,Algerien,Spanien,0,0,1,2,4,2020,2020
+1,Australien,Mexiko,0,0,1,1,2,2020,2020
+1,Deutschland,Kolumbien,1,0,0,3,1,2020,2020
+1,Jamaika,Japan,0,1,0,2,2,2020,2020
+1,Italien,Venezuela,0,0,1,0,1,2020,2020
+1,Nigeria,Ukraine,1,0,0,1,0,2020,2020
+1,Belgien,England,1,0,0,2,1,2020,2020
+2,Marokko,Republik Korea,1,1,0,4,3,2020,2022
+1,Costa Rica,Uruguay,0,0,1,0,2,2020,2020
+2,Niederlande,Portugal,0,0,2,2,5,2020,2022
+1,Kolumbien,Mexiko,1,0,0,2,1,2020,2020
+1,England,Nigeria,1,0,0,3,1,2020,2020
+1,Brasilien,Schottland,1,0,0,2,1,2020,2020
+1,IR Iran,USA,1,0,0,3,2,2020,2020
+1,Deutschland,Spanien,0,0,1,0,2,2020,2020
+1,Marokko,Venezuela,1,0,0,3,1,2020,2020
+2,England,Kolumbien,1,0,1,7,7,2020,2022
+2,Brasilien,IR Iran,2,0,0,6,1,2020,2022
+2,Marokko,Spanien,1,0,1,3,5,2020,2022
+1,Kolumbien,Uruguay,0,0,1,0,3,2020,2020
+1,Brasilien,Uruguay,1,0,0,3,0,2020,2020
+1,Niederlande,Uruguay,0,1,0,1,1,2022,2022
+1,Brasilien,Nigeria,1,0,0,2,1,2022,2022
+1,IR Iran,Kroatien,0,0,1,0,3,2022,2022
+1,England,Senegal,1,0,0,1,0,2022,2022
+1,Kolumbien,Wales,1,0,0,2,1,2022,2022
+1,Deutschland,Serbien,1,0,0,2,1,2022,2022
+1,Frankreich,Kanada,1,0,0,3,0,2022,2022
+1,Ecuador,Elfenbeinküste,0,0,1,1,2,2022,2022
+1,Dänemark,Peru,0,1,0,0,0,2022,2022
+1,Belgien,USA,1,0,0,4,1,2022,2022
+1,Italien,Mexiko,0,0,1,0,3,2022,2022
+1,Algerien,Niederlande,0,0,1,0,2,2022,2022
+1,England,Wales,1,0,0,2,0,2022,2022
+1,Kolumbien,Senegal,0,0,1,0,4,2022,2022
+1,Argentinien,Deutschland,0,0,1,0,2,2022,2022
+1,Neuseeland,Serbien,0,1,0,2,2,2022,2022
+1,Elfenbeinküste,Frankreich,0,0,1,2,3,2022,2022
+1,Ecuador,Kanada,1,0,0,4,2,2022,2022
+1,Dänemark,Spanien,0,0,1,0,5,2022,2022
+1,Australien,Peru,0,0,1,0,3,2022,2022
+1,Marokko,USA,1,0,0,3,1,2022,2022
+1,Italien,Schweiz,0,1,0,0,0,2022,2022
+1,Japan,Mexiko,0,0,1,0,2,2022,2022
+1,Algerien,Uruguay,1,0,0,2,1,2022,2022
+1,IR Iran,Nigeria,0,0,1,0,3,2022,2022
+1,Senegal,Wales,1,0,0,1,0,2022,2022
+1,Deutschland,Neuseeland,1,0,0,7,2,2022,2022
+1,Elfenbeinküste,Kanada,1,0,0,1,0,2022,2022
+1,Peru,Spanien,0,0,1,1,3,2022,2022
+1,Republik Korea,USA,0,0,1,0,4,2022,2022
+1,Italien,Japan,1,0,0,4,0,2022,2022
+1,Nigeria,Portugal,0,0,1,1,3,2022,2022
+1,Argentinien,England,1,0,0,3,0,2022,2022
+1,Frankreich,Peru,1,0,0,4,1,2022,2022
+1,Belgien,Italien,0,1,0,2,2,2022,2022
+1,Brasilien,Niederlande,1,0,0,1,0,2022,2022
+1,Deutschland,Senegal,1,0,0,3,2,2022,2022
+1,Elfenbeinküste,Spanien,0,0,1,1,4,2022,2022
+1,Marokko,Mexiko,1,0,0,2,1,2022,2022
+1,Belgien,Frankreich,0,0,1,1,4,2022,2022
+1,Frankreich,Portugal,0,0,1,2,3,2022,2022
+1,Frankreich,Spanien,1,0,0,2,1,2022,2022

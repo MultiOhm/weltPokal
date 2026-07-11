@@ -1,0 +1,105 @@
+.hero{
+
+text-align:center;
+
+padding: 0px 0;
+}
+
+.hero h1{
+
+font-size:72px;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+max-width:650px;
+
+margin:auto;
+
+line-height:1.6;
+
+color:var(--text2);
+
+}
+
+
+.matchcenter-grid{
+    display: grid;
+    grid-template-columns: 1fr 80%;
+}
+.team-selector{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.team-card{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 150px;
+    overflow:hidden;
+
+    transition:.25s;
+
+    border:1px solid var(--line);
+    padding: 25px;
+    border-radius:20px;
+    text-decoration: none;
+    background-color: black;
+}
+
+.team-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left: 0;
+    top:95%;
+
+    height:5%;
+    width: 100%;
+
+
+    background:var(--primary);
+
+
+
+}
+    
+.team-card img{
+    height: 64px;
+    box-shadow: 0 0 20px 1px #000;
+}
+
+.team-card span{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+.team::before{
+
+    content:"";
+
+    display:block;
+
+    height:6px;
+
+    background:var(--accent);
+
+}
+
+.team-card:hover{
+
+    transform:translateY(-6px);
+    background-color: var(--primary);
+}
+
+.team-card:hover span{
+    color: var(--text);
+}

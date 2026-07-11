@@ -127,6 +127,198 @@ id,tournament,stage,group,matchday,date,time,city,stadium,home,away,homeGoals,ho
 262,2018,sf,,6,,,,,Frankreich,Brasilien,1,,3,,n.V.,finished
 263,2018,p3,,7,,,,,England,Frankreich,0,,1,,n.V.,finished
 264,2018,f,,8,,,,,Marokko,Brasilien,2,,3,,n.V.,finished
+301,2019,group,A,1,,,,,Australien,Russland,1,,1,,,finished
+302,2019,group,A,1,,,,,Chile,Neuseeland,2,,0,,,finished
+303,2019,group,B,1,,,,,Uruguay,England,0,,0,,,finished
+304,2019,group,B,1,,,,,Nordirland,USA,1,,0,,,finished
+305,2019,group,C,1,,,,,Brasilien,Portugal,1,,3,,,finished
+306,2019,group,C,1,,,,,Kamerun,Wales,1,,2,,,finished
+307,2019,group,D,1,,,,,Frankreich,Schottland,1,,2,,,finished
+308,2019,group,D,1,,,,,Schweiz,Marokko,1,,0,,,finished
+309,2019,group,E,1,,,,,Kroatien,Nigeria,1,,0,,,finished
+310,2019,group,E,1,,,,,Österreich,Kolumbien,1,,0,,,finished
+311,2019,group,F,1,,,,,Spanien,Argentinien,1,,1,,,finished
+312,2019,group,F,1,,,,,Costa Rica,Japan,0,,1,,,finished
+313,2019,group,G,1,,,,,Deutschland,Republik Korea,1,,0,,,finished
+314,2019,group,G,1,,,,,Ghana,Mexiko,0,,0,,,finished
+315,2019,group,H,1,,,,,Belgien,Senegal,4,,1,,,finished
+316,2019,group,H,1,,,,,Saudi Arabien,Niederlande,2,,1,,,finished
+317,2019,group,A,2,,,,,Australien,Chile,1,,1,,,finished
+318,2019,group,A,2,,,,,Neuseeland,Russland,0,,0,,,finished
+319,2019,group,B,2,,,,,Uruguay,Nordirland,0,,1,,,finished
+320,2019,group,B,2,,,,,USA,England,0,,2,,,finished
+321,2019,group,C,2,,,,,Brasilien,Kamerun,5,,0,,,finished
+322,2019,group,C,2,,,,,Wales,Portugal,2,,2,,,finished
+323,2019,group,D,2,,,,,Frankreich,Schweiz,1,,0,,,finished
+324,2019,group,D,2,,,,,Marokko,Schottland,3,,0,,,finished
+325,2019,group,E,2,,,,,Kroatien,Österreich,2,,0,,,finished
+326,2019,group,E,2,,,,,Kolumbien,Nigeria,1,,0,,,finished
+327,2019,group,F,2,,,,,Spanien,Costa Rica,1,,1,,,finished
+328,2019,group,F,2,,,,,Japan,Argentinien,1,,0,,,finished
+329,2019,group,G,2,,,,,Deutschland,Ghana,0,,0,,,finished
+330,2019,group,G,2,,,,,Mexiko,Republik Korea,0,,1,,,finished
+331,2019,group,H,2,,,,,Belgien,Saudi Arabien,2,,0,,,finished
+332,2019,group,H,2,,,,,Niederlande,Senegal,2,,1,,,finished
+333,2019,group,A,3,,,,,Neuseeland,Australien,0,,2,,,finished
+334,2019,group,A,3,,,,,Russland,Chile,1,,1,,,finished
+335,2019,group,B,3,,,,,USA,Uruguay,0,,1,,,finished
+336,2019,group,B,3,,,,,England,Nordirland,2,,2,,,finished
+337,2019,group,C,3,,,,,Wales,Brasilien,1,,1,,,finished
+338,2019,group,C,3,,,,,Portugal,Kamerun,2,,1,,,finished
+339,2019,group,D,3,,,,,Marokko,Frankreich,0,,0,,,finished
+340,2019,group,D,3,,,,,Schottland,Schweiz,0,,4,,,finished
+341,2019,group,E,3,,,,,Kolumbien,Kroatien,0,,0,,,finished
+342,2019,group,E,3,,,,,Nigeria,Österreich,0,,0,,,finished
+343,2019,group,F,3,,,,,Japan,Spanien,2,,1,,,finished
+344,2019,group,F,3,,,,,Argentinien,Costa Rica,0,,1,,,finished
+345,2019,group,G,3,,,,,Mexiko,Deutschland,2,,2,,,finished
+346,2019,group,G,3,,,,,Republik Korea,Ghana,0,,1,,,finished
+347,2019,group,H,3,,,,,Niederlande,Belgien,1,,2,,,finished
+348,2019,group,H,3,,,,,Senegal,Saudi Arabien,0,,1,,,finished
+349,2019,r16,,4,,,,,Chile,England,1,,3,,,finished
+350,2019,r16,,4,,,,,Portugal,Marokko,3,,1,,n.V.,finished
+351,2019,r16,,4,,,,,Kroatien,Costa Rica,0,3,0,0,,finished
+352,2019,r16,,4,,,,,Deutschland,Saudi Arabien,3,,0,,,finished
+353,2019,r16,,4,,,,,Nordirland,Australien,1,,0,,,finished
+354,2019,r16,,4,,,,,Schweiz,Wales,2,4,2,2,,finished
+355,2019,r16,,4,,,,,Japan,Kolumbien,1,,2,,,finished
+356,2019,r16,,4,,,,,Belgien,Ghana,1,,2,,,finished
+357,2019,qf,,5,,,,,England,Portugal,0,,3,,,finished
+358,2019,qf,,5,,,,,Kroatien,Deutschland,2,,1,,,finished
+359,2019,qf,,5,,,,,Schweiz,Nordirland,1,,0,,,finished
+360,2019,qf,,5,,,,,Kolumbien,Ghana,2,,3,,,finished
+361,2019,sf,,6,,,,,Portugal,Kroatien,1,3,1,0,,finished
+362,2019,sf,,6,,,,,Schweiz,Ghana,0,,1,,,finished
+363,2019,p3,,7,,,,,Kroatien,Schweiz,2,,3,,,finished
+364,2019,f,,8,,,,,Portugal,Ghana,1,2,1,1,,finished
+401,2020,group,A,1,,,,,Kanada,Wales,0,,1,,,finished
+402,2020,group,A,1,,,,,Uruguay,Schottland,1,,0,,,finished
+403,2020,group,B,1,,,,,Brasilien,Kroatien,2,,1,,,finished
+404,2020,group,B,1,,,,,Costa Rica,Senegal,1,,0,,,finished
+405,2020,group,C,1,,,,,Portugal,Dänemark,1,,0,,,finished
+406,2020,group,C,1,,,,,Tunesien,IR Iran,1,,2,,,finished
+407,2020,group,D,1,,,,,Niederlande,Neuseeland,1,,1,,,finished
+408,2020,group,D,1,,,,,USA,Argentinien,2,,1,,,finished
+409,2020,group,E,1,,,,,Spanien,Australien,3,,2,,,finished
+410,2020,group,E,1,,,,,Mexiko,Algerien,1,,1,,,finished
+411,2020,group,F,1,,,,,Kolumbien,Japan,2,,2,,,finished
+412,2020,group,F,1,,,,,Jamaika,Deutschland,0,,1,,,finished
+413,2020,group,G,1,,,,,Italien,Ukraine,1,,0,,,finished
+414,2020,group,G,1,,,,,Nigeria,Venezuela,2,,1,,,finished
+415,2020,group,H,1,,,,,Belgien,Republik Korea,2,,3,,,finished
+416,2020,group,H,1,,,,,Marokko,England,3,,2,,,finished
+417,2020,group,A,2,,,,,Kanada,Uruguay,0,,2,,,finished
+418,2020,group,A,2,,,,,Schottland,Wales,3,,1,,,finished
+419,2020,group,B,2,,,,,Brasilien,Costa Rica,2,,1,,,finished
+420,2020,group,B,2,,,,,Senegal,Kroatien,1,,0,,,finished
+421,2020,group,C,2,,,,,Portugal,Tunesien,3,,1,,,finished
+422,2020,group,C,2,,,,,IR Iran,Dänemark,2,,2,,,finished
+423,2020,group,D,2,,,,,Niederlande,USA,3,,3,,,finished
+424,2020,group,D,2,,,,,Argentinien,Neuseeland,2,,0,,,finished
+425,2020,group,E,2,,,,,Spanien,Mexiko,1,,2,,,finished
+426,2020,group,E,2,,,,,Algerien,Australien,2,,1,,,finished
+427,2020,group,F,2,,,,,Kolumbien,Jamaika,3,,0,,,finished
+428,2020,group,F,2,,,,,Deutschland,Japan,5,,0,,,finished
+429,2020,group,G,2,,,,,Italien,Nigeria,2,,1,,,finished
+430,2020,group,G,2,,,,,Venezuela,Ukraine,2,,1,,,finished
+431,2020,group,H,2,,,,,Belgien,Marokko,0,,2,,,finished
+432,2020,group,H,2,,,,,England,Republik Korea,2,,1,,,finished
+433,2020,group,A,3,,,,,Schottland,Kanada,2,,2,,,finished
+434,2020,group,A,3,,,,,Wales,Uruguay,0,,3,,,finished
+435,2020,group,B,3,,,,,Senegal,Brasilien,0,,2,,,finished
+436,2020,group,B,3,,,,,Kroatien,Costa Rica,0,,0,,,finished
+437,2020,group,C,3,,,,,IR Iran,Portugal,0,,0,,,finished
+438,2020,group,C,3,,,,,Dänemark,Tunesien,1,,0,,,finished
+439,2020,group,D,3,,,,,Argentinien,Niederlande,0,,1,,,finished
+440,2020,group,D,3,,,,,Neuseeland,USA,1,,0,,,finished
+441,2020,group,E,3,,,,,Algerien,Spanien,2,,4,,,finished
+442,2020,group,E,3,,,,,Australien,Mexiko,1,,2,,,finished
+443,2020,group,F,3,,,,,Deutschland,Kolumbien,3,,1,,,finished
+444,2020,group,F,3,,,,,Japan,Jamaika,2,,2,,,finished
+445,2020,group,G,3,,,,,Venezuela,Italien,1,,0,,,finished
+446,2020,group,G,3,,,,,Ukraine,Nigeria,0,,1,,,finished
+447,2020,group,H,3,,,,,England,Belgien,1,,2,,,finished
+448,2020,group,H,3,,,,,Republik Korea,Marokko,0,,1,,,finished
+449,2020,r16,,4,,,,,Uruguay,Costa Rica,2,,0,,,finished
+450,2020,r16,,4,,,,,Portugal,Niederlande,2,,0,,,finished
+451,2020,r16,,4,,,,,Mexiko,Kolumbien,1,,2,,,finished
+452,2020,r16,,4,,,,,Nigeria,England,1,,3,,,finished
+453,2020,r16,,4,,,,,Brasilien,Schottland,2,,1,,n.V.,finished
+454,2020,r16,,4,,,,,USA,IR Iran,2,,3,,n.v.,finished
+455,2020,r16,,4,,,,,Deutschland,Spanien,0,,2,,,finished
+456,2020,r16,,4,,,,,Marokko,Venezuela,3,,1,,,finished
+457,2020,qf,,5,,,,,Uruguay,Portugal,5,,1,,,finished
+458,2020,qf,,5,,,,,Kolumbien,England,3,,2,,,finished
+459,2020,qf,,5,,,,,Brasilien,IR Iran,2,,1,,,finished
+460,2020,qf,,5,,,,,Spanien,Marokko,0,,1,,,finished
+461,2020,sf,,6,,,,,Uruguay,Kolumbien,3,,0,,,finished
+462,2020,sf,,6,,,,,Brasilien,Marokko,2,,1,,,finished
+463,2020,p3,,7,,,,,Kolumbien,Marokko,3,,3,,i.E.,finished
+464,2020,f,,8,,,,,Uruguay,Brasilien,0,,3,,,finished
+501,2022,group,A,1,,,,,Portugal,Algerien,1,,0,,,finished
+502,2022,group,A,1,,,,,Uruguay,Niederlande,1,,1,,,finished
+503,2022,group,B,1,,,,,Brasilien,Nigeria,2,,1,,,finished
+504,2022,group,B,1,,,,,IR Iran,Kroatien,0,,3,,,finished
+505,2022,group,C,1,,,,,England,Senegal,1,,0,,,finished
+506,2022,group,C,1,,,,,Wales,Kolumbien,1,,2,,,finished
+507,2022,group,D,1,,,,,Argentinien,Neuseeland,2,,0,,,finished
+508,2022,group,D,1,,,,,Deutschland,Serbien,2,,1,,,finished
+509,2022,group,E,1,,,,,Frankreich,Kanada,3,,0,,,finished
+510,2022,group,E,1,,,,,Elfenbeinküste,Ecuador,2,,1,,,finished
+511,2022,group,F,1,,,,,Spanien,Australien,3,,0,,,finished
+512,2022,group,F,1,,,,,Dänemark,Peru,0,,0,,,finished
+513,2022,group,G,1,,,,,Belgien,USA,4,,1,,,finished
+514,2022,group,G,1,,,,,Republik Korea,Marokko,3,,3,,,finished
+515,2022,group,H,1,,,,,Italien,Mexiko,0,,3,,,finished
+516,2022,group,H,1,,,,,Schweiz,Japan,2,,1,,,finished
+517,2022,group,A,2,,,,,Portugal,Uruguay,7,,0,,,finished
+518,2022,group,A,2,,,,,Niederlande,Algerien,2,,0,,,finished
+519,2022,group,B,2,,,,,Brasilien,IR Iran,4,,0,,,finished
+520,2022,group,B,2,,,,,Kroatien,Nigeria,2,,2,,,finished
+521,2022,group,C,2,,,,,England,Wales,2,,0,,,finished
+522,2022,group,C,2,,,,,Kolumbien,Senegal,0,,4,,,finished
+523,2022,group,D,2,,,,,Argentinien,Deutschland,0,,2,,,finished
+524,2022,group,D,2,,,,,Serbien,Neuseeland,2,,2,,,finished
+525,2022,group,E,2,,,,,Frankreich,Elfenbeinküste,3,,2,,,finished
+526,2022,group,E,2,,,,,Ecuador,Kanada,4,,2,,,finished
+527,2022,group,F,2,,,,,Spanien,Dänemark,5,,0,,,finished
+528,2022,group,F,2,,,,,Peru,Australien,3,,0,,,finished
+529,2022,group,G,2,,,,,Belgien,Republik Korea,4,,0,,,finished
+530,2022,group,G,2,,,,,Marokko,USA,3,,1,,,finished
+531,2022,group,H,2,,,,,Italien,Schweiz,0,,0,,,finished
+532,2022,group,H,2,,,,,Japan,Mexiko,0,,2,,,finished
+533,2022,group,A,3,,,,,Niederlande,Portugal,2,,3,,,finished
+534,2022,group,A,3,,,,,Algerien,Uruguay,2,,1,,,finished
+535,2022,group,B,3,,,,,Kroatien,Brasilien,1,,4,,,finished
+536,2022,group,B,3,,,,,Nigeria,IR Iran,3,,0,,,finished
+537,2022,group,C,3,,,,,Kolumbien,England,4,,5,,,finished
+538,2022,group,C,3,,,,,Senegal,Wales,1,,0,,,finished
+539,2022,group,D,3,,,,,Serbien,Argentinien,0,,6,,,finished
+540,2022,group,D,3,,,,,Neuseeland,Deutschland,2,,7,,,finished
+541,2022,group,E,3,,,,,Ecuador,Frankreich,0,,3,,,finished
+542,2022,group,E,3,,,,,Kanada,Elfenbeinküste,0,,1,,,finished
+543,2022,group,F,3,,,,,Peru,Spanien,1,,3,,,finished
+544,2022,group,F,3,,,,,Australien,Dänemark,2,,1,,,finished
+545,2022,group,G,3,,,,,Marokko,Belgien,1,,1,,,finished
+546,2022,group,G,3,,,,,USA,Republik Korea,4,,0,,,finished
+547,2022,group,H,3,,,,,Japan,Italien,0,,4,,,finished
+548,2022,group,H,3,,,,,Mexiko,Schweiz,2,,1,,,finished
+549,2022,r16,,4,,,,,Portugal,Nigeria,3,,1,,,finished
+550,2022,r16,,4,,,,,England,Argentinien,0,,3,,,finished
+551,2022,r16,,4,,,,,Frankreich,Peru,4,,1,,,finished
+552,2022,r16,,4,,,,,Belgien,Italien,2,3,2,1,i.E.,finished
+553,2022,r16,,4,,,,,Brasilien,Niederlande,1,,0,,,finished
+554,2022,r16,,4,,,,,Deutschland,Senegal,3,,2,,,finished
+555,2022,r16,,4,,,,,Spanien,Elfenbeinküste,4,,1,,,finished
+556,2022,r16,,4,,,,,Mexiko,Marokko,1,,2,,,finished
+557,2022,qf,,5,,,,,Portugal,Argentinien,2,,1,,,finished
+558,2022,qf,,5,,,,,Frankreich,Belgien,4,,1,,,finished
+559,2022,qf,,5,,,,,Brasilien,Deutschland,3,3,3,1,,finished
+560,2022,qf,,5,,,,,Spanien,Marokko,5,,2,,,finished
+561,2022,sf,,6,,,,,Portugal,Frankreich,3,,2,,n.V.,finished
+562,2022,sf,,6,,,,,Brasilien,Spanien,3,4,3,3,i.E.,finished
+563,2022,p3,,7,,,,,Frankreich,Spanien,2,,1,,n.V.,finished
+564,2022,f,,8,,,,,Portugal,Brasilien,0,,1,,,finished
 601,2025,group,A,1,2025-07-10,18:00,Cali,Cali Stadium,Kolumbien,Marokko,,,,,,no
 602,2025,group,A,1,2025-07-11,21:00,Bogotá,Bogotá Stadium,Italien,Mexiko,,,,,,no
 603,2025,group,B,1,2025-07-1,18:00,Manizales,Cali Stadium,Spanien,Republik Korea,,,,,,no

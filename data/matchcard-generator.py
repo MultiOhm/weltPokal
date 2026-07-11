@@ -6,7 +6,7 @@ import os
 # Einstellungen
 # ==========================
 
-TOURNAMENT = "2015"
+TOURNAMENT = "2022"
 GROUP = "A"
 GROUPS = ["A", "B", "C", "D", "E", "F", "G", "H"]
 
@@ -94,7 +94,7 @@ def create_matchcards(matches):
 
 
     for match in matches:
-
+        print([match['away']])
         html += f"""
 
 <div class="match-card"

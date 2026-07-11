@@ -1,0 +1,17 @@
+.elo-chart{
+
+    background:#000;
+
+    border-radius:18px;
+
+    padding:20px;
+
+}
+
+.chart-container{
+
+    position:relative;
+
+    height:1200px;
+
+}

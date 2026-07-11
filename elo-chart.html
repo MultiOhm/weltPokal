@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>weltPokal</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/elo-chart.css">
+</head>
+
+<body>
+
+<div id="header"></div>
+
+<main>
+
+<section class="page-title">
+
+    <h1>ELO-Ranking</h1>
+
+    <p>
+        (Stand: nach dem weltPokal 2015)
+    </p>
+
+</section>
+
+<section class="elo-chart">
+
+    <div class="elo-toolbar">
+
+        <button>Alle</button>
+        <button>UEFA</button>
+        <button>CONMEBOL</button>
+
+    </div>
+
+    <div class="chart-container">
+
+        <canvas id="eloChart" height="250"></canvas>
+
+    </div>
+
+</section>
+</main>
+<script src="js/config.js"></script>
+<script src="js/loadHeader.js"></script>
+<script src="js/team-loader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>-->
+<script src="js/elo-chart.js"></script>
+<!--<script>
+    Chart.register(ChartZoom);
+</script>-->
+</body>
+
+</html>
