@@ -15,3 +15,39 @@
     height:1200px;
 
 }
+
+.leader-bar{
+    display:flex;
+    height:14px;
+    border-radius:8px 8px 0 0;
+    overflow:hidden;
+    margin-bottom:6px;
+}
+
+.leader-segment{
+    flex:1;
+}
+
+.shared-leader{
+    position:relative;
+}
+
+.shared-leader::after{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:
+        repeating-linear-gradient(
+            45deg,
+            rgba(255,255,255,.45) 0px,
+            rgba(255,255,255,.45) 2px,
+            transparent 2px,
+            transparent 6px
+        );
+
+    pointer-events:none;
+
+}

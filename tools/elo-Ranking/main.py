@@ -346,7 +346,7 @@ with open("../../data/headtohead.csv", "w", newline="", encoding="utf-8") as fil
     writer = csv.writer(file)
 
     # Kopfzeile
-    writer.writerow(["games","team1", "team2", "games", "wins1", "draws", "wins2", "goals1", "goals2", "first", "last"])
+    writer.writerow(["games","team1", "team2", "wins1", "draws", "wins2", "goals1", "goals2", "first", "last"])
 
     # Daten
     for hth in headtohead.values():
@@ -365,3 +365,55 @@ with open("../../data/headtohead.csv", "w", newline="", encoding="utf-8") as fil
             ])
 
 print("headtohead.csv erfolgreich erstellt.")
+
+import csv
+import json
+
+elo = {}
+
+with open("../../data/elo.csv", encoding="utf-8") as file:
+
+    reader = csv.DictReader(file)
+
+    for row in reader:
+
+        elo[row["team"]] = {
+            "rank": int(row["rank"]),
+            "elo": int(row["elo"])
+        }
+
+with open(
+    "../../data/elo.json",
+    "w",
+    encoding="utf-8"
+) as file:
+
+    json.dump(
+        elo,
+        file,
+        indent=4,
+        ensure_ascii=False
+    )
+
+input("elo.json erfolgreich erstellt.")
+
+import os
+import json
+
+source_folder = "../../renders"
+output_file = "../../data/kits.json"
+
+files = [
+    file
+    for file in os.listdir(source_folder)
+    if file.endswith(".png")
+]
+
+files.sort()
+
+with open(output_file, "w", encoding="utf-8") as f:
+    json.dump(files, f, indent=2, ensure_ascii=False)
+
+input(f"{len(files)} Dateien gespeichert.")
+
+

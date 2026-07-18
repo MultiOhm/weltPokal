@@ -37,7 +37,7 @@ with open(input_file, newline="", encoding="utf-8") as csvfile:
      data-render="{texture}">
 
     <img class="kit-render"
-         src="renders/{texture}">
+         src="renders/resized/{texture}">
 
     <div class="kit-info">
 

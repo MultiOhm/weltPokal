@@ -2,13 +2,23 @@
 <html lang="de">
 
 <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"
+    />
 
-<meta charset="UTF-8">
+    <!-- Demo styles -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>weltPokal</title>
-
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/kitcard.css">
 <link rel="stylesheet" href="css/team.css">
 <link rel="stylesheet" href="css/matchcard.css">
 </head>
@@ -26,9 +36,10 @@
 
         <img id="teamFlag" class="team-flag">
 
-        <h1 id="teamName">HelloHelloHelloHello</h1>
+        <h1 id="teamName"></h1>
 
         <p id="teamRegion"></p>
+        <h2 id="teamElo"></h2>
 
     </div>
 
@@ -91,24 +102,6 @@
 
         </div>
 
-        <section class="team-kits">
-
-            <h2>Trikothistorie</h2>
-
-            <div class="kit-slider">
-
-
-                <div class="kit-track" id="kit-track">
-
-                </div>
-                <div class="kit-track-buttons">
-                    <button class="prev">‹</button>
-                    <button class="next">›</button>
-                </div>
-
-            </div>
-
-        </section>
     </div>
 
 <div class="team-matches">
@@ -124,13 +117,31 @@
 <div id="recentMatches"></div>
 </div>
 </section>
-
+<h1 style="text-align: center;margin-top: 20px;">Aktuelle Trikots: 2025</h1>
+<div class="galleryTest" id="galleryTest">
+</div>
+<div class="swiper mySwiper">
+    <h2>Trikotgalerie</h2>
+    <div class="swiper-wrapper" id="wrapper">
+        
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
 <script src="js/config.js"></script>
 <script src="js/loadHeader.js"></script>
 <script src="js/team-loader.js"></script>
 <script src="js/tournament-loader.js"></script>
 <script src="js/team.js"></script>
+    <!-- Swiper -->
+    
+
+    <!-- Swiper JS -->
+
+    <!-- Initialize Swiper -->
+
+</div>
 
 </body>
 

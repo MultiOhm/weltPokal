@@ -1,0 +1,210 @@
+{
+    "Brasilien": {
+        "rank": 1,
+        "elo": 1842
+    },
+    "Frankreich": {
+        "rank": 2,
+        "elo": 1771
+    },
+    "Portugal": {
+        "rank": 3,
+        "elo": 1759
+    },
+    "Spanien": {
+        "rank": 4,
+        "elo": 1719
+    },
+    "Deutschland": {
+        "rank": 5,
+        "elo": 1713
+    },
+    "Marokko": {
+        "rank": 6,
+        "elo": 1633
+    },
+    "Ghana": {
+        "rank": 7,
+        "elo": 1627
+    },
+    "Schweiz": {
+        "rank": 8,
+        "elo": 1623
+    },
+    "Uruguay": {
+        "rank": 9,
+        "elo": 1616
+    },
+    "Argentinien": {
+        "rank": 10,
+        "elo": 1607
+    },
+    "Mexiko": {
+        "rank": 11,
+        "elo": 1582
+    },
+    "Belgien": {
+        "rank": 12,
+        "elo": 1580
+    },
+    "Italien": {
+        "rank": 13,
+        "elo": 1556
+    },
+    "Kroatien": {
+        "rank": 14,
+        "elo": 1551
+    },
+    "Polen": {
+        "rank": 15,
+        "elo": 1534
+    },
+    "Kolumbien": {
+        "rank": 16,
+        "elo": 1526
+    },
+    "Österreich": {
+        "rank": 17,
+        "elo": 1514
+    },
+    "Schweden": {
+        "rank": 18,
+        "elo": 1514
+    },
+    "Nordirland": {
+        "rank": 19,
+        "elo": 1508
+    },
+    "Senegal": {
+        "rank": 20,
+        "elo": 1505
+    },
+    "Bosnien und Herzegowina": {
+        "rank": 21,
+        "elo": 1503
+    },
+    "England": {
+        "rank": 22,
+        "elo": 1503
+    },
+    "Schottland": {
+        "rank": 23,
+        "elo": 1502
+    },
+    "Niederlande": {
+        "rank": 24,
+        "elo": 1493
+    },
+    "Dänemark": {
+        "rank": 25,
+        "elo": 1490
+    },
+    "Venezuela": {
+        "rank": 26,
+        "elo": 1489
+    },
+    "Nigeria": {
+        "rank": 27,
+        "elo": 1486
+    },
+    "Mali": {
+        "rank": 28,
+        "elo": 1483
+    },
+    "Peru": {
+        "rank": 29,
+        "elo": 1478
+    },
+    "Russland": {
+        "rank": 30,
+        "elo": 1473
+    },
+    "Costa Rica": {
+        "rank": 31,
+        "elo": 1462
+    },
+    "Griechenland": {
+        "rank": 32,
+        "elo": 1459
+    },
+    "Ägypten": {
+        "rank": 33,
+        "elo": 1456
+    },
+    "Trinidad und Tobago": {
+        "rank": 34,
+        "elo": 1450
+    },
+    "Saudi Arabien": {
+        "rank": 35,
+        "elo": 1435
+    },
+    "Chile": {
+        "rank": 36,
+        "elo": 1434
+    },
+    "USA": {
+        "rank": 37,
+        "elo": 1434
+    },
+    "Jamaika": {
+        "rank": 38,
+        "elo": 1431
+    },
+    "Tunesien": {
+        "rank": 39,
+        "elo": 1431
+    },
+    "Ecuador": {
+        "rank": 40,
+        "elo": 1419
+    },
+    "IR Iran": {
+        "rank": 41,
+        "elo": 1416
+    },
+    "Ukraine": {
+        "rank": 42,
+        "elo": 1413
+    },
+    "Algerien": {
+        "rank": 43,
+        "elo": 1411
+    },
+    "Elfenbeinküste": {
+        "rank": 44,
+        "elo": 1411
+    },
+    "Wales": {
+        "rank": 45,
+        "elo": 1393
+    },
+    "Serbien": {
+        "rank": 46,
+        "elo": 1367
+    },
+    "Kanada": {
+        "rank": 47,
+        "elo": 1357
+    },
+    "Kamerun": {
+        "rank": 48,
+        "elo": 1355
+    },
+    "Republik Korea": {
+        "rank": 49,
+        "elo": 1341
+    },
+    "Japan": {
+        "rank": 50,
+        "elo": 1341
+    },
+    "Australien": {
+        "rank": 51,
+        "elo": 1340
+    },
+    "Neuseeland": {
+        "rank": 52,
+        "elo": 1267
+    }
+}

@@ -164,10 +164,10 @@ document.addEventListener("click", function (e) {
         card.dataset.stadium+" in "+card.dataset.city;
 
     document.getElementById("popup-away-img").src =
-        "../../flags/" + card.dataset.flagaway + ".png";
+        "/flags/" + card.dataset.flagaway + ".png";
 
     document.getElementById("popup-home-img").src =
-        "../../flags/" + card.dataset.flaghome + ".png";
+        "/flags/" + card.dataset.flaghome + ".png";
     
     popup.style.display = "flex";
 

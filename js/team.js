@@ -44,10 +44,10 @@ teamsReady.then(()=>{
 
     loadHistory(team);
 
-    loadKits(team);
 
 
 });
+
 
 function loadMatches(teamId){
 
@@ -165,48 +165,12 @@ window.tournamentsReady.then(() => {
 });
 
 
+let currentKit = 0;
 
-function loadKits(team){
+let kitCards = [];
 
-    fetch(CONFIG.BASE + "data/generated/kitcards.html")
 
-    .then(r => r.text())
 
-    .then(html => {
-
-        const parser = new DOMParser();
-
-        const doc = parser.parseFromString(html,"text/html");
-
-        const kits = [...doc.querySelectorAll(".kit-card")];
-
-        const track = document.getElementById("kit-track");
-
-        track.innerHTML = "";
-
-        kits
-
-        .filter(card =>
-
-            card.dataset.team === teamId && card.dataset.year != 2020
-
-        )
-
-        .sort((a,b)=>
-
-            parseInt(a.dataset.year)-parseInt(b.dataset.year)
-
-        )
-
-        .forEach(card=>{
-
-            track.appendChild(card);
-
-        });
-
-    });
-
-}
 function loadHistory(team){
 
     fetch(CONFIG.BASE+"data/history.csv")
@@ -332,39 +296,252 @@ function loadStatistics(team){
 
 }
 
-const track = document.getElementById("kit-track");
 
-document.querySelector(".prev").onclick = () => {
 
-    track.scrollBy({
+let elo = {};
 
-        left:-150,
+fetch(CONFIG.BASE + "../data/elo.json")
+    .then(r => r.json())
+    .then(data => {
 
-        behavior:"smooth"
-
-    });
-
-};
-
-document.querySelector(".next").onclick = () => {
-
-    track.scrollBy({
-
-        left:150,
-
-        behavior:"smooth"
+        elo = data;
+        
+        document.getElementById("teamElo").textContent = "Elo: "+elo[teamId].elo + " ("+elo[teamId].rank+")";
 
     });
 
-};
-let isDragging = false;
-let moved = false;
-
-let startX = 5;
-let scrollLeft = 0;
-
-const threshold = 20;
-
-const slider = document.querySelector(".kit-track");
 
 
+      var swiper = new Swiper('.mySwiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 10,
+          stretch: 0,
+          depth: 50,
+          modifier: 1,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+    });
+    fetch(CONFIG.BASE + "data/kits.json")
+    .then(r => r.json())
+    .then(files => {
+        files.sort((a, b) => {
+
+            function parse(file){
+
+                const name = file.replace(".png","");
+
+                return {
+
+                    code: name.substring(0,3),
+
+                    type: name.substring(3,name.length-2),
+
+                    year: parseInt(name.slice(-2))
+
+                };
+
+            }
+
+            function getTypeOrder(type){
+
+                if(type === "h") return 0;
+                if(type === "a") return 1;
+                if(type === "t") return 2;
+
+                // g1, g2, g3 ...
+                const keeper = type.match(/^g(\d+)$/);
+
+                if(keeper){
+                    return 3 + parseInt(keeper[1]);
+                }
+
+                // aktuelles gk
+                if(type === "gk") return 3;
+
+                return 999;
+
+            }
+
+            const A = parse(a);
+            const B = parse(b);
+
+            if(A.code !== B.code){
+
+                return A.code.localeCompare(B.code);
+
+            }
+
+            if(A.year !== B.year){
+
+                return A.year - B.year;
+
+            }
+
+            return getTypeOrder(A.type) - getTypeOrder(B.type);
+
+        });
+
+        files.forEach(file => {
+            flag = ""
+            const match = file.match(
+                /^([A-Za-z]{3})(g\d+|gk|h|a|t)(\d{2})\.png$/
+            );            countryname = "";
+            if (!match) return;
+            
+            for (t in window.teams)
+            {
+                
+                
+                if (teams[t].code == match[1].toUpperCase())
+                {
+                    countryname = t;
+                    
+                    flag = teams[t].flag;
+                    console.log("YO"+flag);
+                    
+
+                }
+            }
+            if (countryname == teamId){
+                const [
+                    ,
+                    code,
+                    type,
+                    year
+                ] = match;
+
+
+                const country = code;
+
+
+                let kitType;
+
+                switch(type) {
+                    case "h":
+                        kitType = "Home";
+                        break;
+
+                    case "a":
+                        kitType = "Away";
+                        break;
+
+                    case "t":
+                        kitType = "Third";
+                        break;
+
+                    case "gk":
+                        kitType = "Goalkeeper";
+                        break;
+                }
+
+
+                const slide = document.createElement("div");
+
+                slide.className = "swiper-slide";
+
+
+                slide.innerHTML = `
+
+                <div class="kit-panini">
+                    <div class="card-box">
+                        <div class="frame-box">
+                            <div class="frame">
+                                <div class="flag">
+                                    <img src="flags/${flag}.png" id="flag">
+                                </div>
+
+                                <div class="top">
+                                    <div class="year" id="year">20${year}</div>
+                                    
+                                </div>
+
+                                <div class="render" id="render">
+                                    <img src="renders/${file}">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bottom">
+
+                            <div class="country" id="country">${countryname}</div>
+
+                            <div class="type" id="type">HOME</div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                `;
+                swip = document.getElementById("wrapper");
+                if ("20"+year != "2020")
+                {swip.appendChild(slide);
+
+                }
+
+                if ("20"+year == currentTournament)
+                {
+                    const fig = document.createElement("figure");
+                    fig.innerHTML = `<img src="renders/${file}" alt="${kitType}">
+                        <figcaption>${kitType}</figcaption>
+
+                    `;
+                    
+                    let timeout;
+
+                    fig.addEventListener("mouseenter", () => {
+
+                        clearTimeout(timeout);
+
+                        fig.style.zIndex = 99;
+
+                    });
+
+                    fig.addEventListener("mouseleave", () => {
+
+                        timeout = setTimeout(() => {
+
+                            fig.style.zIndex = 0;
+
+                        },250);
+
+                    });                    
+                    gal = document.getElementById("galleryTest");
+                    gal.appendChild(fig);
+                }
+            }
+
+
+
+        });
+
+    });    
+        
+
+
+cards.forEach(card => {
+    console.log("LOF");
+    
+    card.addEventListener("mouseenter", () => {
+        console.log("YO");
+        
+        card.style.zIndex = 99;
+    });
+
+    card.addEventListener("mouseleave", () => {
+
+        setTimeout(() => {
+            console.log("DIGGER");
+            
+            card.style.zIndex = 0;
+        }, 250);   // Dauer der Scale-Animation
+
+    });
+
+});

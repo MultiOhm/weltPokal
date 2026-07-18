@@ -29,15 +29,164 @@
 
 </section>
 
-<section class="matchcenter-grid">
-    <div class="team-selector" id="teamSelector">
+
+<div class="headtohead-container">
+
+    <!-- Linkes Team -->
+    <div class="team-panel" id="teamLeft">
+
+        <div class="team-header">
+
+            <img id="leftFlag" class="flag">
+
+            <h2 id="leftCountry">
+                Team wählen
+            </h2>
+
+            <div class="elo">
+                Elo
+                <span id="leftElo">-</span>
+            </div>
+
+        </div>
+
+        <button id="selectLeft">
+            Team wählen
+        </button>
 
     </div>
 
 
+    <div class="versus">
 
-</section>
-</main>
+        <h1>VS</h1>
+
+    </div>
+
+
+    <!-- Rechtes Team -->
+    <div class="team-panel" id="teamRight">
+
+        <div class="team-header">
+
+            <img id="rightFlag" class="flag">
+
+            <h2 id="rightCountry">
+                Team wählen
+            </h2>
+
+            <div class="elo">
+                Elo
+                <span id="rightElo">-</span>
+            </div>
+
+        </div>
+
+        <button id="selectRight">
+            Team wählen
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- Auswahlfenster -->
+
+<div id="teamSelector" class="selector hidden">
+
+    <div class="selector-box">
+
+        <input
+            type="text"
+            id="teamSearch"
+            placeholder="Team suchen..."
+        >
+
+        <div id="teamList"></div>
+
+    </div>
+
+</div>
+
+
+<!-- Statistik -->
+<div id="resultTitle" style="text-align: center;"></div>
+
+<div id="headtoheadResult" class="hidden">
+    <div class="scoreline">
+        <div> Siege</div>
+        <div> Unentschieden</div>
+        <div> Siege</div>
+    </div>
+    <div class="scoreline">
+
+        <div class="wins">
+
+            <span id="wins1">0</span>
+
+        </div>
+
+        <div class="draws">
+
+            <span id="draws">0</span>
+
+        </div>
+
+        <div class="wins">
+
+            <span id="wins2">0</span>
+
+        </div>
+
+    </div>
+
+
+    <table class="ranking">
+
+        <tr>
+
+            <td>Spiele</td>
+
+            <td id="games"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Tore</td>
+
+            <td id="goals"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Erstes Spiel</td>
+
+            <td id="first"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>Letztes Spiel</td>
+
+            <td id="last"></td>
+
+        </tr>
+
+    </table>
+
+    <div class="comparison-card">
+
+        <h3>Alle Begegnungen</h2>
+
+        <div class="matches" id="matches"></div>
+
+    </div>
+
+</div></main>
 <script src="js/config.js"></script>
 <script src="js/loadHeader.js"></script>
 <script src="js/team-loader.js"></script>

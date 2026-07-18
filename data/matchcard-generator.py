@@ -6,7 +6,7 @@ import os
 # Einstellungen
 # ==========================
 
-TOURNAMENT = "2022"
+TOURNAMENT = "2025"
 GROUP = "A"
 GROUPS = ["A", "B", "C", "D", "E", "F", "G", "H"]
 

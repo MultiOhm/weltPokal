@@ -1,4 +1,4 @@
-games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
+games,team1,team2,wins1,draws,wins2,goals1,goals2,first,last
 1,England,Kamerun,1,0,0,4,1,2015,2015
 1,Schottland,Trinidad und Tobago,0,1,0,2,2,2015,2015
 1,Italien,Republik Korea,1,0,0,1,0,2015,2015
@@ -29,7 +29,7 @@ games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
 1,Elfenbeinküste,Schweiz,0,0,1,1,3,2015,2015
 2,Argentinien,Portugal,0,1,1,3,4,2015,2022
 2,Algerien,Mexiko,0,1,1,2,3,2015,2020
-2,Niederlande,USA,1,1,0,6,3,2015,2020
+3,Niederlande,USA,1,1,1,7,5,2015,2025
 2,Ecuador,Frankreich,0,1,1,0,3,2015,2022
 1,England,Trinidad und Tobago,1,0,0,4,0,2015,2015
 2,Kamerun,Schottland,1,0,1,4,2,2015,2018
@@ -42,7 +42,7 @@ games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
 2,Kolumbien,Russland,1,0,1,2,3,2015,2018
 1,Neuseeland,Nigeria,0,0,1,1,2,2015,2015
 1,Deutschland,Elfenbeinküste,1,0,0,5,1,2015,2015
-2,Japan,Schweiz,0,0,2,2,6,2015,2022
+3,Japan,Schweiz,0,0,3,2,9,2015,2025
 2,Argentinien,Mexiko,0,2,0,0,0,2015,2018
 2,Algerien,Portugal,0,0,2,1,3,2015,2022
 1,Frankreich,Niederlande,0,0,1,0,1,2015,2015
@@ -56,14 +56,14 @@ games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
 1,Deutschland,Russland,1,0,0,1,0,2015,2015
 2,Argentinien,Niederlande,0,0,2,0,2,2015,2020
 2,England,Uruguay,1,1,0,2,1,2015,2019
-2,Mexiko,Schweiz,1,0,1,2,2,2015,2022
+2,Mexiko,Schweiz,2,0,0,3,1,2015,2022
 1,Costa Rica,Italien,1,0,0,1,0,2015,2015
 1,Deutschland,Niederlande,1,0,0,3,2,2015,2015
 1,England,Mexiko,1,0,0,3,1,2015,2015
 1,Costa Rica,Deutschland,0,1,0,2,2,2015,2015
 1,Costa Rica,Mexiko,0,1,0,1,1,2015,2015
 1,Deutschland,England,0,1,0,2,2,2015,2015
-2,Kolumbien,Marokko,0,1,1,4,5,2018,2020
+3,Kolumbien,Marokko,1,1,1,5,5,2018,2025
 1,Nordirland,Russland,0,0,1,0,1,2018,2018
 1,Belgien,Chile,0,1,0,1,1,2018,2018
 1,Argentinien,Republik Korea,0,1,0,0,0,2018,2018
@@ -83,7 +83,7 @@ games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
 1,Republik Korea,Serbien,0,0,1,0,1,2018,2018
 1,Frankreich,Polen,1,0,0,1,0,2018,2018
 1,Neuseeland,Senegal,0,1,0,2,2,2018,2018
-1,Australien,Deutschland,0,0,1,1,2,2018,2018
+2,Australien,Deutschland,0,0,2,2,5,2018,2025
 1,Dänemark,Nigeria,0,1,0,0,0,2018,2018
 3,Portugal,Uruguay,1,1,1,9,6,2018,2022
 1,Kroatien,Ägypten,0,0,1,1,3,2018,2018
@@ -226,21 +226,21 @@ games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
 1,Deutschland,Spanien,0,0,1,0,2,2020,2020
 1,Marokko,Venezuela,1,0,0,3,1,2020,2020
 2,England,Kolumbien,1,0,1,7,7,2020,2022
-2,Brasilien,IR Iran,2,0,0,6,1,2020,2022
+3,Brasilien,IR Iran,2,1,0,6,1,2020,2025
 2,Marokko,Spanien,1,0,1,3,5,2020,2022
 1,Kolumbien,Uruguay,0,0,1,0,3,2020,2020
 1,Brasilien,Uruguay,1,0,0,3,0,2020,2020
 1,Niederlande,Uruguay,0,1,0,1,1,2022,2022
 1,Brasilien,Nigeria,1,0,0,2,1,2022,2022
-1,IR Iran,Kroatien,0,0,1,0,3,2022,2022
-1,England,Senegal,1,0,0,1,0,2022,2022
+2,IR Iran,Kroatien,0,0,2,1,5,2022,2025
+2,England,Senegal,1,0,1,1,2,2022,2025
 1,Kolumbien,Wales,1,0,0,2,1,2022,2022
 1,Deutschland,Serbien,1,0,0,2,1,2022,2022
 1,Frankreich,Kanada,1,0,0,3,0,2022,2022
 1,Ecuador,Elfenbeinküste,0,0,1,1,2,2022,2022
 1,Dänemark,Peru,0,1,0,0,0,2022,2022
 1,Belgien,USA,1,0,0,4,1,2022,2022
-1,Italien,Mexiko,0,0,1,0,3,2022,2022
+2,Italien,Mexiko,0,1,1,0,3,2022,2025
 1,Algerien,Niederlande,0,0,1,0,2,2022,2022
 1,England,Wales,1,0,0,2,0,2022,2022
 1,Kolumbien,Senegal,0,0,1,0,4,2022,2022
@@ -268,7 +268,21 @@ games,team1,team2,games,wins1,draws,wins2,goals1,goals2,first,last
 1,Brasilien,Niederlande,1,0,0,1,0,2022,2022
 1,Deutschland,Senegal,1,0,0,3,2,2022,2022
 1,Elfenbeinküste,Spanien,0,0,1,1,4,2022,2022
-1,Marokko,Mexiko,1,0,0,2,1,2022,2022
+2,Marokko,Mexiko,2,0,0,3,1,2022,2025
 1,Belgien,Frankreich,0,0,1,1,4,2022,2022
 1,Frankreich,Portugal,0,0,1,2,3,2022,2022
 1,Frankreich,Spanien,1,0,0,2,1,2022,2022
+1,Republik Korea,Spanien,0,1,0,1,1,2025,2025
+1,Dänemark,Mali,0,1,0,1,1,2025,2025
+1,Kroatien,Neuseeland,1,0,0,2,0,2025,2025
+1,Portugal,Venezuela,1,0,0,3,0,2025,2025
+1,Kanada,Österreich,0,1,0,1,1,2025,2025
+1,Belgien,Ecuador,1,0,0,2,1,2025,2025
+1,Argentinien,Ägypten,1,0,0,6,2,2025,2025
+1,Griechenland,Uruguay,0,0,1,0,3,2025,2025
+1,Algerien,Frankreich,0,0,1,1,3,2025,2025
+1,Italien,Kolumbien,0,1,0,0,0,2025,2025
+1,Mali,Spanien,0,0,1,2,3,2025,2025
+1,Dänemark,Republik Korea,1,0,0,2,1,2025,2025
+1,Brasilien,Neuseeland,1,0,0,4,0,2025,2025
+1,Portugal,Österreich,0,0,1,0,1,2025,2025

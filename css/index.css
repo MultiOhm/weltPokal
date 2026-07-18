@@ -1,6 +1,10 @@
 .matches-section{
 
     margin:80px auto;
+    overflow: hidden;
+    padding: 18px;
+    background: #080808;
+    border-radius: 18px;
 
 }
 
@@ -122,3 +126,29 @@
 
 }
 
+.main-container{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    gap: 10px;
+}
+
+.matches-section{
+    width: 100%;
+}
+
+.news-section{
+
+    width: 100%;
+    box-sizing: border-box;
+    margin: 80px auto ;
+    background: #080808;
+    padding: 18px;
+    border-radius: 18px;
+}
+
+.news-card{
+    min-width: 100%;
+    padding: 18px;
+    border-radius: 18px;
+    background: black;
+}

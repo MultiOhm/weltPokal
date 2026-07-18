@@ -1,0 +1,223 @@
+.kit-panini{
+    position: relative;
+    height: 260px;
+    width:190px;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    color: black;
+
+    padding:5px;
+
+    box-sizing:border-box;
+
+    box-shadow:
+        inset 0 0 0 16px #a57c39,
+        inset 0 0 0 28px #704718;
+
+
+}
+
+.gallery{
+    gap: 20px;
+}
+
+.card-box{
+    width: 180px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    background: linear-gradient(
+            90deg,
+            #8a7043,
+            #b59b74
+        );
+}
+.frame-box{
+    padding: 5px;
+    background: #704718;
+    border-radius: 15px;
+}
+.frame{
+
+    position:relative;
+    
+    height:175px;
+
+    border-radius: 15px;
+
+    overflow:hidden;
+
+    background:
+
+        radial-gradient(circle at 30% 25%,
+            rgba(255,255,255,.9),
+            rgba(255,255,255,0) 45%
+        ),
+
+        linear-gradient(
+            135deg,
+            #efe6d6,
+            #b59b74
+        );
+
+}
+
+.flag{
+
+    position:absolute;
+    border-radius: 18px;
+    width:40px;
+
+
+}
+
+.flag img{
+    border-radius: 5px;
+
+    width:100%;
+
+}
+
+.top{
+
+    position:absolute;
+
+    top:5px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    text-align:center;
+
+}
+
+.year{
+
+    font-size:25px;
+
+    font-family:Impact;
+
+    line-height:.9;
+
+}
+
+.type{
+
+    font-size:15px;
+
+    font-family:Impact;
+
+}
+
+.bottom{
+
+    height:28%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.country{
+
+    font-family:Impact;
+
+    font-size:20px;
+    text-shadow:
+
+        0 2px 0 rgba(255,255,255,.3),
+        0 -2px 0 rgba(0,0,0,.15);
+
+}
+
+.type{
+
+
+    font-family:Impact;
+
+    font-size:15px;
+    text-shadow:
+
+        0 2px 0 rgba(255,255,255,.3),
+        0 -2px 0 rgba(0,0,0,.15);
+
+}
+
+.render img{
+    margin-top: 35px;
+    width: 100%;
+    filter: drop-shadow(0px 0px 15px #000);
+}
+
+html,
+body {
+position: relative;
+height: 100%;
+}
+
+
+
+.swiper {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.swiper-slide {
+border-radius: 18px;
+color: black;
+background: transparent;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+height: 260px;
+width: 190px;
+}
+
+.kit-panini::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:
+
+        linear-gradient(
+            110deg,
+            transparent 30%,
+            rgba(255,255,255,.4) 50%,
+            transparent 70%
+        );
+
+    transform:translateX(-140%);
+
+    pointer-events:none;
+    z-index: 5;
+
+}
+
+.kit-panini:hover::before{
+
+    animation:foil .8s ease;
+
+}
+
+@keyframes foil{
+
+    to{
+
+        transform:translateX(140%);
+
+    }
+
+}

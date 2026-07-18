@@ -11,7 +11,15 @@
 <title>weltPokal</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/gallery.css">
-
+<link rel="stylesheet" href="css/kitcard.css">
+<script type="importmap">
+{
+    "imports": {
+        "three":"https://unpkg.com/three/build/three.module.js",
+        "three/addons/":"https://unpkg.com/three/examples/jsm/"
+    }
+}
+</script>
 </head>
 
 <body>
@@ -99,6 +107,30 @@
 </section>
 
 <p id="result-count"></p>
+<!--
+<div class="kit-card">
+    <div class="bg"></div>
+    <div class="header">
+
+        <div>
+            <img class="country-flag" src="/flags/au.png" style="height: 24px;">
+        </div>
+
+        <a>AUSTRALIA</a>
+    </div>
+    <img class="render" src="renders/frah25.png">
+    <div class="info-box">
+        <div class="infos">
+            <span>HOME KIT</span>
+        </div>
+    </div>
+</div>
+-->
+<div class="kit-card-container-new">
+</svg>
+
+</div>
+
 <div class="gallery-grid">
 
     <div id="gallery" class="gallery">
@@ -106,7 +138,7 @@
         <!-- Kit Cards -->
 
     </div>
-
+<!--
     <aside class="gallery-preview">
 
         <div id="previewHeader" class="preview-header">
@@ -133,14 +165,23 @@
         </div>
 
     </aside>
+-->
+</div>
+
+
+<div id="viewerOverlay">
+
+    <button id="viewerClose">✕</button>
+
+    <canvas id="viewerCanvas"></canvas>
 
 </div>
+
 </main>
 <script src="js/config.js"></script>
 <script src="js/loadHeader.js"></script>
 <script src="js/team-loader.js"></script>
 <script src="js/gallery.js"></script>
-
 </body>
 
 </html>

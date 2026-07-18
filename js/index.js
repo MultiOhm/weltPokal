@@ -197,7 +197,7 @@ window.teamsReady.then(() => {
 
             track.innerHTML = "";
 
-            currentCards.slice(0,10).forEach(card => {
+            currentCards.slice(17,27).forEach(card => {
 
                 track.appendChild(card);
 
@@ -224,3 +224,4 @@ window.teamsReady.then(() => {
         });
 
 });
+
